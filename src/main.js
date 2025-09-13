@@ -32,7 +32,7 @@ class DubaiSMEActor {
         console.log(`[${getTimestamp()}] Memory at start:`, getMemoryUsage());
 
         // Get and validate input
-        this.input = await Apify.getInput();
+        this.input = await Apify.Actor.getInput();
         const validation = validateInput(this.input);
 
         if (!validation.isValid) {
@@ -45,7 +45,7 @@ class DubaiSMEActor {
         console.log(`[${getTimestamp()}] Data quality level: ${this.input.dataQualityLevel}`);
 
         // Initialize dataset
-        this.dataset = await Apify.openDataset();
+        this.dataset = await Apify.Actor.openDataset();
 
         // Initialize scraper
         const scraperOptions = {
@@ -54,7 +54,7 @@ class DubaiSMEActor {
             requestDelay: this.input.concurrency?.requestDelay || 2000,
             timeout: PERFORMANCE.DEFAULT_TIMEOUT,
             proxyConfig: this.input.proxyConfiguration?.useApifyProxy
-                ? await Apify.createProxyConfiguration(this.input.proxyConfiguration) : null
+                ? await Apify.Actor.createProxyConfiguration(this.input.proxyConfiguration) : null
         };
 
         this.scraper = new GoogleMapsScraper(scraperOptions);
@@ -317,19 +317,22 @@ class DubaiSMEActor {
  * Main entry point for the Apify actor
  */
 async function main() {
+    // Initialize Apify Actor
+    await Apify.Actor.init();
+    
     const actor = new DubaiSMEActor();
 
     try {
         await actor.run();
-        process.exit(0);
+        await Apify.Actor.exit();
     } catch (error) {
         console.error(`[${getTimestamp()}] Actor failed:`, error);
-        await Apify.setValue('ERROR_LOG', {
+        await Apify.Actor.setValue('ERROR_LOG', {
             error: error.message,
             stack: error.stack,
             timestamp: new Date().toISOString()
         });
-        process.exit(1);
+        await Apify.Actor.exit('Failed to run actor', { exitCode: 1 });
     }
 }
 
