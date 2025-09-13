@@ -35,6 +35,7 @@
       "title": "Max Results Per Category",
       "type": "integer",
       "description": "Maximum number of businesses to scrape per category",
+      "editor": "number",
       "default": 100,
       "minimum": 10,
       "maximum": 1000
@@ -43,6 +44,7 @@
       "title": "Search Radius",
       "type": "string",
       "description": "Geographic scope for business search",
+      "editor": "select",
       "enum": ["Dubai", "Dubai Marina", "Downtown Dubai", "Business Bay", "DIFC", "JLT", "Deira", "Bur Dubai"],
       "default": "Dubai"
     },
@@ -50,6 +52,7 @@
       "title": "Data Quality Level",
       "type": "string",
       "description": "Level of data validation and enrichment",
+      "editor": "select",
       "enum": ["basic", "standard", "premium"],
       "default": "standard",
       "enumTitles": ["Basic (Name, Address, Phone)", "Standard (+ Rating, Website, Hours)", "Premium (+ Reviews, Photos, Social)"]
@@ -64,6 +67,7 @@
       "title": "Concurrency Settings",
       "type": "object",
       "description": "Performance and rate limiting settings",
+      "editor": "json",
       "properties": {
         "maxConcurrency": {
           "title": "Max Concurrent Pages",
@@ -92,6 +96,7 @@
       "title": "Output Format Options",
       "type": "object",
       "description": "Configure output data format and fields",
+      "editor": "json",
       "properties": {
         "includePhotos": {
           "title": "Include Photo URLs",
