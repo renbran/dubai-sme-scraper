@@ -1,7 +1,8 @@
 FROM apify/actor-node:20
 
-# Install system dependencies for Playwright browsers
-RUN apt-get update && apt-get install -y \
+# Install system dependencies for Playwright browsers with optimized settings
+RUN apt-get update -o Acquire::Retries=3 -o Acquire::http::Timeout="30" --fix-missing \
+    && apt-get install -y --no-install-recommends \
     libnss3 \
     libatk-bridge2.0-0 \
     libdrm2 \
@@ -11,7 +12,8 @@ RUN apt-get update && apt-get install -y \
     libgbm1 \
     libgtk-3-0 \
     libasound2 \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Copy package files first for better Docker layer caching
 COPY package*.json ./
@@ -23,9 +25,11 @@ RUN npm ci --only=production --quiet \
 # Copy source code
 COPY . ./
 
-# Install Playwright browsers with proper setup
-RUN npx playwright install chromium --with-deps \
-    && chmod -R 755 /root/.cache/ms-playwright
+# Install Playwright browsers with timeout and retry logic
+RUN timeout 300 npx playwright install chromium --with-deps || \
+    (echo "First attempt failed, retrying..." && sleep 5 && npx playwright install chromium) \
+    && chmod -R 755 /root/.cache/ms-playwright \
+    && ls -la /root/.cache/ms-playwright/ || echo "Browser directory check failed"
 
 # Set environment variables for production
 ENV NODE_ENV=production
