@@ -70,8 +70,20 @@ class GoogleMapsScraper {
             browserOptions.proxy = this.options.proxyConfig;
         }
 
-        this.browser = await chromium.launch(browserOptions);
-        console.log(`[${getTimestamp()}] Browser initialized successfully`);
+        // Use system Chromium if available, fallback to Playwright's Chromium
+        const executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH || '/usr/bin/chromium-browser';
+        
+        try {
+            console.log(`[${getTimestamp()}] Attempting to launch browser with system executable: ${executablePath}`);
+            browserOptions.executablePath = executablePath;
+            this.browser = await chromium.launch(browserOptions);
+            console.log(`[${getTimestamp()}] Browser initialized successfully with system executable`);
+        } catch (error) {
+            console.log(`[${getTimestamp()}] System browser failed, trying Playwright's Chromium: ${error.message}`);
+            delete browserOptions.executablePath;
+            this.browser = await chromium.launch(browserOptions);
+            console.log(`[${getTimestamp()}] Browser initialized successfully with Playwright's Chromium`);
+        }
     }
 
     /**
