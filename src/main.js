@@ -48,13 +48,22 @@ class DubaiSMEActor {
         this.dataset = await Apify.Actor.openDataset();
 
         // Initialize scraper
+        let proxyConfig = null;
+        if (this.input.proxyConfiguration?.useApifyProxy) {
+            try {
+                proxyConfig = await Apify.Actor.createProxyConfiguration(this.input.proxyConfiguration);
+                console.log(`[${getTimestamp()}] Proxy configuration created successfully`);
+            } catch (error) {
+                console.log(`[${getTimestamp()}] Failed to create proxy configuration: ${error.message}`);
+            }
+        }
+
         const scraperOptions = {
             headless: true,
             maxConcurrency: this.input.concurrency?.maxConcurrency || 3,
             requestDelay: this.input.concurrency?.requestDelay || 2000,
             timeout: PERFORMANCE.DEFAULT_TIMEOUT,
-            proxyConfig: this.input.proxyConfiguration?.useApifyProxy
-                ? await Apify.Actor.createProxyConfiguration(this.input.proxyConfiguration) : null
+            proxyConfig
         };
 
         this.scraper = new GoogleMapsScraper(scraperOptions);

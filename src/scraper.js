@@ -65,8 +65,8 @@ class GoogleMapsScraper {
             ]
         };
 
-        // Add proxy configuration if provided
-        if (this.options.proxyConfig) {
+        // Add proxy configuration if provided and valid
+        if (this.options.proxyConfig && this.options.proxyConfig.server) {
             browserOptions.proxy = this.options.proxyConfig;
         }
 
