@@ -1,19 +1,19 @@
 FROM apify/actor-node:20
 
-# Install system dependencies for Playwright browsers with optimized settings
-RUN apt-get update -o Acquire::Retries=3 -o Acquire::http::Timeout="30" --fix-missing \
-    && apt-get install -y --no-install-recommends \
-    libnss3 \
-    libatk-bridge2.0-0 \
-    libdrm2 \
-    libxcomposite1 \
-    libxdamage1 \
-    libxrandr2 \
-    libgbm1 \
-    libgtk-3-0 \
-    libasound2 \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+# Install system dependencies for Playwright browsers (Alpine Linux)
+RUN apk update --no-cache \
+    && apk add --no-cache \
+    nss \
+    at-spi2-atk \
+    cups-libs \
+    libdrm \
+    libxcomposite \
+    libxdamage \
+    libxrandr \
+    mesa-gbm \
+    gtk+3.0 \
+    alsa-lib \
+    && rm -rf /var/cache/apk/*
 
 # Copy package files first for better Docker layer caching
 COPY package*.json ./
