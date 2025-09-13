@@ -20,8 +20,8 @@ RUN npm ci --only=production --quiet \
 # Copy source code
 COPY . ./
 
-# Install Playwright browsers with timeout and retry logic
-RUN timeout 300 npx playwright install chromium --with-deps || \
+# Install Playwright browsers without system deps (already handled by apk)
+RUN timeout 300 npx playwright install chromium || \
     (echo "First attempt failed, retrying..." && sleep 5 && npx playwright install chromium) \
     && chmod -R 755 /root/.cache/ms-playwright \
     && ls -la /root/.cache/ms-playwright/ || echo "Browser directory check failed"
