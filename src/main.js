@@ -1,7 +1,6 @@
 const Apify = require('apify');
 
 const { PERFORMANCE } = require('./constants');
-const GoogleSheetsManager = require('./google-sheets');
 const GoogleMapsScraper = require('./scraper');
 const { removeDuplicates, validateInput, getTimestamp, getMemoryUsage, sleep } = require('./utils');
 
@@ -13,7 +12,6 @@ class DubaiSMEActor {
     constructor() {
         this.input = null;
         this.scraper = null;
-        this.sheetsManager = null;
         this.dataset = null;
 
         this.stats = {
@@ -22,7 +20,6 @@ class DubaiSMEActor {
             totalBusinesses: 0,
             uniqueBusinesses: 0,
             duplicatesRemoved: 0,
-            sheetsExported: false,
             errors: []
         };
     }
@@ -62,18 +59,6 @@ class DubaiSMEActor {
 
         this.scraper = new GoogleMapsScraper(scraperOptions);
         await this.scraper.initialize();
-
-        // Initialize Google Sheets if enabled
-        if (this.input.googleSheetsConfig?.enabled) {
-            this.sheetsManager = new GoogleSheetsManager(this.input.googleSheetsConfig);
-
-            // Test connection
-            const testResult = await this.sheetsManager.testConnection();
-            if (!testResult.success) {
-                throw new Error(`Google Sheets connection failed: ${testResult.error}`);
-            }
-            console.log(`[${getTimestamp()}] Google Sheets connection verified`);
-        }
 
         console.log(`[${getTimestamp()}] Actor initialization completed`);
     }
@@ -203,11 +188,6 @@ class DubaiSMEActor {
             businesses: filteredBusinesses
         });
 
-        // Export to Google Sheets if enabled
-        if (this.input.googleSheetsConfig?.enabled && this.sheetsManager) {
-            await this.exportToGoogleSheets(filteredBusinesses);
-        }
-
         // Log final statistics
         this.logFinalStats(filteredBusinesses);
     }
@@ -244,40 +224,6 @@ class DubaiSMEActor {
     }
 
     /**
-     * Export processed data to Google Sheets
-     * @param {Array} businesses - Processed business data
-     */
-    async exportToGoogleSheets(businesses) {
-        console.log(`[${getTimestamp()}] ====== Exporting to Google Sheets ======`);
-
-        try {
-            const result = await this.sheetsManager.writeData(businesses);
-
-            if (result.success) {
-                this.stats.sheetsExported = true;
-                console.log(`[${getTimestamp()}] Successfully exported ${result.rowsWritten} rows to Google Sheets`);
-
-                // Format the sheet
-                await this.sheetsManager.formatSheet(this.input.googleSheetsConfig.sheetName);
-
-                console.log(`[${getTimestamp()}] Google Sheets export completed successfully`);
-            } else {
-                throw new Error('Google Sheets export failed');
-            }
-        } catch (error) {
-            console.error(`[${getTimestamp()}] Google Sheets export error:`, error.message);
-            this.stats.errors.push({
-                operation: 'GoogleSheetsExport',
-                error: error.message,
-                timestamp: new Date().toISOString()
-            });
-
-            // Don't throw error, just log it
-            console.log(`[${getTimestamp()}] Continuing without Google Sheets export...`);
-        }
-    }
-
-    /**
      * Log final statistics and performance metrics
      * @param {Array} finalBusinesses - Final processed business data
      */
@@ -292,7 +238,6 @@ class DubaiSMEActor {
         console.log(`[${getTimestamp()}] Unique businesses: ${this.stats.uniqueBusinesses}`);
         console.log(`[${getTimestamp()}] Duplicates removed: ${this.stats.duplicatesRemoved}`);
         console.log(`[${getTimestamp()}] Final business count: ${finalBusinesses.length}`);
-        console.log(`[${getTimestamp()}] Google Sheets exported: ${this.stats.sheetsExported ? 'Yes' : 'No'}`);
         console.log(`[${getTimestamp()}] Errors encountered: ${this.stats.errors.length}`);
 
         if (this.stats.errors.length > 0) {
@@ -308,12 +253,8 @@ class DubaiSMEActor {
 
         // Performance metrics
         const scraperStats = this.scraper ? this.scraper.getStats() : {};
-        const sheetsStats = this.sheetsManager ? this.sheetsManager.getStats() : {};
 
         console.log(`[${getTimestamp()}] Scraper performance:`, scraperStats);
-        if (this.sheetsManager) {
-            console.log(`[${getTimestamp()}] Google Sheets performance:`, sheetsStats);
-        }
 
         const finalMemory = getMemoryUsage();
         console.log(`[${getTimestamp()}] Final memory usage:`, finalMemory);

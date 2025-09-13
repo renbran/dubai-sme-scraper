@@ -54,46 +54,6 @@
       "default": "standard",
       "enumTitles": ["Basic (Name, Address, Phone)", "Standard (+ Rating, Website, Hours)", "Premium (+ Reviews, Photos, Social)"]
     },
-    "googleSheetsConfig": {
-      "title": "Google Sheets Configuration",
-      "type": "object",
-      "description": "Configuration for automatic data export to Google Sheets",
-      "properties": {
-        "enabled": {
-          "title": "Enable Google Sheets Export",
-          "type": "boolean",
-          "description": "Whether to automatically export data to Google Sheets"
-        },
-        "spreadsheetId": {
-          "title": "Spreadsheet ID",
-          "type": "string",
-          "description": "Google Sheets spreadsheet ID (from the URL)",
-          "pattern": "^[a-zA-Z0-9-_]{44}$"
-        },
-        "sheetName": {
-          "title": "Sheet Name",
-          "type": "string",
-          "description": "Name of the sheet tab to write data to"
-        },
-        "serviceAccountKey": {
-          "title": "Service Account Key (JSON)",
-          "type": "string",
-          "description": "Google Service Account credentials in JSON format",
-          "editor": "textarea"
-        },
-        "appendMode": {
-          "title": "Append Mode",
-          "type": "boolean",
-          "description": "If true, append to existing data. If false, overwrite sheet."
-        },
-        "createBackup": {
-          "title": "Create Backup",
-          "type": "boolean",
-          "description": "Create a backup sheet before writing new data"
-        }
-      },
-      "required": ["spreadsheetId", "serviceAccountKey"]
-    },
     "proxyConfiguration": {
       "title": "Proxy Configuration",
       "type": "object",
