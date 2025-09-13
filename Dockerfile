@@ -1,4 +1,4 @@
-FROM apify/actor-node:18
+FROM apify/actor-node:20
 
 # Copy package files first for better Docker layer caching
 COPY package*.json ./
