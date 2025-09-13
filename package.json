@@ -8,9 +8,11 @@
     "build": "apify build",
     "push": "apify push",
     "test": "jest",
+    "test:unit": "jest --testPathPattern=unit",
+    "test:integration": "jest --testPathPattern=integration",
+    "test:coverage": "jest --coverage",
     "test:local": "jest --testPathPattern=local",
     "test:sheets": "jest --testPathPattern=sheets",
-    "test:integration": "jest --testPathPattern=integration",
     "lint": "eslint src/ --ext .js",
     "lint:fix": "eslint src/ --ext .js --fix",
     "dev": "nodemon src/main.js"
@@ -50,10 +52,10 @@
     "nodemon": "^3.0.0"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/renbran/apify_actor_V1.git"
+    "url": "https://github.com/renbran/dubai-sme-scraper.git"
   }
 }
