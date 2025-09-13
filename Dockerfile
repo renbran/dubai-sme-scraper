@@ -10,9 +10,8 @@ RUN npm ci --only=production --quiet \
 # Copy source code
 COPY . ./
 
-# Install Playwright browsers using the installed playwright package
-RUN npx playwright install chromium \
-    && npx playwright install-deps
+# Install Playwright browsers only (skip system deps for now)
+RUN npx playwright install chromium
 
 # Set environment variables for production
 ENV NODE_ENV=production
