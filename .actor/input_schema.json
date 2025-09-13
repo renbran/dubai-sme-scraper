@@ -58,22 +58,7 @@
       "title": "Proxy Configuration",
       "type": "object",
       "description": "Proxy settings for scraping (recommended for large-scale operations)",
-      "editor": "proxy",
-      "properties": {
-        "useApifyProxy": {
-          "title": "Use Apify Proxy",
-          "type": "boolean",
-          "description": "Use Apify's proxy service for IP rotation"
-        },
-        "proxyGroups": {
-          "title": "Proxy Groups",
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "description": "Apify proxy groups to use"
-        }
-      }
+      "editor": "proxy"
     },
     "concurrency": {
       "title": "Concurrency Settings",
