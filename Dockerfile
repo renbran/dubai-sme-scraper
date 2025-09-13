@@ -1,5 +1,18 @@
 FROM apify/actor-node:20
 
+# Install system dependencies for Playwright browsers
+RUN apt-get update && apt-get install -y \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libdrm2 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxrandr2 \
+    libgbm1 \
+    libgtk-3-0 \
+    libasound2 \
+    && rm -rf /var/lib/apt/lists/*
+
 # Copy package files first for better Docker layer caching
 COPY package*.json ./
 
