@@ -62,7 +62,6 @@
         "enabled": {
           "title": "Enable Google Sheets Export",
           "type": "boolean",
-          "default": true,
           "description": "Whether to automatically export data to Google Sheets"
         },
         "spreadsheetId": {
@@ -74,7 +73,6 @@
         "sheetName": {
           "title": "Sheet Name",
           "type": "string",
-          "default": "Dubai_SMEs",
           "description": "Name of the sheet tab to write data to"
         },
         "serviceAccountKey": {
@@ -87,13 +85,11 @@
         "appendMode": {
           "title": "Append Mode",
           "type": "boolean",
-          "default": false,
           "description": "If true, append to existing data. If false, overwrite sheet."
         },
         "createBackup": {
           "title": "Create Backup",
           "type": "boolean",
-          "default": true,
           "description": "Create a backup sheet before writing new data"
         }
       },
@@ -108,7 +104,6 @@
         "useApifyProxy": {
           "title": "Use Apify Proxy",
           "type": "boolean",
-          "default": true,
           "description": "Use Apify's proxy service for IP rotation"
         },
         "proxyGroups": {
@@ -117,7 +112,6 @@
           "items": {
             "type": "string"
           },
-          "default": ["RESIDENTIAL"],
           "description": "Apify proxy groups to use"
         }
       }
@@ -130,7 +124,6 @@
         "maxConcurrency": {
           "title": "Max Concurrent Pages",
           "type": "integer",
-          "default": 3,
           "minimum": 1,
           "maximum": 10,
           "description": "Maximum number of concurrent browser pages"
@@ -138,7 +131,6 @@
         "requestDelay": {
           "title": "Request Delay (ms)",
           "type": "integer",
-          "default": 2000,
           "minimum": 1000,
           "maximum": 10000,
           "description": "Delay between requests to avoid rate limiting"
@@ -146,7 +138,6 @@
         "retryAttempts": {
           "title": "Retry Attempts",
           "type": "integer",
-          "default": 3,
           "minimum": 1,
           "maximum": 10,
           "description": "Number of retry attempts for failed requests"
@@ -161,25 +152,21 @@
         "includePhotos": {
           "title": "Include Photo URLs",
           "type": "boolean",
-          "default": true,
           "description": "Extract and include business photo URLs"
         },
         "includeReviews": {
           "title": "Include Recent Reviews",
           "type": "boolean",
-          "default": false,
           "description": "Extract recent customer reviews (premium only)"
         },
         "includeCoordinates": {
           "title": "Include GPS Coordinates",
           "type": "boolean",
-          "default": true,
           "description": "Extract latitude and longitude coordinates"
         },
         "includeSocialMedia": {
           "title": "Include Social Media Links",
           "type": "boolean",
-          "default": false,
           "description": "Extract social media profile links (premium only)"
         }
       }
