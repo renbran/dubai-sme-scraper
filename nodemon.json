@@ -1,0 +1,6 @@
+{
+  "watch": true,
+  "ignore": ["node_modules/**", ".git/**", "coverage/**"],
+  "ext": "js,json",
+  "exec": "node src/main.js"
+}

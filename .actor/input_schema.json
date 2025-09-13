@@ -1,0 +1,189 @@
+{
+  "title": "Dubai SME Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "categories": {
+      "title": "Business Categories",
+      "type": "array",
+      "description": "List of business categories to scrape from Google Maps",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      },
+      "default": [
+        "restaurants dubai",
+        "retail stores dubai",
+        "consulting services dubai",
+        "tech companies dubai",
+        "healthcare clinics dubai",
+        "beauty salons dubai",
+        "fitness centers dubai",
+        "real estate dubai",
+        "legal services dubai",
+        "accounting firms dubai",
+        "marketing agencies dubai",
+        "construction companies dubai",
+        "trading companies dubai",
+        "logistics companies dubai",
+        "education centers dubai"
+      ],
+      "minItems": 1,
+      "maxItems": 50
+    },
+    "maxResultsPerCategory": {
+      "title": "Max Results Per Category",
+      "type": "integer",
+      "description": "Maximum number of businesses to scrape per category",
+      "default": 100,
+      "minimum": 10,
+      "maximum": 1000
+    },
+    "searchRadius": {
+      "title": "Search Radius",
+      "type": "string",
+      "description": "Geographic scope for business search",
+      "enum": ["Dubai", "Dubai Marina", "Downtown Dubai", "Business Bay", "DIFC", "JLT", "Deira", "Bur Dubai"],
+      "default": "Dubai"
+    },
+    "dataQualityLevel": {
+      "title": "Data Quality Level",
+      "type": "string",
+      "description": "Level of data validation and enrichment",
+      "enum": ["basic", "standard", "premium"],
+      "default": "standard",
+      "enumTitles": ["Basic (Name, Address, Phone)", "Standard (+ Rating, Website, Hours)", "Premium (+ Reviews, Photos, Social)"]
+    },
+    "googleSheetsConfig": {
+      "title": "Google Sheets Configuration",
+      "type": "object",
+      "description": "Configuration for automatic data export to Google Sheets",
+      "properties": {
+        "enabled": {
+          "title": "Enable Google Sheets Export",
+          "type": "boolean",
+          "default": true,
+          "description": "Whether to automatically export data to Google Sheets"
+        },
+        "spreadsheetId": {
+          "title": "Spreadsheet ID",
+          "type": "string",
+          "description": "Google Sheets spreadsheet ID (from the URL)",
+          "pattern": "^[a-zA-Z0-9-_]{44}$"
+        },
+        "sheetName": {
+          "title": "Sheet Name",
+          "type": "string",
+          "default": "Dubai_SMEs",
+          "description": "Name of the sheet tab to write data to"
+        },
+        "serviceAccountKey": {
+          "title": "Service Account Key (JSON)",
+          "type": "string",
+          "description": "Google Service Account credentials in JSON format",
+          "editor": "textarea",
+          "isSecret": true
+        },
+        "appendMode": {
+          "title": "Append Mode",
+          "type": "boolean",
+          "default": false,
+          "description": "If true, append to existing data. If false, overwrite sheet."
+        },
+        "createBackup": {
+          "title": "Create Backup",
+          "type": "boolean",
+          "default": true,
+          "description": "Create a backup sheet before writing new data"
+        }
+      },
+      "required": ["spreadsheetId", "serviceAccountKey"]
+    },
+    "proxyConfiguration": {
+      "title": "Proxy Configuration",
+      "type": "object",
+      "description": "Proxy settings for scraping (recommended for large-scale operations)",
+      "editor": "proxy",
+      "properties": {
+        "useApifyProxy": {
+          "title": "Use Apify Proxy",
+          "type": "boolean",
+          "default": true,
+          "description": "Use Apify's proxy service for IP rotation"
+        },
+        "proxyGroups": {
+          "title": "Proxy Groups",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": ["RESIDENTIAL"],
+          "description": "Apify proxy groups to use"
+        }
+      }
+    },
+    "concurrency": {
+      "title": "Concurrency Settings",
+      "type": "object",
+      "description": "Performance and rate limiting settings",
+      "properties": {
+        "maxConcurrency": {
+          "title": "Max Concurrent Pages",
+          "type": "integer",
+          "default": 3,
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Maximum number of concurrent browser pages"
+        },
+        "requestDelay": {
+          "title": "Request Delay (ms)",
+          "type": "integer",
+          "default": 2000,
+          "minimum": 1000,
+          "maximum": 10000,
+          "description": "Delay between requests to avoid rate limiting"
+        },
+        "retryAttempts": {
+          "title": "Retry Attempts",
+          "type": "integer",
+          "default": 3,
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Number of retry attempts for failed requests"
+        }
+      }
+    },
+    "outputFormat": {
+      "title": "Output Format Options",
+      "type": "object",
+      "description": "Configure output data format and fields",
+      "properties": {
+        "includePhotos": {
+          "title": "Include Photo URLs",
+          "type": "boolean",
+          "default": true,
+          "description": "Extract and include business photo URLs"
+        },
+        "includeReviews": {
+          "title": "Include Recent Reviews",
+          "type": "boolean",
+          "default": false,
+          "description": "Extract recent customer reviews (premium only)"
+        },
+        "includeCoordinates": {
+          "title": "Include GPS Coordinates",
+          "type": "boolean",
+          "default": true,
+          "description": "Extract latitude and longitude coordinates"
+        },
+        "includeSocialMedia": {
+          "title": "Include Social Media Links",
+          "type": "boolean",
+          "default": false,
+          "description": "Extract social media profile links (premium only)"
+        }
+      }
+    }
+  },
+  "required": ["categories"]
+}

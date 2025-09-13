@@ -1,0 +1,32 @@
+# Build dependencies
+Dockerfile
+.dockerignore
+.git/
+.gitignore
+README.md
+docs/
+
+# Test files
+test/
+*.test.js
+coverage/
+
+# Development dependencies
+.vscode/
+.idea/
+nodemon.json
+
+# Local files
+local-test-data/
+*.log
+*.har
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation
+docs/
+*.md
+!README.md

@@ -1,0 +1,53 @@
+{
+  "actorSpecification": 1,
+  "name": "dubai-sme-scraper",
+  "title": "Dubai SME Business Scraper",
+  "description": "A comprehensive Apify actor that scrapes Small and Medium Enterprises (SMEs) in Dubai from Google Maps, categorizes them, and automatically stores the data in Google Sheets. Features advanced data processing, error handling, and production-ready scalability.",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "basic-crawler"
+  },
+  "input": "./.actor/input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "categories": ["ECOMMERCE", "BUSINESS"],
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Dubai SME Business Data",
+      "description": "Scraped business data from Google Maps including contact information, ratings, and business details",
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "transformation": {
+            "fields": [
+              "businessName",
+              "category",
+              "address",
+              "phone",
+              "website",
+              "rating",
+              "reviewCount"
+            ]
+          }
+        },
+        "business-details": {
+          "title": "Business Details",
+          "transformation": {
+            "fields": [
+              "businessName",
+              "address",
+              "phone",
+              "website",
+              "rating",
+              "reviewCount",
+              "businessHours",
+              "coordinates",
+              "description"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
