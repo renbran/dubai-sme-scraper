@@ -1,6 +1,6 @@
 FROM apify/actor-node:20
 
-# Install minimal system dependencies for Playwright browsers (Alpine Linux)
+# Install comprehensive system dependencies for Playwright browsers (Alpine Linux)
 RUN apk update --no-cache \
     && apk add --no-cache \
     nss \
@@ -8,6 +8,7 @@ RUN apk update --no-cache \
     harfbuzz \
     ca-certificates \
     ttf-freefont \
+    chromium \
     && rm -rf /var/cache/apk/*
 
 # Copy package files first for better Docker layer caching
@@ -20,17 +21,19 @@ RUN npm ci --only=production --quiet \
 # Copy source code
 COPY . ./
 
-# Install Playwright browsers without system deps (already handled by apk)
-RUN timeout 300 npx playwright install chromium || \
-    (echo "First attempt failed, retrying..." && sleep 5 && npx playwright install chromium) \
-    && chmod -R 755 /root/.cache/ms-playwright \
-    && ls -la /root/.cache/ms-playwright/ || echo "Browser directory check failed"
+# Install Playwright browsers with verification
+RUN npx playwright install chromium \
+    && echo "Checking browser installation..." \
+    && ls -la /root/.cache/ms-playwright/ \
+    && find /root/.cache/ms-playwright/ -name "*chrome*" -type f \
+    && chmod -R 755 /root/.cache/ms-playwright
 
 # Set environment variables for production
 ENV NODE_ENV=production
 ENV APIFY_HEADLESS=1
 ENV APIFY_MEMORY_MBYTES=4096
 ENV PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright
+ENV PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium-browser
 
 # Run the actor
 CMD npm start
