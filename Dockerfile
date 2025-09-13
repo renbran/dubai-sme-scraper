@@ -1,24 +1,25 @@
-FROM apify/actor-node:16
+FROM apify/actor-node:18
 
-# Copy package files
+# Copy package files first for better Docker layer caching
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci --only=prod --quiet
+# Install dependencies with proper flags for production
+RUN npm ci --only=production --quiet \
+    && npm cache clean --force
 
-# Install Playwright browsers
-RUN npx playwright install --with-deps chromium
+# Install Playwright browsers with retry logic
+RUN npx playwright install --with-deps chromium || \
+    (sleep 5 && npx playwright install --with-deps chromium) || \
+    (sleep 10 && npx playwright install chromium)
 
 # Copy source code
 COPY . ./
 
-# Set environment variables
+# Set environment variables for production
 ENV NODE_ENV=production
 ENV APIFY_HEADLESS=1
 ENV APIFY_MEMORY_MBYTES=4096
-
-# Expose port (optional, for debugging)
-EXPOSE 3000
+ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 
 # Run the actor
 CMD npm start
