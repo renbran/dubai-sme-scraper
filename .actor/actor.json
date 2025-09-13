@@ -7,7 +7,7 @@
   "meta": {
     "templateId": "basic-crawler"
   },
-  "input": "./.actor/input_schema.json",
+  "input": "./input_schema.json",
   "dockerfile": "./Dockerfile",
   "readme": "./README.md",
   "categories": ["ECOMMERCE", "BUSINESS"],
