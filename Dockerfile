@@ -10,13 +10,15 @@ RUN npm ci --only=production --quiet \
 # Copy source code
 COPY . ./
 
-# Install Playwright browsers only (skip system deps for now)
-RUN npx playwright install chromium
+# Install Playwright browsers with proper setup
+RUN npx playwright install chromium --with-deps \
+    && chmod -R 755 /root/.cache/ms-playwright
 
 # Set environment variables for production
 ENV NODE_ENV=production
 ENV APIFY_HEADLESS=1
 ENV APIFY_MEMORY_MBYTES=4096
+ENV PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright
 
 # Run the actor
 CMD npm start
