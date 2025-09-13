@@ -1,18 +1,13 @@
 FROM apify/actor-node:20
 
-# Install system dependencies for Playwright browsers (Alpine Linux)
+# Install minimal system dependencies for Playwright browsers (Alpine Linux)
 RUN apk update --no-cache \
     && apk add --no-cache \
     nss \
-    at-spi2-atk \
-    cups-libs \
-    libdrm \
-    libxcomposite \
-    libxdamage \
-    libxrandr \
-    mesa-gbm \
-    gtk+3.0 \
-    alsa-lib \
+    freetype \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont \
     && rm -rf /var/cache/apk/*
 
 # Copy package files first for better Docker layer caching
