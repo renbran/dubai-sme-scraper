@@ -1,0 +1,54 @@
+{
+  "operationSummary": {
+    "timestamp": "2025-09-13T23:35:02.586Z",
+    "totalLeadsFound": 0,
+    "categoriesSearched": 5,
+    "searchQueriesExecuted": 40
+  },
+  "categoryBreakdown": {
+    "accounting": {
+      "totalLeads": 0,
+      "highPriorityLeads": 0,
+      "averageLeadScore": 0,
+      "digitalTransformationCandidates": 0,
+      "topBusinesses": []
+    },
+    "consulting": {
+      "totalLeads": 0,
+      "highPriorityLeads": 0,
+      "averageLeadScore": 0,
+      "digitalTransformationCandidates": 0,
+      "topBusinesses": []
+    },
+    "smallBusiness": {
+      "totalLeads": 0,
+      "highPriorityLeads": 0,
+      "averageLeadScore": 0,
+      "digitalTransformationCandidates": 0,
+      "topBusinesses": []
+    },
+    "realEstate": {
+      "totalLeads": 0,
+      "highPriorityLeads": 0,
+      "averageLeadScore": 0,
+      "digitalTransformationCandidates": 0,
+      "topBusinesses": []
+    },
+    "digitalTransformation": {
+      "totalLeads": 0,
+      "highPriorityLeads": 0,
+      "averageLeadScore": 0,
+      "digitalTransformationCandidates": 0,
+      "topBusinesses": []
+    }
+  },
+  "topProspects": [],
+  "digitalTransformationOpportunities": [],
+  "cybersecurityCandidates": [],
+  "realEstateSpecialty": [],
+  "actionPriorities": {
+    "immediate": [],
+    "shortTerm": [],
+    "longTerm": []
+  }
+}

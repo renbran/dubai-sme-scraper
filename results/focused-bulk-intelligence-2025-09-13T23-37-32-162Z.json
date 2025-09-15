@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-09-13T23:37:32.156Z",
+  "summary": {
+    "totalLeads": 0,
+    "highPriorityLeads": 0,
+    "averageLeadScore": 0,
+    "searchQueriesUsed": 20
+  },
+  "categoryBreakdown": {
+    "realEstate": {
+      "count": 0,
+      "averageScore": 0,
+      "highPriority": 0,
+      "topBusinesses": []
+    },
+    "accounting": {
+      "count": 0,
+      "averageScore": 0,
+      "highPriority": 0,
+      "topBusinesses": []
+    },
+    "consulting": {
+      "count": 0,
+      "averageScore": 0,
+      "highPriority": 0,
+      "topBusinesses": []
+    },
+    "smallBusiness": {
+      "count": 0,
+      "averageScore": 0,
+      "highPriority": 0,
+      "topBusinesses": []
+    },
+    "technology": {
+      "count": 0,
+      "averageScore": 0,
+      "highPriority": 0,
+      "topBusinesses": []
+    }
+  },
+  "topTransformationCandidates": [],
+  "realEstateSpecialty": [],
+  "allLeads": []
+}

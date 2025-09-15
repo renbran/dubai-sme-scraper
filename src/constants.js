@@ -18,6 +18,18 @@ module.exports = {
             WEBSITE_ALT: '.Io6YTe.fontBodyMedium.kR99db.fdkmkc[href^="http"]',
             EMAIL: 'a[href^="mailto:"]',
             EMAIL_ALT: '.Io6YTe.fontBodyMedium.kR99db.fdkmkc[href^="mailto:"]',
+            SOCIAL_MEDIA: {
+                FACEBOOK: 'a[href*="facebook.com"], a[href*="fb.com"]',
+                INSTAGRAM: 'a[href*="instagram.com"]',
+                TWITTER: 'a[href*="twitter.com"], a[href*="x.com"]',
+                LINKEDIN: 'a[href*="linkedin.com"]',
+                YOUTUBE: 'a[href*="youtube.com"]',
+                TIKTOK: 'a[href*="tiktok.com"]',
+                SNAPCHAT: 'a[href*="snapchat.com"]',
+                WHATSAPP: 'a[href*="wa.me"], a[href*="whatsapp.com"]',
+                TELEGRAM: 'a[href*="t.me"], a[href*="telegram.me"]',
+                GENERAL: 'a[href*="facebook.com"], a[href*="instagram.com"], a[href*="twitter.com"], a[href*="linkedin.com"], a[href*="youtube.com"], a[href*="tiktok.com"], a[href*="snapchat.com"], a[href*="wa.me"], a[href*="whatsapp.com"], a[href*="t.me"], a[href*="telegram.me"]'
+            },
             CONTACT_INFO: '.Io6YTe.fontBodyMedium.kR99db.fdkmkc',
             BUSINESS_OWNER: '.mgr77e .fontBodySmall',
             ADDITIONAL_DETAILS: '.section-info-text',
@@ -88,14 +100,14 @@ module.exports = {
 
     // Performance settings
     PERFORMANCE: {
-        DEFAULT_TIMEOUT: 30000,
-        NAVIGATION_TIMEOUT: 60000,
-        ELEMENT_WAIT_TIMEOUT: 10000,
+        DEFAULT_TIMEOUT: 20000,
+        NAVIGATION_TIMEOUT: 30000,
+        ELEMENT_WAIT_TIMEOUT: 8000,
         SCROLL_DELAY: 1000,
         MAX_SCROLL_ATTEMPTS: 10,
         BATCH_SIZE: 100,
-        MAX_RETRIES: 3,
-        RETRY_DELAY: 5000,
+        MAX_RETRIES: 1,
+        RETRY_DELAY: 3000,
         MEMORY_LIMIT_MB: 4096
     },
 

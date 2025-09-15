@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-09-13T23:44:24.798Z",
+  "totalLeads": 0,
+  "categoryBreakdown": {
+    "realEstate": 0,
+    "accounting": 0,
+    "consulting": 0,
+    "technology": 0,
+    "smallBusiness": 0,
+    "finance": 0,
+    "legal": 0,
+    "healthcare": 0,
+    "retail": 0,
+    "manufacturing": 0
+  },
+  "latestLeads": []
+}

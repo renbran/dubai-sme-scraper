@@ -1,0 +1,380 @@
+[
+  {
+    "businessName": "Goyzer Technology Solutions LLC - Real Estate and Property Management Software",
+    "address": "Office #12 A-04, Floor 12 A Damac Executive Bay - Tower B Al A'amal St - Business Bay - Dubai",
+    "phone": null,
+    "website": "https://www.goyzer.com/",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "businessHours": {
+      "Monday": "Closed"
+    },
+    "description": null,
+    "category": "Software company",
+    "priceRange": null,
+    "coordinates": {
+      "lat": 25.1785504,
+      "lng": 55.2482194
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/Goyzer+Technology+Solutions+LLC+-+Real+Estate+and+Property+Management+Software/@25.1785504,55.2482194,15z/data=!3m1!5s0x3e5f42c99483abdb:0xf11e225005975c5!4m10!1m2!2m1!1stechnology+software+real+estate+Dubai!3m6!1s0x3e5f43c716d68b91:0x68a35ee5fb808ae5!8m2!3d25.1785504!4d55.2662438!15sCiV0ZWNobm9sb2d5IHNvZnR3YXJlIHJlYWwgZXN0YXRlIER1YmFpWiciJXRlY2hub2xvZ3kgc29mdHdhcmUgcmVhbCBlc3RhdGUgZHViYWmSARBzb2Z0d2FyZV9jb21wYW55mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJ0TldWUFUzUlJSUkFCqgF8CggvbS8wMW1mMBABKiMiH3RlY2hub2xvZ3kgc29mdHdhcmUgcmVhbCBlc3RhdGUoADIeEAEiGigRy8rlsNjQKOqctYaC2QVaTqNBZRoD5T-UMikQAiIldGVjaG5vbG9neSBzb2Z0d2FyZSByZWFsIGVzdGF0ZSBkdWJhaeABAPoBBAgAECA!16s%2Fg%2F11rjq9p3gy?hl=en&entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D",
+    "primaryPhoto": null,
+    "additionalEmails": [],
+    "socialMedia": {},
+    "contactPersons": [],
+    "locationDetails": {
+      "streetAddress": null,
+      "area": "Business Bay",
+      "emirate": "Dubai",
+      "buildingNumber": "12",
+      "floor": "Floor 12",
+      "office": null
+    },
+    "businessOwner": null,
+    "lastUpdated": "2025-09-13T22:58:21.504Z",
+    "dataQualityScore": 62,
+    "verificationStatus": "Partially Verified",
+    "dataSource": "Google Maps",
+    "confidence": 0.9,
+    "dataSources": [
+      "Google Maps"
+    ],
+    "websiteAnalysis": {
+      "url": "https://www.goyzer.com/",
+      "technologies": {
+        "angular": {
+          "detected": true,
+          "score": 80,
+          "category": "Framework"
+        },
+        "vue": {
+          "detected": true,
+          "score": 80,
+          "category": "Framework"
+        },
+        "googleAnalytics": {
+          "detected": true,
+          "score": 60,
+          "category": "Analytics"
+        },
+        "cloudflare": {
+          "detected": true,
+          "score": 70,
+          "category": "Infrastructure"
+        },
+        "ssl": {
+          "detected": true,
+          "score": 60,
+          "category": "Security"
+        },
+        "meta": {
+          "description": "Real Estate Property Management Software",
+          "ogTitle": "Real Estate Property Management Software in Dubai, UAE - CRM Software for Real Estate - Goyzer"
+        }
+      },
+      "security": {
+        "score": 30,
+        "measures": {
+          "ssl": true,
+          "cdn": true
+        },
+        "recommendations": [
+          "Add Content Security Policy",
+          "Enable HSTS",
+          "Set X-Frame-Options header",
+          "Enable XSS Protection"
+        ],
+        "level": "Low"
+      },
+      "performance": {
+        "loadTime": 2559.5,
+        "domContentLoaded": 1090.7999999970198,
+        "resources": {
+          "total": 84,
+          "images": 64,
+          "scripts": 12,
+          "stylesheets": 7
+        },
+        "score": 70
+      },
+      "digitalMaturity": {
+        "score": 68,
+        "level": "Developing",
+        "breakdown": {
+          "technology": 100,
+          "security": 30,
+          "performance": 70
+        }
+      },
+      "analyzedAt": "2025-09-13T22:59:39.148Z"
+    },
+    "aiClassification": {
+      "businessSize": "SME",
+      "industryCategory": "Real Estate Technology",
+      "businessType": "Service",
+      "targetMarket": "B2B",
+      "companyStage": "Startup",
+      "leadQualityScore": 65,
+      "keyInsights": "Goyzer Technology Solutions LLC operates in the niche market of real estate and property management software, which is growing due to increasing demand for digital solutions in the real estate sector. The absence of reviews may indicate a need for increased marketing efforts to build credibility and attract initial customers. With a solid rating of 4.4, there is potential for positive customer reception once they begin to gather feedback. The company is positioned well to capitalize on the growing trend of digital transformation in real estate.",
+      "aiConfidence": 85
+    },
+    "enhancedAt": "2025-09-13T22:59:54.959Z",
+    "aiEnhancements": {
+      "estimatedEmployees": "1-10",
+      "servicesOffered": [
+        "Real Estate Software",
+        "Property Management Software"
+      ],
+      "keyPersonnel": [],
+      "businessModel": "B2B",
+      "marketFocus": "Local",
+      "extractedEmails": [],
+      "socialPresence": "Medium",
+      "digitalMaturity": "Advanced"
+    },
+    "leadScoring": {
+      "totalScore": 71,
+      "priority": "Medium-High",
+      "breakdown": {
+        "digitalMaturity": {
+          "score": 75,
+          "insights": [
+            "Developing digital capabilities",
+            "Low security measures - high cybersecurity need"
+          ],
+          "level": "Developing"
+        },
+        "businessSize": {
+          "score": 85,
+          "insights": [
+            "SME business - ideal target size",
+            "Small team size - personal service opportunity"
+          ],
+          "detectedSize": "SME"
+        },
+        "dataCompleteness": {
+          "score": 40,
+          "insights": [
+            "No email - need to find contact info",
+            "Website available for analysis"
+          ],
+          "completeness": 40
+        },
+        "industryFit": {
+          "score": 100,
+          "insights": [
+            "High-risk industry - strong cybersecurity need",
+            "B2B business - higher compliance requirements"
+          ],
+          "industry": "Real Estate Technology"
+        },
+        "growthIndicators": {
+          "score": 40,
+          "insights": [
+            "Clear business hours - professional operation"
+          ]
+        }
+      },
+      "recommendations": [
+        "High priority: Outdated technology stack - immediate cybersecurity assessment recommended",
+        "Focus on security consultation and modernization services",
+        "Research additional contact information before outreach",
+        "Use LinkedIn or company website to find decision makers",
+        "Priority: Find email contact through website or social media",
+        "Industry-specific cybersecurity approach recommended",
+        "Add to nurture campaign for future follow-up"
+      ],
+      "reasoning": [
+        "Total Score: 71/100 (Medium-High Priority)",
+        "digitalMaturity: 75/100 - Developing digital capabilities",
+        "businessSize: 85/100 - SME business - ideal target size",
+        "dataCompleteness: 40/100 - No email - need to find contact info",
+        "industryFit: 100/100 - High-risk industry - strong cybersecurity need",
+        "growthIndicators: 40/100 - Clear business hours - professional operation"
+      ]
+    }
+  },
+  {
+    "businessName": "RIDEWARE TECHNOLOGIES EST.",
+    "address": "Al Reem Tower - Office No. M12 & M13 - Al Maktoum Rd - Deira - Riggat Al Buteen - Dubai",
+    "phone": null,
+    "website": "http://www.ridewaretech.com/",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "businessHours": null,
+    "description": null,
+    "category": "Software company",
+    "priceRange": null,
+    "coordinates": {
+      "lat": 25.2633406,
+      "lng": 55.3158621
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/RIDEWARE+TECHNOLOGIES+EST./@25.2633406,55.3158621,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6bcacc2421c3:0x953371f6843b9915!8m2!3d25.2633406!4d55.3158621!16s%2Fg%2F11pv896pvt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D",
+    "primaryPhoto": null,
+    "additionalEmails": [],
+    "socialMedia": {},
+    "contactPersons": [],
+    "locationDetails": {
+      "streetAddress": null,
+      "area": "Deira",
+      "emirate": "Dubai",
+      "buildingNumber": null,
+      "floor": null,
+      "office": "Office No. M12"
+    },
+    "businessOwner": null,
+    "lastUpdated": "2025-09-13T22:58:57.342Z",
+    "dataQualityScore": 47,
+    "verificationStatus": "Partially Verified",
+    "dataSource": "Google Maps",
+    "confidence": 0.9,
+    "websiteAnalysis": {
+      "url": "http://www.ridewaretech.com/",
+      "technologies": {
+        "angular": {
+          "detected": true,
+          "score": 80,
+          "category": "Framework"
+        },
+        "vue": {
+          "detected": true,
+          "score": 80,
+          "category": "Framework"
+        },
+        "cloudflare": {
+          "detected": true,
+          "score": 70,
+          "category": "Infrastructure"
+        },
+        "ssl": {
+          "detected": true,
+          "score": 60,
+          "category": "Security"
+        },
+        "meta": {
+          "description": "Rideware Technologies EST offers advanced software solutions for the amusement and entertainment industry, including ride management, maintenance automation, and real-time asset monitoring"
+        }
+      },
+      "security": {
+        "score": 30,
+        "measures": {
+          "ssl": true,
+          "cdn": true
+        },
+        "recommendations": [
+          "Add Content Security Policy",
+          "Enable HSTS",
+          "Set X-Frame-Options header",
+          "Enable XSS Protection"
+        ],
+        "level": "Low"
+      },
+      "performance": {
+        "loadTime": 1837.2999999970198,
+        "domContentLoaded": 1020.7999999970198,
+        "resources": {
+          "total": 63,
+          "images": 27,
+          "scripts": 15,
+          "stylesheets": 13
+        },
+        "score": 80
+      },
+      "digitalMaturity": {
+        "score": 71,
+        "level": "Mature",
+        "breakdown": {
+          "technology": 100,
+          "security": 30,
+          "performance": 80
+        }
+      },
+      "analyzedAt": "2025-09-13T22:59:43.264Z"
+    },
+    "aiClassification": {
+      "businessSize": "SME",
+      "industryCategory": "Software Development",
+      "businessType": "Service",
+      "targetMarket": "B2B",
+      "companyStage": "Startup",
+      "leadQualityScore": 70,
+      "keyInsights": "RIDEWARE TECHNOLOGIES EST. is positioned in the growing software development industry, likely targeting business clients with technology solutions. The absence of reviews suggests a need for brand awareness and customer engagement strategies. The high rating indicates potential customer satisfaction, but the lack of feedback may hinder growth. As a startup, focusing on building a portfolio and gaining initial clients will be crucial for establishing market presence.",
+      "aiConfidence": 85
+    },
+    "enhancedAt": "2025-09-13T23:00:01.583Z",
+    "aiEnhancements": {
+      "estimatedEmployees": "1-10",
+      "servicesOffered": [
+        "Software Development",
+        "Technology Consulting"
+      ],
+      "keyPersonnel": [
+        "CEO",
+        "CTO"
+      ],
+      "businessModel": "B2B",
+      "marketFocus": "Local",
+      "extractedEmails": [],
+      "socialPresence": "Medium",
+      "digitalMaturity": "Moderate"
+    },
+    "leadScoring": {
+      "totalScore": 55,
+      "priority": "Medium",
+      "breakdown": {
+        "digitalMaturity": {
+          "score": 45,
+          "insights": [
+            "Mature digital presence - lower conversion potential",
+            "Low security measures - high cybersecurity need"
+          ],
+          "level": "Mature"
+        },
+        "businessSize": {
+          "score": 85,
+          "insights": [
+            "SME business - ideal target size",
+            "Small team size - personal service opportunity"
+          ],
+          "detectedSize": "SME"
+        },
+        "dataCompleteness": {
+          "score": 30,
+          "insights": [
+            "No email - need to find contact info",
+            "Website available for analysis"
+          ],
+          "completeness": 30
+        },
+        "industryFit": {
+          "score": 50,
+          "insights": [
+            "General industry - basic cybersecurity need",
+            "B2B business - higher compliance requirements"
+          ],
+          "industry": "Software Development"
+        },
+        "growthIndicators": {
+          "score": 65,
+          "insights": [
+            "Good website performance - active maintenance",
+            "High customer rating - growing reputation"
+          ]
+        }
+      },
+      "recommendations": [
+        "Research additional contact information before outreach",
+        "Use LinkedIn or company website to find decision makers",
+        "Priority: Find email contact through website or social media",
+        "Add to nurture campaign for future follow-up"
+      ],
+      "reasoning": [
+        "Total Score: 55/100 (Medium Priority)",
+        "digitalMaturity: 45/100 - Mature digital presence - lower conversion potential",
+        "businessSize: 85/100 - SME business - ideal target size",
+        "dataCompleteness: 30/100 - No email - need to find contact info",
+        "industryFit: 50/100 - General industry - basic cybersecurity need",
+        "growthIndicators: 65/100 - Good website performance - active maintenance"
+      ]
+    }
+  }
+]

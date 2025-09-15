@@ -1,0 +1,349 @@
+{
+  "operationSummary": {
+    "timestamp": "2025-09-14T04:13:02.627Z",
+    "totalBusinessesFound": 17,
+    "totalQueriesExecuted": 9,
+    "successfulQueries": 9,
+    "failedQueries": 0,
+    "successRate": "100.0%",
+    "retryMechanism": "Active - 2 retries maximum",
+    "configurationStatus": "RESOLVED"
+  },
+  "categoryResults": {
+    "accounting": {
+      "totalFound": 6,
+      "topBusinesses": [
+        {
+          "name": "ProfiTrack Accounting and Management",
+          "address": "MRA Business Park - Deira - Office No - 06, Ground Floor - 15 65 St - Al Garhoud - Dubai",
+          "phone": "+971508677232",
+          "website": "https://profitrackaccounting.com/"
+        },
+        {
+          "name": "Alchemist Accounting | Accounting & Auditing Services in Dubai, UAE | Zoho Partner",
+          "address": "Al Masood Tower - 301 Airport Rd - Port Saeed - Dubai",
+          "phone": "+971582660929",
+          "website": "https://www.alchemistme.com/"
+        },
+        {
+          "name": "The VAT Consultant",
+          "address": "Fourth Floor, Hamsah-A Building - Office No - 413 - 3A St - Al Karama - Dubai",
+          "phone": null,
+          "website": "https://thevatconsultant.com/"
+        },
+        {
+          "name": "TGS Koya Chartered Accountants in Dubai, UAE",
+          "address": "B, Deira Clocktower - Office No.805 - Business Village - Dubai",
+          "phone": null,
+          "website": "https://www.tgskoya.com/"
+        },
+        {
+          "name": "ProfiTrack Accounting and Management",
+          "address": "MRA Business Park - Deira - Office No - 06, Ground Floor - 15 65 St - Al Garhoud - Dubai",
+          "phone": "+971508677232",
+          "website": "https://profitrackaccounting.com/"
+        }
+      ]
+    },
+    "consulting": {
+      "totalFound": 6,
+      "topBusinesses": [
+        {
+          "name": "Start Any Business",
+          "address": "Fahidi Heights - Office Suite 1200 - Sharaf DG Metro Station - Bur Dubai - Dubai بر - Dubai",
+          "phone": "+971554334958",
+          "website": "https://www.startanybusiness.ae/"
+        },
+        {
+          "name": "FLYBIZ BUSINESS SETUP CONSULTANTS",
+          "address": "Level 10, Al Nouf - tower Office Number 1004 - next to Business village and Dubai Economy and Tourism - Port Saeed - Dubai",
+          "phone": "+971565346781",
+          "website": "https://flybiz.ae/"
+        },
+        {
+          "name": "Start Any Business",
+          "address": "Fahidi Heights - Office Suite 1200 - Sharaf DG Metro Station - Bur Dubai - Dubai بر - Dubai",
+          "phone": "+971554334958",
+          "website": "https://www.startanybusiness.ae/"
+        },
+        {
+          "name": "Commitbiz LLC - Business Setup in Dubai, UAE",
+          "address": "Level 10 Dubai World Trade Centre (Sheikh Rashid Tower - Sheikh Zayed Rd - Dubai",
+          "phone": null,
+          "website": "https://www.commitbiz.com/"
+        },
+        {
+          "name": "Prime Strategy Consultants",
+          "address": "Office 106, Green Land Co. LLC - Al Mozna Building - near Al Nahda Metro station - Al Qusais - Al Qusais 1 - Dubai",
+          "phone": null,
+          "website": "http://www.primestrategyhr.com/"
+        }
+      ]
+    },
+    "smallBusiness": {
+      "totalFound": 0,
+      "topBusinesses": []
+    },
+    "realEstate": {
+      "totalFound": 5,
+      "topBusinesses": [
+        {
+          "name": "Impressive Real Estate LLC",
+          "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai",
+          "phone": "+971568901234",
+          "website": "http://www.impressiverealestate.net/"
+        },
+        {
+          "name": "Abdul Noor Al Rais Group",
+          "address": "Abu Baker Al Siddique St - Al Khabaisi - Dubai",
+          "phone": "+971503001636",
+          "website": "http://www.anrg.ae/"
+        },
+        {
+          "name": "BSO - Real Estate Management, Dubai, UAE",
+          "address": "Office 903, A4 - Financial Street - Downtown Dubai - Dubai",
+          "phone": null,
+          "website": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal"
+        },
+        {
+          "name": "Smart Folks Real Estate Brokers",
+          "address": "16+ years real estate experience Victor Business centre Burjuman center - Bur Dubai - Dubai",
+          "phone": "+971552828039",
+          "website": null
+        },
+        {
+          "name": "Impressive Real Estate LLC",
+          "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai",
+          "phone": "+971568901234",
+          "website": "http://www.impressiverealestate.net/"
+        }
+      ]
+    }
+  },
+  "topProspects": [
+    {
+      "name": "Impressive Real Estate LLC",
+      "category": "realEstate",
+      "priority": "very-high",
+      "contact": {
+        "phone": "+971568901234",
+        "website": "http://www.impressiverealestate.net/",
+        "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai"
+      },
+      "digitalFocus": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "Abdul Noor Al Rais Group",
+      "category": "realEstate",
+      "priority": "very-high",
+      "contact": {
+        "phone": "+971503001636",
+        "website": "http://www.anrg.ae/",
+        "address": "Abu Baker Al Siddique St - Al Khabaisi - Dubai"
+      },
+      "digitalFocus": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "BSO - Real Estate Management, Dubai, UAE",
+      "category": "realEstate",
+      "priority": "very-high",
+      "contact": {
+        "phone": null,
+        "website": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal",
+        "address": "Office 903, A4 - Financial Street - Downtown Dubai - Dubai"
+      },
+      "digitalFocus": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "Smart Folks Real Estate Brokers",
+      "category": "realEstate",
+      "priority": "very-high",
+      "contact": {
+        "phone": "+971552828039",
+        "website": null,
+        "address": "16+ years real estate experience Victor Business centre Burjuman center - Bur Dubai - Dubai"
+      },
+      "digitalFocus": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "Impressive Real Estate LLC",
+      "category": "realEstate",
+      "priority": "very-high",
+      "contact": {
+        "phone": "+971568901234",
+        "website": "http://www.impressiverealestate.net/",
+        "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai"
+      },
+      "digitalFocus": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "ProfiTrack Accounting and Management",
+      "category": "accounting",
+      "priority": "high",
+      "contact": {
+        "phone": "+971508677232",
+        "website": "https://profitrackaccounting.com/",
+        "address": "MRA Business Park - Deira - Office No - 06, Ground Floor - 15 65 St - Al Garhoud - Dubai"
+      },
+      "digitalFocus": "cloud accounting, automated bookkeeping"
+    },
+    {
+      "name": "Alchemist Accounting | Accounting & Auditing Services in Dubai, UAE | Zoho Partner",
+      "category": "accounting",
+      "priority": "high",
+      "contact": {
+        "phone": "+971582660929",
+        "website": "https://www.alchemistme.com/",
+        "address": "Al Masood Tower - 301 Airport Rd - Port Saeed - Dubai"
+      },
+      "digitalFocus": "cloud accounting, automated bookkeeping"
+    },
+    {
+      "name": "The VAT Consultant",
+      "category": "accounting",
+      "priority": "high",
+      "contact": {
+        "phone": null,
+        "website": "https://thevatconsultant.com/",
+        "address": "Fourth Floor, Hamsah-A Building - Office No - 413 - 3A St - Al Karama - Dubai"
+      },
+      "digitalFocus": "cloud accounting, automated bookkeeping"
+    },
+    {
+      "name": "TGS Koya Chartered Accountants in Dubai, UAE",
+      "category": "accounting",
+      "priority": "high",
+      "contact": {
+        "phone": null,
+        "website": "https://www.tgskoya.com/",
+        "address": "B, Deira Clocktower - Office No.805 - Business Village - Dubai"
+      },
+      "digitalFocus": "cloud accounting, automated bookkeeping"
+    },
+    {
+      "name": "ProfiTrack Accounting and Management",
+      "category": "accounting",
+      "priority": "high",
+      "contact": {
+        "phone": "+971508677232",
+        "website": "https://profitrackaccounting.com/",
+        "address": "MRA Business Park - Deira - Office No - 06, Ground Floor - 15 65 St - Al Garhoud - Dubai"
+      },
+      "digitalFocus": "cloud accounting, automated bookkeeping"
+    },
+    {
+      "name": "KBA Accounting and Bookkeeping Services in Dubai UAE. Award Winner. VAT Consultants, FTA Certified Tax Agents, Internal Audit",
+      "category": "accounting",
+      "priority": "high",
+      "contact": {
+        "phone": null,
+        "website": "https://www.kbame.com/",
+        "address": "Dubai World Trade Centre - 1602 API World Tower - Sheikh Zayed Rd - Dubai"
+      },
+      "digitalFocus": "cloud accounting, automated bookkeeping"
+    },
+    {
+      "name": "Start Any Business",
+      "category": "consulting",
+      "priority": "high",
+      "contact": {
+        "phone": "+971554334958",
+        "website": "https://www.startanybusiness.ae/",
+        "address": "Fahidi Heights - Office Suite 1200 - Sharaf DG Metro Station - Bur Dubai - Dubai بر - Dubai"
+      },
+      "digitalFocus": "digital strategy, process automation"
+    },
+    {
+      "name": "FLYBIZ BUSINESS SETUP CONSULTANTS",
+      "category": "consulting",
+      "priority": "high",
+      "contact": {
+        "phone": "+971565346781",
+        "website": "https://flybiz.ae/",
+        "address": "Level 10, Al Nouf - tower Office Number 1004 - next to Business village and Dubai Economy and Tourism - Port Saeed - Dubai"
+      },
+      "digitalFocus": "digital strategy, process automation"
+    },
+    {
+      "name": "Start Any Business",
+      "category": "consulting",
+      "priority": "high",
+      "contact": {
+        "phone": "+971554334958",
+        "website": "https://www.startanybusiness.ae/",
+        "address": "Fahidi Heights - Office Suite 1200 - Sharaf DG Metro Station - Bur Dubai - Dubai بر - Dubai"
+      },
+      "digitalFocus": "digital strategy, process automation"
+    },
+    {
+      "name": "Commitbiz LLC - Business Setup in Dubai, UAE",
+      "category": "consulting",
+      "priority": "high",
+      "contact": {
+        "phone": null,
+        "website": "https://www.commitbiz.com/",
+        "address": "Level 10 Dubai World Trade Centre (Sheikh Rashid Tower - Sheikh Zayed Rd - Dubai"
+      },
+      "digitalFocus": "digital strategy, process automation"
+    },
+    {
+      "name": "Prime Strategy Consultants",
+      "category": "consulting",
+      "priority": "high",
+      "contact": {
+        "phone": null,
+        "website": "http://www.primestrategyhr.com/",
+        "address": "Office 106, Green Land Co. LLC - Al Mozna Building - near Al Nahda Metro station - Al Qusais - Al Qusais 1 - Dubai"
+      },
+      "digitalFocus": "digital strategy, process automation"
+    },
+    {
+      "name": "Elite Star Management Consultancies LLC",
+      "category": "consulting",
+      "priority": "high",
+      "contact": {
+        "phone": null,
+        "website": "https://esmcglobal.com/",
+        "address": "Office 306, Business Point Building - Port Saeed - Dubai"
+      },
+      "digitalFocus": "digital strategy, process automation"
+    }
+  ],
+  "realEstateSpecialty": [
+    {
+      "name": "Impressive Real Estate LLC",
+      "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai",
+      "phone": "+971568901234",
+      "website": "http://www.impressiverealestate.net/",
+      "digitalOpportunity": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "Abdul Noor Al Rais Group",
+      "address": "Abu Baker Al Siddique St - Al Khabaisi - Dubai",
+      "phone": "+971503001636",
+      "website": "http://www.anrg.ae/",
+      "digitalOpportunity": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "BSO - Real Estate Management, Dubai, UAE",
+      "address": "Office 903, A4 - Financial Street - Downtown Dubai - Dubai",
+      "phone": null,
+      "website": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal",
+      "digitalOpportunity": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "Smart Folks Real Estate Brokers",
+      "address": "16+ years real estate experience Victor Business centre Burjuman center - Bur Dubai - Dubai",
+      "phone": "+971552828039",
+      "website": null,
+      "digitalOpportunity": "property management systems, CRM, virtual tours"
+    },
+    {
+      "name": "Impressive Real Estate LLC",
+      "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai",
+      "phone": "+971568901234",
+      "website": "http://www.impressiverealestate.net/",
+      "digitalOpportunity": "property management systems, CRM, virtual tours"
+    }
+  ]
+}

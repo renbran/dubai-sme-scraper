@@ -355,6 +355,49 @@ function extractEmailsFromText(text) {
 }
 
 /**
+ * Extract social media links from page or text content
+ * @param {string} content - Text content or HTML to search for social media links
+ * @returns {Object} - Object containing social media platforms and their URLs
+ */
+function extractSocialMediaLinks(content) {
+    if (!content) return {};
+    
+    const socialMedia = {};
+    
+    // Social media patterns
+    const patterns = {
+        facebook: /(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.com)\/[a-zA-Z0-9._-]+/gi,
+        instagram: /(?:https?:\/\/)?(?:www\.)?instagram\.com\/[a-zA-Z0-9._-]+/gi,
+        twitter: /(?:https?:\/\/)?(?:www\.)?(?:twitter\.com|x\.com)\/[a-zA-Z0-9._-]+/gi,
+        linkedin: /(?:https?:\/\/)?(?:www\.)?linkedin\.com\/(?:in\/|company\/)[a-zA-Z0-9._-]+/gi,
+        youtube: /(?:https?:\/\/)?(?:www\.)?youtube\.com\/(?:channel\/|c\/|user\/)?[a-zA-Z0-9._-]+/gi,
+        tiktok: /(?:https?:\/\/)?(?:www\.)?tiktok\.com\/@[a-zA-Z0-9._-]+/gi,
+        snapchat: /(?:https?:\/\/)?(?:www\.)?snapchat\.com\/add\/[a-zA-Z0-9._-]+/gi,
+        whatsapp: /(?:https?:\/\/)?(?:wa\.me|whatsapp\.com)\/[0-9+]+/gi,
+        telegram: /(?:https?:\/\/)?(?:t\.me|telegram\.me)\/[a-zA-Z0-9._-]+/gi
+    };
+    
+    for (const [platform, regex] of Object.entries(patterns)) {
+        const matches = content.match(regex);
+        if (matches && matches.length > 0) {
+            // Clean and normalize URLs
+            const cleanUrls = matches.map(url => {
+                if (!url.startsWith('http')) {
+                    return `https://${url}`;
+                }
+                return url;
+            }).filter((url, index, arr) => arr.indexOf(url) === index); // Remove duplicates
+            
+            if (cleanUrls.length > 0) {
+                socialMedia[platform] = cleanUrls.length === 1 ? cleanUrls[0] : cleanUrls;
+            }
+        }
+    }
+    
+    return socialMedia;
+}
+
+/**
  * Extract contact person information from text
  * @param {string} text - Text content to search for contact names
  * @returns {Array} - Array of potential contact person names
@@ -463,6 +506,7 @@ module.exports = {
     getMemoryUsage,
     validateInput,
     extractEmailsFromText,
+    extractSocialMediaLinks,
     extractContactPersons,
     parseLocationDetails
 };

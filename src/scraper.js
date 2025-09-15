@@ -15,6 +15,7 @@ const {
     retryWithBackoff,
     getTimestamp,
     extractEmailsFromText,
+    extractSocialMediaLinks,
     extractContactPersons,
     parseLocationDetails
 } = require('./utils');
@@ -397,7 +398,7 @@ class GoogleMapsScraper {
             }
 
             // Extract additional contact information and emails from all text content
-            const allTextContent = await page.$$eval(GOOGLE_MAPS.SELECTORS.ALL_TEXT_CONTENT, 
+            const allTextContent = await page.$$eval(GOOGLE_MAPS.SELECTORS.ALL_TEXT_CONTENT,
                 (elements) => elements.map((el) => el.textContent).join(' ')
             ).catch(() => '');
 
@@ -407,6 +408,11 @@ class GoogleMapsScraper {
                 businessData.email = extractedEmails[0]; // Use first found email
             }
             businessData.additionalEmails = extractedEmails.slice(1); // Store additional emails
+
+            // Extract social media links from page content
+            const pageContent = await page.content().catch(() => '');
+            const socialMediaLinks = extractSocialMediaLinks(pageContent + ' ' + allTextContent);
+            businessData.socialMedia = socialMediaLinks;
 
             // Extract contact persons
             businessData.contactPersons = extractContactPersons(allTextContent);

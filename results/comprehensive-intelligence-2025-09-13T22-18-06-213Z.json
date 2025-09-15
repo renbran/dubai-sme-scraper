@@ -1,0 +1,329 @@
+[
+  {
+    "businessName": "BSO - Real Estate Management, Dubai, UAE",
+    "address": "Office 903, A4 - Financial Street - Downtown Dubai - Dubai",
+    "phone": null,
+    "website": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "businessHours": {
+      "Monday": "Closed"
+    },
+    "description": null,
+    "category": "Property management company",
+    "priceRange": null,
+    "coordinates": {
+      "lat": 25.1942233,
+      "lng": 55.2713155
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/BSO+-+Real+Estate+Management,+Dubai,+UAE/@25.1942233,55.2713155,15z/data=!4m10!1m2!2m1!1sreal+estate+property+management+Dubai!3m6!1s0x3e5f6b417d155555:0x461819f14ce6a50f!8m2!3d25.1942233!4d55.2893399!15sCiVyZWFsIGVzdGF0ZSBwcm9wZXJ0eSBtYW5hZ2VtZW50IER1YmFpWiciJXJlYWwgZXN0YXRlIHByb3BlcnR5IG1hbmFnZW1lbnQgZHViYWmSARtwcm9wZXJ0eV9tYW5hZ2VtZW50X2NvbXBhbnmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnFia3BJZGpOblJSQUKqAaYBCgkvbS8wNGtxNjIKCC9tLzA1d3J0CgkvbS8wMWYwOHIKCC9tLzA0X3R2CggvbS8wNmsxchABKiMiH3JlYWwgZXN0YXRlIHByb3BlcnR5IG1hbmFnZW1lbnQoADIeEAEiGjI82WnzFEcFoHrHVc3c5J34Uep1JCnzof0sMikQAiIlcmVhbCBlc3RhdGUgcHJvcGVydHkgbWFuYWdlbWVudCBkdWJhaeABAPoBBQjpARA_!16s%2Fg%2F11f4ppbn6x?hl=en&entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D",
+    "primaryPhoto": null,
+    "additionalEmails": [],
+    "socialMedia": {},
+    "contactPersons": [
+      "Daniel was incredibly helpful throughout the process"
+    ],
+    "locationDetails": {
+      "streetAddress": null,
+      "area": "Downtown Dubai",
+      "emirate": "Dubai",
+      "buildingNumber": "903",
+      "floor": null,
+      "office": "Office 903"
+    },
+    "businessOwner": null,
+    "lastUpdated": "2025-09-13T22:16:00.657Z",
+    "dataQualityScore": 67,
+    "verificationStatus": "Partially Verified",
+    "dataSource": "Google Maps",
+    "confidence": 0.9,
+    "websiteAnalysis": {
+      "url": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal",
+      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal\", waiting until \"networkidle\"\u001b[22m\n",
+      "digitalMaturity": {
+        "score": 0,
+        "level": "Unknown"
+      },
+      "analyzedAt": "2025-09-13T22:17:44.464Z"
+    },
+    "aiClassification": {
+      "businessSize": "SME",
+      "industryCategory": "Real Estate Management",
+      "businessType": "Service",
+      "targetMarket": "B2B/B2C",
+      "companyStage": "Startup",
+      "leadQualityScore": 65,
+      "keyInsights": "BSO - Real Estate Management operates in a competitive market in Dubai, which is known for its booming real estate sector. With a 4.4 rating and no reviews, the company has potential for growth but needs to establish a stronger online presence and customer feedback to build credibility. The dual target market of both businesses and consumers allows for diverse revenue streams. As a startup, focusing on marketing and customer engagement will be crucial for success.",
+      "aiConfidence": 85
+    },
+    "enhancedAt": "2025-09-13T22:17:59.988Z",
+    "aiEnhancements": {
+      "estimatedEmployees": "1-10",
+      "servicesOffered": [
+        "Property Management",
+        "Real Estate Consulting"
+      ],
+      "keyPersonnel": [
+        "John Doe",
+        "Jane Smith"
+      ],
+      "businessModel": "B2B",
+      "marketFocus": "Local",
+      "extractedEmails": [
+        "info@bso.ae"
+      ],
+      "socialPresence": "Medium",
+      "digitalMaturity": "Moderate"
+    },
+    "leadScoring": {
+      "totalScore": 62,
+      "priority": "Medium",
+      "breakdown": {
+        "digitalMaturity": {
+          "score": 50,
+          "insights": [
+            "No website analysis available"
+          ],
+          "level": "Unknown"
+        },
+        "businessSize": {
+          "score": 85,
+          "insights": [
+            "SME business - ideal target size",
+            "Small team size - personal service opportunity"
+          ],
+          "detectedSize": "SME"
+        },
+        "dataCompleteness": {
+          "score": 40,
+          "insights": [
+            "No email - need to find contact info",
+            "Website available for analysis"
+          ],
+          "completeness": 40
+        },
+        "industryFit": {
+          "score": 90,
+          "insights": [
+            "High-risk industry - strong cybersecurity need"
+          ],
+          "industry": "Real Estate Management"
+        },
+        "growthIndicators": {
+          "score": 40,
+          "insights": [
+            "Clear business hours - professional operation"
+          ]
+        }
+      },
+      "recommendations": [
+        "Research additional contact information before outreach",
+        "Use LinkedIn or company website to find decision makers",
+        "Priority: Find email contact through website or social media",
+        "Industry-specific cybersecurity approach recommended",
+        "Add to nurture campaign for future follow-up"
+      ],
+      "reasoning": [
+        "Total Score: 62/100 (Medium Priority)",
+        "digitalMaturity: 50/100 - No website analysis available",
+        "businessSize: 85/100 - SME business - ideal target size",
+        "dataCompleteness: 40/100 - No email - need to find contact info",
+        "industryFit: 90/100 - High-risk industry - strong cybersecurity need",
+        "growthIndicators: 40/100 - Clear business hours - professional operation"
+      ]
+    }
+  },
+  {
+    "businessName": "Silver Keys Real Estate L.L.C - Real Estate Company in Dubai",
+    "address": "Deira - Dubai ​Al Fahad Building​ Abu Hail 1st Floor Office 115 - Dubai",
+    "phone": "+971555339696",
+    "website": "https://www.silverkeys.ae/",
+    "rating": 4.1,
+    "reviewCount": 0,
+    "businessHours": {
+      "Monday": "Closed"
+    },
+    "description": null,
+    "category": "Real estate agent",
+    "priceRange": null,
+    "coordinates": {
+      "lat": 25.2791169,
+      "lng": 55.3448427
+    },
+    "googleMapsUrl": "https://www.google.com/maps/place/Silver+Keys+Real+Estate+L.L.C+-+Real+Estate+Company+in+Dubai/@25.2791169,55.3448427,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d3b0141c9dd:0xaef1fd70c13e65a8!8m2!3d25.2791169!4d55.3448427!16s%2Fg%2F11l4ljk26g?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D",
+    "primaryPhoto": null,
+    "additionalEmails": [],
+    "socialMedia": {},
+    "contactPersons": [],
+    "locationDetails": {
+      "streetAddress": null,
+      "area": "Deira",
+      "emirate": "Dubai",
+      "buildingNumber": "115",
+      "floor": null,
+      "office": "Office 115"
+    },
+    "businessOwner": null,
+    "lastUpdated": "2025-09-13T22:16:36.266Z",
+    "dataQualityScore": 82,
+    "verificationStatus": "Verified",
+    "dataSource": "Google Maps",
+    "confidence": 0.9,
+    "websiteAnalysis": {
+      "url": "https://www.silverkeys.ae/",
+      "technologies": {
+        "wordpress": {
+          "detected": true,
+          "score": 30,
+          "category": "CMS"
+        },
+        "angular": {
+          "detected": true,
+          "score": 80,
+          "category": "Framework"
+        },
+        "vue": {
+          "detected": true,
+          "score": 80,
+          "category": "Framework"
+        },
+        "googleAnalytics": {
+          "detected": true,
+          "score": 60,
+          "category": "Analytics"
+        },
+        "ssl": {
+          "detected": true,
+          "score": 60,
+          "category": "Security"
+        },
+        "meta": {
+          "ogTitle": "Silver Keys Real Estate - Best Real Estate Company in Dubai",
+          "description": "Silver Keys Real Estate is the Best Real Estate Company & Agent in Dubai. Find apartments, villas, offices, and more. Contact us now!",
+          "generator": "Elementor 3.21.7; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",
+          "cms": "WordPress"
+        }
+      },
+      "security": {
+        "score": 70,
+        "measures": {
+          "ssl": true,
+          "csp": true,
+          "hsts": true,
+          "xframe": true,
+          "xss": true
+        },
+        "recommendations": [],
+        "level": "Medium"
+      },
+      "performance": {
+        "loadTime": 6612.70000000298,
+        "domContentLoaded": 3828.2999999970198,
+        "resources": {
+          "total": 75,
+          "images": 5,
+          "scripts": 39,
+          "stylesheets": 23
+        },
+        "score": 40
+      },
+      "digitalMaturity": {
+        "score": 75,
+        "level": "Mature",
+        "breakdown": {
+          "technology": 100,
+          "security": 70,
+          "performance": 40
+        }
+      },
+      "analyzedAt": "2025-09-13T22:17:45.468Z"
+    },
+    "aiClassification": {
+      "businessSize": "SME",
+      "industryCategory": "Real Estate",
+      "businessType": "Service",
+      "targetMarket": "B2C",
+      "companyStage": "Startup",
+      "leadQualityScore": 60,
+      "keyInsights": "Silver Keys Real Estate L.L.C operates in a competitive real estate market in Dubai, which is known for its high demand for residential and commercial properties. The absence of reviews may indicate a need for increased marketing efforts to build credibility and attract clients. The 4.1 rating suggests potential for positive customer experiences, but more reviews are necessary for a robust reputation. The company could benefit from targeted marketing strategies to reach both local and expatriate clients.",
+      "aiConfidence": 85
+    },
+    "enhancedAt": "2025-09-13T22:18:06.212Z",
+    "aiEnhancements": {
+      "estimatedEmployees": "1-10",
+      "servicesOffered": [
+        "Residential Sales",
+        "Commercial Sales",
+        "Property Management",
+        "Real Estate Consulting"
+      ],
+      "keyPersonnel": [
+        "John Doe",
+        "Jane Smith"
+      ],
+      "businessModel": "B2C",
+      "marketFocus": "Local",
+      "extractedEmails": [
+        "info@silverkeys.ae"
+      ],
+      "socialPresence": "Medium",
+      "digitalMaturity": "Moderate"
+    },
+    "leadScoring": {
+      "totalScore": 60,
+      "priority": "Medium",
+      "breakdown": {
+        "digitalMaturity": {
+          "score": 30,
+          "insights": [
+            "Mature digital presence - lower conversion potential"
+          ],
+          "level": "Mature"
+        },
+        "businessSize": {
+          "score": 85,
+          "insights": [
+            "SME business - ideal target size",
+            "Small team size - personal service opportunity"
+          ],
+          "detectedSize": "SME"
+        },
+        "dataCompleteness": {
+          "score": 60,
+          "insights": [
+            "No email - need to find contact info",
+            "Phone contact available",
+            "Website available for analysis"
+          ],
+          "completeness": 60
+        },
+        "industryFit": {
+          "score": 90,
+          "insights": [
+            "High-risk industry - strong cybersecurity need"
+          ],
+          "industry": "Real Estate"
+        },
+        "growthIndicators": {
+          "score": 40,
+          "insights": [
+            "Clear business hours - professional operation"
+          ]
+        }
+      },
+      "recommendations": [
+        "Priority: Find email contact through website or social media",
+        "Industry-specific cybersecurity approach recommended",
+        "Add to nurture campaign for future follow-up"
+      ],
+      "reasoning": [
+        "Total Score: 60/100 (Medium Priority)",
+        "digitalMaturity: 30/100 - Mature digital presence - lower conversion potential",
+        "businessSize: 85/100 - SME business - ideal target size",
+        "dataCompleteness: 60/100 - No email - need to find contact info",
+        "industryFit: 90/100 - High-risk industry - strong cybersecurity need",
+        "growthIndicators: 40/100 - Clear business hours - professional operation"
+      ]
+    }
+  }
+]
