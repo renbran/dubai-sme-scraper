@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "searchTerms": [
+      "businesses Deira Dubai",
+      "shops Deira Dubai",
+      "trading companies Deira"
+    ],
+    "totalFound": 6,
+    "uniqueBusinesses": 6,
+    "duplicatesRemoved": 0,
+    "targetArea": "Deira, Dubai",
+    "businessType": "Small to Medium Enterprises (SME)",
+    "scrapedAt": "2025-09-30T21:00:57.042Z",
+    "note": "This scraping focused on SME businesses in the Deira area of Dubai"
+  },
+  "businesses": [
+    {
+      "businessName": "Pioneer business services - Deira branch",
+      "address": "Dubai Economy building, Deira Clocktower - Room no ; 534-536, 5th floor - Deira - Dubai",
+      "phone": "+971553014376",
+      "website": "http://www.pioneerbs.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Business development service",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2569019,
+        "lng": 55.3085167
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Pioneer+business+services+-+Deira+branch/@25.2569019,55.3085167,15z/data=!4m10!1m2!2m1!1sbusinesses+Deira+Dubai!3m6!1s0x3e5f5dfd3436ae9d:0x18b02cc985a7a9d4!8m2!3d25.2569019!4d55.3265411!15sChZidXNpbmVzc2VzIERlaXJhIER1YmFpWhgiFmJ1c2luZXNzZXMgZGVpcmEgZHViYWmSARxidXNpbmVzc19kZXZlbG9wbWVudF9zZXJ2aWNlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5pTFhFM2EzbDNSUkFCqgFzCgsvZy8xMjFqbnExbQoJL20vMDFmMDhyCgovbS8wMnc5ZmhsEAEqDiIKYnVzaW5lc3NlcygAMh8QASIbwB3Z0OjPlrhvm7FaC6ZSsi-BYYBQw118SI35MhoQAiIWYnVzaW5lc3NlcyBkZWlyYSBkdWJhaeABAPoBBAhIEEE!16s%2Fg%2F11fnv_60rd?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "536",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T20:56:18.913Z",
+      "dataQualityScore": 82,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Elegant Services",
+      "address": "Office 201, Al Qaizi Building, Near, Deira - Fish Roundabout - Dubai",
+      "phone": null,
+      "website": "https://elegantservices.ae/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Management Consultant",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2704539,
+        "lng": 55.3173766
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Elegant+Services/@25.2704539,55.3173766,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cb58210fa8b:0x7f5f1ab39a466c3c!8m2!3d25.2704539!4d55.3173766!16s%2Fg%2F11byn1klnp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Farhin provided you with"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "201",
+        "floor": null,
+        "office": "Office 201"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T20:56:54.995Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "City Centre Deira",
+      "address": "8th St - Port Saeed - Dubai",
+      "phone": null,
+      "website": "https://www.citycentredeira.com/?utm_source=google&utm_medium=organic&utm_campaign=Google_My_Business",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": "Huge shopping centre with fashion, electronics and department stores, plus a multiscreen cinema.",
+      "category": "Shopping Mall",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2522653,
+        "lng": 55.3139852
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/City+Centre+Deira/@25.2522653,55.3139852,15z/data=!3m1!5s0x3e5f672d68f1d1a7:0xa31f92f2773e62f!4m10!1m2!2m1!1sshops+Deira+Dubai!3m6!1s0x3e5f5cdf62ec2201:0x5a603bb4d5e3231e!8m2!3d25.2522653!4d55.3320096!15sChFzaG9wcyBEZWlyYSBEdWJhaVoTIhFzaG9wcyBkZWlyYSBkdWJhaZIBD3Nob3BwaW5nX2NlbnRlcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSMWRUbHlTRk5uRUFFqgFFEAEqCSIFc2hvcHMoADIfEAEiG7cu5O61KccJusA41u0Z_so8O-ii8SySAbjfgTIVEAIiEXNob3BzIGRlaXJhIGR1YmFp4AEA-gEECAAQPw!16s%2Fm%2F03qhqnm?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "of  stores"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T20:58:05.764Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Gift Gallery Centre",
+      "address": "Al Rigga Rd - Deira - Dubai",
+      "phone": null,
+      "website": null,
+      "rating": 3.9,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Gift shop",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2626668,
+        "lng": 55.3246675
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Gift+Gallery+Centre/@25.2626668,55.3246675,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5ccfeb5c941b:0x20570a8f28ceda22!8m2!3d25.2626668!4d55.3246675!16s%2Fg%2F11bbwpmd60?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T20:58:41.645Z",
+      "dataQualityScore": 32,
+      "verificationStatus": "Unverified"
+    },
+    {
+      "businessName": "United Trading Company LLC ( MASTER TOOLS )",
+      "address": "Baniyas Rd - Al Rigga - Dubai",
+      "phone": null,
+      "website": "http://www.unitedtradingcompany.com/",
+      "rating": 4,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Trading Company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2685882,
+        "lng": 55.2867326
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/United+Trading+Company+LLC+(+MASTER+TOOLS+)/@25.2685882,55.2867326,15z/data=!4m10!1m2!2m1!1strading+companies+Deira!3m6!1s0x3e5f434843a81371:0xdbff8a372ed3a8c4!8m2!3d25.2685882!4d55.304757!15sChd0cmFkaW5nIGNvbXBhbmllcyBEZWlyYVoZIhd0cmFkaW5nIGNvbXBhbmllcyBkZWlyYZIBD3Rvb2xfd2hvbGVzYWxlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNdE5XWlBWRzkzUlJBQqoBVxABKhUiEXRyYWRpbmcgY29tcGFuaWVzKAAyHxABIhuQjqBfD4QA7pw-f9ridi0817pQvDHb3luUft0yGxACIhd0cmFkaW5nIGNvbXBhbmllcyBkZWlyYeABAPoBBAgAEBI!16s%2Fg%2F11cn3pj65r?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T20:59:41.513Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "AJ Trading",
+      "address": "17b street - Al Rigga Rd - Dubai",
+      "phone": "+971562486872",
+      "website": null,
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Wholesale",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2658567,
+        "lng": 55.3211899
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/AJ+Trading/@25.2658567,55.3211899,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d2803ab1d87:0xaddb916d24a07fca!8m2!3d25.2658567!4d55.3211899!16s%2Fg%2F11y66jgd4w?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:00:17.989Z",
+      "dataQualityScore": 50,
+      "verificationStatus": "Partially Verified"
+    }
+  ]
+}

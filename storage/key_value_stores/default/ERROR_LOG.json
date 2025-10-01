@@ -1,0 +1,5 @@
+{
+  "error": "Cannot read properties of null (reading 'categories')",
+  "stack": "TypeError: Cannot read properties of null (reading 'categories')\n    at validateInput (D:\\apify\\apify_actor\\src\\utils.js:316:16)\n    at DubaiSMEActor.initialize (D:\\apify\\apify_actor\\src\\main.js:36:28)\n    at async DubaiSMEActor.run (D:\\apify\\apify_actor\\src\\main.js:80:13)\n    at async main (D:\\apify\\apify_actor\\src\\main.js:335:9)",
+  "timestamp": "2025-09-30T20:39:00.646Z"
+}

@@ -7,19 +7,39 @@
 
 const DubaiSMEActor = require('./src/main');
 
-// Mock Apify environment for local execution
+// Mock Apify environment for local execution - Deira SME focused
 const localInput = {
     categories: [
-        'restaurants in Dubai Marina',
-        'hotels in Downtown Dubai'
+        "small businesses Deira Dubai",
+        "trading companies Deira Dubai",
+        "retail shops Deira Dubai",
+        "restaurants Deira Dubai",
+        "textiles trading Deira Dubai",
+        "electronics shops Deira Dubai",
+        "gold shops Deira Dubai",
+        "perfume shops Deira Dubai",
+        "wholesale trading Deira Dubai",
+        "import export companies Deira Dubai",
+        "SME businesses Deira Dubai",
+        "medium enterprises Deira Dubai",
+        "family businesses Deira Dubai",
+        "local businesses Deira Dubai",
+        "commercial establishments Deira Dubai"
     ],
-    maxResultsPerCategory: 5, // Small test
-    dataQualityLevel: 'basic',
+    maxResultsPerCategory: 50,
+    dataQualityLevel: 'standard',
+    searchRadius: 'Deira',
     concurrency: {
-        maxConcurrency: 1,
-        requestDelay: 2000
+        maxConcurrency: 2,
+        requestDelay: 3000,
+        retryAttempts: 3
     },
-    outputFormat: 'json',
+    outputFormat: {
+        includePhotos: true,
+        includeReviews: true,
+        includeCoordinates: true,
+        includeSocialMedia: true
+    },
     proxyConfiguration: {
         useApifyProxy: false
     }

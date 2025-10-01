@@ -1,0 +1,2967 @@
+{
+  "campaign": {
+    "name": "Comprehensive Dubai SME Lead Generation",
+    "executedAt": "2025-09-30T22:08:21.559Z",
+    "targetCategories": 22,
+    "searchQueries": [
+      "accounting firms Dubai",
+      "business consultants Dubai",
+      "marketing agencies Dubai",
+      "legal services Dubai",
+      "business setup Dubai",
+      "trading companies Dubai",
+      "import export Dubai",
+      "wholesale trading Dubai",
+      "distribution companies Dubai",
+      "general trading Dubai",
+      "IT companies Dubai",
+      "software companies Dubai",
+      "web development Dubai",
+      "medical centers Dubai",
+      "dental clinics Dubai",
+      "physiotherapy Dubai",
+      "construction companies Dubai",
+      "contracting Dubai",
+      "interior design Dubai",
+      "retail stores Dubai",
+      "fashion boutiques Dubai",
+      "electronics stores Dubai"
+    ],
+    "maxResultsPerCategory": 30
+  },
+  "summary": {
+    "totalBusinessesFound": 75,
+    "uniqueBusinesses": 41,
+    "qualityLeads": 40,
+    "duplicatesRemoved": 34,
+    "averageQualityScore": 68,
+    "contactableLeads": 21,
+    "websiteLeads": 37,
+    "premiumLeads": 16
+  },
+  "leadCategories": {
+    "businessServices": {
+      "count": 5,
+      "businesses": [
+        {
+          "businessName": "The VAT Consultant",
+          "address": "Fourth Floor, Hamsah-A Building - Office No - 413 - 3A St - Al Karama - Dubai",
+          "phone": null,
+          "website": "https://thevatconsultant.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Tax Consultant",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.251396,
+            "lng": 55.2911396
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/The+VAT+Consultant/@25.251396,55.2911396,15z/data=!3m1!5s0x3e5f432956134b51:0x750f23b7cfeebd07!4m9!1m2!2m1!1saccounting+firms+Dubai!3m5!1s0x3e5f43aaf2d00a95:0x9ae47df1a2ca8931!8m2!3d25.2513963!4d55.3091645!16s%2Fg%2F11nl6l3rwk?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "in Dubai"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "413",
+            "floor": null,
+            "office": "Office No"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:25:54.845Z",
+          "dataQualityScore": 65,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Farahat & Co. - Auditing Firm and TAX Consultants",
+          "address": "IBIS Hotel Building - Office Entrance 5th Floor - Office No.5001 - Al Rigga Rd - Dubai",
+          "phone": null,
+          "website": "https://farahatco.com/?utm_source=google&utm_medium=GMB&utm_campaign=Dubai",
+          "rating": 4.6,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Tax Consultant",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2652046,
+            "lng": 55.3210629
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Farahat+%26+Co.+-+Auditing+Firm+and+TAX+Consultants/@25.2652046,55.3210629,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5ccebf52f08f:0x9abd5d8d2b10a61!8m2!3d25.2652046!4d55.3210629!16s%2Fg%2F1tsr1n_8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "in Dubai"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "5001",
+            "floor": null,
+            "office": "Office Entrance"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:26:30.458Z",
+          "dataQualityScore": 65,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Start Any Business",
+          "address": "Fahidi Heights - Office Suite 1200 - Sharaf DG Metro Station - Bur Dubai - Dubai بر - Dubai",
+          "phone": "+971554334958",
+          "website": "https://www.startanybusiness.ae/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Management Consultant",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.258238,
+            "lng": 55.2795286
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Start+Any+Business/@25.258238,55.2795286,15z/data=!4m9!1m2!2m1!1sbusiness+consultants+Dubai!3m5!1s0x3e5f432f36c7277d:0x5d6208e63bbde967!8m2!3d25.2582383!4d55.2975534!16s%2Fg%2F11l2cwjldh?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Syam and Ms",
+            "Isha Bala and Mr"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Bur Dubai",
+            "emirate": "Dubai",
+            "buildingNumber": "1200",
+            "floor": null,
+            "office": "Office Suite"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:27:25.204Z",
+          "dataQualityScore": 87,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "FLYBIZ BUSINESS SETUP CONSULTANTS",
+          "address": "Level 10, Al Nouf - tower Office Number 1004 - next to Business village and Dubai Economy and Tourism - Port Saeed - Dubai",
+          "phone": "+971565346781",
+          "website": "https://flybiz.ae/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "8:30 AM–5:30 PM"
+          },
+          "description": null,
+          "category": "Management Consultant",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2564843,
+            "lng": 55.3254522
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/FLYBIZ+BUSINESS+SETUP+CONSULTANTS/@25.2564843,55.3254522,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4316e1d84067:0xa621f1d308f16f84!8m2!3d25.2564843!4d55.3254522!16s%2Fg%2F11s2nr6c86?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Ajas and Mr"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "10",
+            "floor": "Level 10",
+            "office": "Office Number"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:28:01.755Z",
+          "dataQualityScore": 85,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Black Swan Business Setup Services LLC",
+          "address": "The Citadel - Tower Office No: 3701 and 3702 - Business Bay - Dubai",
+          "phone": null,
+          "website": "https://blackswanbss.com/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Management Consultant",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.184033,
+            "lng": 55.1166994
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Black+Swan+Business+Setup+Services+LLC/@25.184033,55.1166994,12z/data=!4m9!1m2!2m1!1sbusiness+setup+Dubai!3m5!1s0x3e5f69d048a3a307:0xf174e33f96c7a245!8m2!3d25.1840327!4d55.2608951!16s%2Fg%2F11hcjzq18b?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Anand Vats was exceptionally knowledgeable and responsive throughout the process",
+            "Rupa Agarwal"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Business Bay",
+            "emirate": "Dubai",
+            "buildingNumber": "3701",
+            "floor": null,
+            "office": "Office No"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:32:29.787Z",
+          "dataQualityScore": 67,
+          "verificationStatus": "Partially Verified"
+        }
+      ]
+    },
+    "technology": {
+      "count": 3,
+      "businesses": [
+        {
+          "businessName": "Peniel Technology LLC",
+          "address": "Office 205, NBQ Bank Building - 16th St - Khalid Bin Al Waleed Rd - Bur Dubai - Dubai",
+          "phone": "+971509617708",
+          "website": "https://www.penieltech.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Software company",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2565087,
+            "lng": 55.2836389
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Peniel+Technology+LLC/@25.2565087,55.2836389,15z/data=!4m10!1m2!2m1!1sIT+companies+Dubai!3m6!1s0x3e5f434bc5378621:0xf122ee3366790238!8m2!3d25.2565087!4d55.3016633!15sChJJVCBjb21wYW5pZXMgRHViYWlaFCISaXQgY29tcGFuaWVzIGR1YmFpkgEQc29mdHdhcmVfY29tcGFueZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRMWRUbHlTemgzUlJBQqoBZQoNL2cvMTFoMmJiYzI0cAoIL20vMDN5dGMQASoQIgxpdCBjb21wYW5pZXMoADIeEAEiGg-dvmj4cCsSHPQJ9IguG3VR2FL11FbvIdDSMhYQAiISaXQgY29tcGFuaWVzIGR1YmFp4AEA-gEECEQQSw!16s%2Fg%2F1wnd_jwg?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "are running smoothly"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Bur Dubai",
+            "emirate": "Dubai",
+            "buildingNumber": "205",
+            "floor": null,
+            "office": "Office 205"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:48:53.245Z",
+          "dataQualityScore": 87,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "ToXSL Technologies",
+          "address": "BUR DUBAI - R308 Building - near Burjuman Mall - Al Mankhool - Dubai",
+          "phone": "+971542007788",
+          "website": "https://toxsl.ae/",
+          "rating": 4.7,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Software company",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2550691,
+            "lng": 55.2843658
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/ToXSL+Technologies/@25.2550691,55.2843658,15z/data=!4m10!1m2!2m1!1ssoftware+companies+Dubai!3m6!1s0x3e5f656cb983ee57:0xde57360ed678865f!8m2!3d25.2550691!4d55.3023902!15sChhzb2Z0d2FyZSBjb21wYW5pZXMgRHViYWlaGiIYc29mdHdhcmUgY29tcGFuaWVzIGR1YmFpkgEQc29mdHdhcmVfY29tcGFueZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VScUxUVjFRV0ZuRUFFqgFjCggvbS8wMW1mMBABKhYiEnNvZnR3YXJlIGNvbXBhbmllcygAMh8QASIbhg6t25e9q2vu1mz4kDDspo6xFcTN1UOzVlfHMhwQAiIYc29mdHdhcmUgY29tcGFuaWVzIGR1YmFp4AEA-gEECHgQPg!16s%2Fg%2F11t6pm2brs?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Bur Dubai",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:50:36.112Z",
+          "dataQualityScore": 67,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Tomsher Technologies LLC | Web Design Company Dubai | Digital Marketing",
+          "address": "13 26th St, Wafi Residence, opposite Dubai Healthcare City Metro Station, Oud Metha Road, - Dubai",
+          "phone": "+971555600966",
+          "website": "https://www.tomsher.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Digital Marketing",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2305101,
+            "lng": 55.3210733
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Tomsher+Technologies+LLC+%7C+Web+Design+Company+Dubai+%7C+Digital+Marketing/@25.2305101,55.3210733,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d3616f6e899:0xf2df842cf46f09c7!8m2!3d25.2305101!4d55.3210733!16s%2Fg%2F11fz9wt6jk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {
+            "whatsapp": "https://wa.me/+971555600966"
+          },
+          "contactPersons": [
+            "without wasting time or resources"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "13",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:52:45.191Z",
+          "dataQualityScore": 85,
+          "verificationStatus": "Verified"
+        }
+      ]
+    },
+    "trading": {
+      "count": 6,
+      "businesses": [
+        {
+          "businessName": "Central Trading Company LLC",
+          "address": "Al Ittehad Street - Dubai",
+          "phone": null,
+          "website": "https://www.ctc.ae/?utm_source=Google%20Maps&utm_medium=Organic&utm_campaign=Traffic",
+          "rating": 4.4,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "1:30–5:30 PM"
+          },
+          "description": null,
+          "category": "Trading Company",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2599783,
+            "lng": 55.3329793
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Central+Trading+Company+LLC/@25.2599783,55.3329793,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cdd571f16b1:0x347c733f67142efe!8m2!3d25.2599783!4d55.3329793!16s%2Fg%2F11bbwmljxf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "corrupt peoples and company",
+            "Rijju"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:34:46.884Z",
+          "dataQualityScore": 65,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Sindhiya Organics LLC - GEORGIA",
+          "address": "Office: M-82, Plot # 71 (312-895) IT Center, Beside Al Raffa Police Station Near Algubaiba Metro/Bus Station, Alraffa - Street - Bur Dubai - Al Souq Al Kabeer - Dubai",
+          "phone": null,
+          "website": "https://sindharoma.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "2:30–8:30 PM"
+          },
+          "description": null,
+          "category": "Import export company",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2619105,
+            "lng": 55.2902862
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Sindhiya+Organics+LLC+-+GEORGIA/@25.2619105,55.2902862,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4344ce00ffbb:0x46239c5999e45ca1!8m2!3d25.2619105!4d55.2902862!16s%2Fg%2F11t3f13xlg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "for your kind words"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Bur Dubai",
+            "emirate": "Dubai",
+            "buildingNumber": "82",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:36:18.461Z",
+          "dataQualityScore": 67,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "DANDAR General Trading LLC - Wholesale Market Dubai",
+          "address": "Back of Riviera Hotel, Building - : 4 18th St - Deira - Al Rigga - Dubai",
+          "phone": "+971544733937",
+          "website": "https://www.dandar.ae/",
+          "rating": 5,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Wholesale",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2675411,
+            "lng": 55.2347167
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/DANDAR+General+Trading+LLC+-+Wholesale+Market+Dubai/@25.2675411,55.2347167,13z/data=!4m10!1m2!2m1!1swholesale+trading+Dubai!3m6!1s0x3e5f43bb73b4190f:0xbff701d194cec70e!8m2!3d25.2675411!4d55.3068145!15sChd3aG9sZXNhbGUgdHJhZGluZyBEdWJhaVoZIhd3aG9sZXNhbGUgdHJhZGluZyBkdWJhaZIBEHdob2xlc2FsZV9tYXJrZXSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjB4VFZremNIWldSa3BoVGtWU1RGWlZXbXhWU0VabVQwZG9NbVJHUlJBQqoBVxABKhUiEXdob2xlc2FsZSB0cmFkaW5nKAAyHxABIhuz5vWnR94lDsXyD3nbRbqD1Bkn6HzfeGEHowoyGxACIhd3aG9sZXNhbGUgdHJhZGluZyBkdWJhaeABAPoBBAgAEDs!16s%2Fg%2F11q4j44m1n?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "4",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:37:24.152Z",
+          "dataQualityScore": 67,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Fakhruddin General Trading LLC",
+          "address": "66 Al Sabkha St - Deira - Al Sabkha - Dubai",
+          "phone": "+971556001672",
+          "website": "http://fakhruddintrading.com/",
+          "rating": 4.7,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Wholesale",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2688183,
+            "lng": 55.3018817
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Fakhruddin+General+Trading+LLC/@25.2688183,55.3018817,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4347d9b3d227:0xd5756d2434593ff8!8m2!3d25.2688183!4d55.3018817!16s%2Fg%2F11cm03f_v5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Murtaza in this company",
+            "that",
+            "Fadi"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "66",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:37:59.898Z",
+          "dataQualityScore": 87,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "NOWA GENERAL TRADING LLC",
+          "address": "Deira - Al Sabkha - Dubai",
+          "phone": null,
+          "website": "http://www.nowa.ae/",
+          "rating": 4.3,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Wholesale",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2710434,
+            "lng": 55.2988032
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/NOWA+GENERAL+TRADING+LLC/@25.2710434,55.2988032,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f431ec82a35f3:0xf1e2d12434fbb4da!8m2!3d25.2710434!4d55.2988032!16s%2Fg%2F11j3sgcftt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:39:31.302Z",
+          "dataQualityScore": 47,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "General Trading",
+          "address": "Deira - Dubai",
+          "phone": "+971521343454",
+          "website": null,
+          "rating": 4.5,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Wholesale",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2759659,
+            "lng": 55.3135196
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/General+Trading/@25.2759659,55.3135196,15z/data=!4m10!1m2!2m1!1sgeneral+trading+Dubai!3m6!1s0x3e5f5db4e97e1f03:0xe8d2abbd76e6edeb!8m2!3d25.2759659!4d55.331544!15sChVnZW5lcmFsIHRyYWRpbmcgRHViYWmSASJlbGVjdHJvbmljc19hY2Nlc3Nvcmllc193aG9sZXNhbGVyqgFNCg0vZy8xMWMzMG5iODRsEAEyHxABIhuyxQrifXmgV8VUvNkPS0hkeMyztxOV83DQnEYyGRACIhVnZW5lcmFsIHRyYWRpbmcgZHViYWngAQA!16s%2Fg%2F11lgpn4664?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:40:23.446Z",
+          "dataQualityScore": 52,
+          "verificationStatus": "Partially Verified"
+        }
+      ]
+    },
+    "healthcare": {
+      "count": 6,
+      "businesses": [
+        {
+          "businessName": "Health Check up Dubai",
+          "address": "Airport Rd - Al Garhoud - Dubai",
+          "phone": "+971585400360",
+          "website": "https://www.healthchecks360.com/healthscreeningpackages.php",
+          "rating": 4.6,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Medical laboratory",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2628912,
+            "lng": 55.3254912
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Health+Check+up+Dubai/@25.2628912,55.3254912,15z/data=!4m9!1m2!2m1!1smedical+centers+Dubai!3m5!1s0x3e5f6be6cab4e8ab:0xe6146fc1ca187ac5!8m2!3d25.2527293!4d55.3428998!16s%2Fg%2F11qq1g0slh?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Mahaveer Mehta Dermatology center Dubai"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:53:55.403Z",
+          "dataQualityScore": 70,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "First Medical Center",
+          "address": "Level 7, Bu Haleeba Plaza - Al Muraqqabat Street - Dubai",
+          "phone": null,
+          "website": "https://firstmedicalcenter.simplybook.it/",
+          "rating": 4.7,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Medical Center",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2646049,
+            "lng": 55.3288838
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/First+Medical+Center/@25.2646049,55.3288838,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cc4ef88d857:0x672070cba5da23e2!8m2!3d25.2646049!4d55.3288838!16s%2Fg%2F1q62crpj3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "CYJ Hair Filler is the world",
+            "CYJ Hair Filler"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "7",
+            "floor": "Level 7",
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:54:31.256Z",
+          "dataQualityScore": 50,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Oral Implantology Medical Center",
+          "address": "Al Wahda Building - 204 - opp. City Center - Deira - Dubai",
+          "phone": null,
+          "website": "https://www.oralimplantologist.com/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Clinic",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.255662,
+            "lng": 55.3120006
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Oral+Implantology+Medical+Center/@25.255662,55.3120006,15z/data=!4m9!1m2!2m1!1sdental+clinics+Dubai!3m5!1s0x3e5f5cd92155281d:0xe6e3495329c7eba4!8m2!3d25.2556615!4d55.3300246!16s%2Fg%2F11bbwpds4_?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {
+            "instagram": "https://instagram.com/dralaadbc"
+          },
+          "contactPersons": [
+            "Majd explained the procedure and helped me with my tooth ache",
+            "Alaa Dental Beauty Clinic",
+            "Shiji",
+            "Mansoori Clinic",
+            "Joji Specialised Dental Implantology Center"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "204",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:55:26.656Z",
+          "dataQualityScore": 52,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Miami General Dental Clinic",
+          "address": "Deira - Al Rigga - Dubai",
+          "phone": "+971548883372",
+          "website": null,
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Clinic",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2636757,
+            "lng": 55.325599
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Miami+General+Dental+Clinic/@25.2636757,55.325599,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d1e0d3058ad:0x3a8d8b12b7f74d3b!8m2!3d25.2636757!4d55.325599!16s%2Fg%2F11wjbrtggl?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Mohamed",
+            "Majd Albalous is very thorough with his job"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:56:02.680Z",
+          "dataQualityScore": 57,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Movement ON Physiotherapy Clinic",
+          "address": "Century 21 Building, UNIT 202, 2nd Floor (Road Facing Facility Opposite Kabayel Discount Center & Beside Hilton Garden Inn Hotel Parking zone 124 C (Sufficient RTA parking available 2 AED /hr Rigga, Muraqabat - St - Deira - Dubai",
+          "phone": "+971504240151",
+          "website": "https://movementonphysio.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Clinic",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2656325,
+            "lng": 55.3115983
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Movement+ON+Physiotherapy+Clinic/@25.2656325,55.3115983,15z/data=!4m10!1m2!2m1!1sphysiotherapy+Dubai!3m6!1s0x3e5f5d0ba4ecfd87:0xd4ddc412d60059ef!8m2!3d25.2656325!4d55.3296227!15sChNwaHlzaW90aGVyYXB5IER1YmFpWhUiE3BoeXNpb3RoZXJhcHkgZHViYWmSAQ9waHlzaW90aGVyYXBpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUk1PVmxtV25GQlJSQUKqAU8QASoRIg1waHlzaW90aGVyYXB5KAAyHxABIhvY0CgD7Ux7WNEwek1uUvww1BUFjGClWhbGopIyFxACIhNwaHlzaW90aGVyYXB5IGR1YmFp4AEA-gEFCIACEEc!16s%2Fg%2F11v3qnnxjt?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Vinesh Kumar PT",
+            "Rami Hamed Center",
+            "Ravi Khamar",
+            "Reya  are extremely knowledgeable and took personal care in understanding my problem areas",
+            "Ravi was very caring and honest with the diagnostics"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "21",
+            "floor": null,
+            "office": "UNIT 202"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:57:01.137Z",
+          "dataQualityScore": 87,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Physiocare - physiotherapy center",
+          "address": "Building 64 - Umm Hurair Second - Dubai Healthcare City - Dubai",
+          "phone": null,
+          "website": "http://www.physiocare.ae/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Clinic",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2339847,
+            "lng": 55.3182372
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Physiocare+-+physiotherapy+center/@25.2339847,55.3182372,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d481ed019c9:0xcb5924a210228512!8m2!3d25.2339847!4d55.3182372!16s%2Fg%2F11_s9_x3k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "64",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:57:52.979Z",
+          "dataQualityScore": 45,
+          "verificationStatus": "Partially Verified"
+        }
+      ]
+    },
+    "construction": {
+      "count": 5,
+      "businesses": [
+        {
+          "businessName": "Egy Build Construction LLC | Best Construction Company in Dubai | Construction Companies Dubai",
+          "address": "45B St - Deira - Dubai",
+          "phone": null,
+          "website": "https://egybuild.ae/",
+          "rating": 4.6,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Construction Company",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.262194,
+            "lng": 55.3094142
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Egy+Build+Construction+LLC+%7C+Best+Construction+Company+in+Dubai+%7C+Construction+Companies+Dubai/@25.262194,55.3094142,15z/data=!4m10!1m2!2m1!1sconstruction+companies+Dubai!3m6!1s0x3e5f5cdad2811a61:0xb2bd0caf4007f697!8m2!3d25.262194!4d55.3274386!15sChxjb25zdHJ1Y3Rpb24gY29tcGFuaWVzIER1YmFpWh4iHGNvbnN0cnVjdGlvbiBjb21wYW5pZXMgZHViYWmSARRjb25zdHJ1Y3Rpb25fY29tcGFueZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOZmJuWmZiVUpuRUFFqgFsCgkvbS8wMWYwOHIQASoaIhZjb25zdHJ1Y3Rpb24gY29tcGFuaWVzKAAyHxABIhtTgmTbONc4-fyJ_2PR-e3ASwd8LCxg4fG7nJ8yIBACIhxjb25zdHJ1Y3Rpb24gY29tcGFuaWVzIGR1YmFp4AEA-gEECC8QOg!16s%2Fg%2F1hm1qz5g8?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:58:49.086Z",
+          "dataQualityScore": 62,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Binladin Contracting Group L.L.C",
+          "address": "Bin Ladin Building - Abu Baker Al Siddique St - Al Khabaisi - Dubai",
+          "phone": null,
+          "website": "http://www.bcg-uae.com/",
+          "rating": 4.2,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Construction Company",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2695279,
+            "lng": 55.3128001
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Binladin+Contracting+Group+L.L.C/@25.2695279,55.3128001,15z/data=!4m10!1m2!2m1!1scontracting+Dubai!3m6!1s0x3e5f5cc6b527ccdb:0x6ee498229f0a56f3!8m2!3d25.2695279!4d55.3308245!15sChFjb250cmFjdGluZyBEdWJhaZIBFGNvbnN0cnVjdGlvbl9jb21wYW55qgFWCgkvbS8wMWYwOHIQASoPIgtjb250cmFjdGluZygAMh8QASIbF_lccP0NIhrT9flMrz_GNnoIb1QUmZKo1wmfMhUQAiIRY29udHJhY3RpbmcgZHViYWngAQA!16s%2Fg%2F124yp01mx?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:00:20.541Z",
+          "dataQualityScore": 60,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "FUTURE CONTRACTING COMPANY LLC",
+          "address": "City Pharmacy Building - 101 22A St - Deira - Dubai",
+          "phone": null,
+          "website": "http://www.futurecontracting.ae/",
+          "rating": 4.5,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Contractor",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2626163,
+            "lng": 55.3318996
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/FUTURE+CONTRACTING+COMPANY+LLC/@25.2626163,55.3318996,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cdcbfe74c2f:0x328e9a956d4a378e!8m2!3d25.2626163!4d55.3318996!16s%2Fg%2F11bzr9wwfh?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "101",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:01:13.668Z",
+          "dataQualityScore": 62,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "ORRO INTERIOR DESIGN LLC | Luxury Fit out Contractor in Dubai & AbuDhabi | Fit out Company",
+          "address": "St - office 509, sapphire Tower - Al Ittihad Rd - Port Saeed - Dubai",
+          "phone": null,
+          "website": "http://www.orrointeriors.com/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Contractor",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2611988,
+            "lng": 55.3144315
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/ORRO+INTERIOR+DESIGN+LLC+%7C+Luxury+Fit+out+Contractor+in+Dubai+%26+AbuDhabi+%7C+Fit+out+Company/@25.2611988,55.3144315,15z/data=!4m10!1m2!2m1!1sinterior+design+Dubai!3m6!1s0x3e5f5cdc5e4036f5:0x6d03c3304ae55502!8m2!3d25.2611988!4d55.3324559!15sChVpbnRlcmlvciBkZXNpZ24gRHViYWlaFyIVaW50ZXJpb3IgZGVzaWduIGR1YmFpkgEKY29udHJhY3RvcpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMHhjMDB5V214T1ZXaHFZbFZXZUU5WE1XRlZlbEl4VW1wV1QyUnNSUkFCqgFyCgkvbS8wMnJmZHEKCS9tLzAxZjA4cgoIL20vMDJjd20QASoTIg9pbnRlcmlvciBkZXNpZ24oADIeEAEiGoZSLsafRrqbdN6mpaUJl2gb7F3ICk9UIokVMhkQAiIVaW50ZXJpb3IgZGVzaWduIGR1YmFp4AEA-gEECEsQSw!16s%2Fg%2F11crtwhbmw?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "email": "info@orrointeriors.com",
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "509",
+            "floor": null,
+            "office": "office 509"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:02:10.253Z",
+          "dataQualityScore": 70,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Decor N More LLC",
+          "address": "Mohammad Bin Abdulrahman Alashram Building 46 A - 214,Block A - Office 101 Sheikh Rashid Rd - Al Garhoud - Dubai",
+          "phone": "+971566445055",
+          "website": "https://dnmuae.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Contractor",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2498969,
+            "lng": 55.3373188
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Decor+N+More+LLC/@25.2498969,55.3373188,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6b715535fc5b:0xb8bae617a36e41d!8m2!3d25.2498969!4d55.3373188!16s%2Fg%2F1q64lh1tw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "email": "info@dnmuae.com",
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Mohanad"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "46",
+            "floor": null,
+            "office": "Office 101"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:02:46.234Z",
+          "dataQualityScore": 95,
+          "verificationStatus": "Verified"
+        }
+      ]
+    },
+    "retail": {
+      "count": 7,
+      "businesses": [
+        {
+          "businessName": "Creative Link Design and Printing Shop",
+          "address": "Metro Station - opp. Gold Souk - Ayal Nasir - Dubai",
+          "phone": "+971504903289",
+          "website": "http://www.creativelinkdubai.com/",
+          "rating": 5,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Print shop",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.275341,
+            "lng": 55.2855836
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Creative+Link+Design+and+Printing+Shop/@25.275341,55.2855836,15z/data=!4m9!1m2!2m1!1smarketing+agencies+Dubai!3m5!1s0x3e5f5dfb233803bd:0x971fd26e698d6a75!8m2!3d25.2753406!4d55.3036075!16s%2Fg%2F11w1p_l5_s?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:29:09.857Z",
+          "dataQualityScore": 80,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Top Brands Outlet Dubai",
+          "address": "Abu Baker Al Siddique St - Deira - Dubai",
+          "phone": "+971501694694",
+          "website": "http://topbrandsoutlets.com/",
+          "rating": 4.3,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Outlet store",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2630656,
+            "lng": 55.3107167
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Top+Brands+Outlet+Dubai/@25.2630656,55.3107167,15z/data=!4m10!1m2!2m1!1sretail+stores+Dubai!3m6!1s0x3e5f5d91e8fbef3f:0x5ebb54c91c492f88!8m2!3d25.2630656!4d55.3287411!15sChNyZXRhaWwgc3RvcmVzIER1YmFpWhUiE3JldGFpbCBzdG9yZXMgZHViYWmSAQxvdXRsZXRfc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTnRYeTF4ZVVSM0VBRaoBWgoJL20vMDE5MV83EAEqESINcmV0YWlsIHN0b3JlcygAMh8QASIbv9eDTdRBQCnT83C-JMeClzKVPM0GUuoVFcQ_MhcQAiITcmV0YWlsIHN0b3JlcyBkdWJhaeABAPoBBAgAEDc!16s%2Fg%2F11rn4lm2tw?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "are top notch"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:03:40.980Z",
+          "dataQualityScore": 72,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Brands For Less - Dubai Mall",
+          "address": "Cinema Parking 1 - next to Waitrose Supermarket LG Floor - Burj Khalifa - Dubai Mall - Dubai",
+          "phone": null,
+          "website": "http://www.brandsforless.com/",
+          "rating": 4.1,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Discount store",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.1981389,
+            "lng": 55.2795941
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Brands+For+Less+-+Dubai+Mall/@25.1981389,55.2795941,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6b838cfd51f1:0xcd81264e1d27545d!8m2!3d25.1981389!4d55.2795941!16s%2Fg%2F11k75mqphm?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "email": "customercare@bflgroup.ae",
+          "additionalEmails": [],
+          "socialMedia": {
+            "whatsapp": "https://wa.me/+9718008333"
+          },
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "1",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:04:17.070Z",
+          "dataQualityScore": 55,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Pearls Fashion Boutique Dubai",
+          "address": "Al Sharhan Apartments Amman Street - D97 7A St - near NMC Hospital - Al Qusais - Al Nahda 2 - Dubai",
+          "phone": null,
+          "website": "https://pearlsfashions.com/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Boutique",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2911179,
+            "lng": 55.3519036
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Pearls+Fashion+Boutique+Dubai/@25.2911179,55.3519036,15z/data=!4m10!1m2!2m1!1sfashion+boutiques+Dubai!3m6!1s0x3e5f5d001155372f:0x562715c94947123f!8m2!3d25.2911179!4d55.369928!15sChdmYXNoaW9uIGJvdXRpcXVlcyBEdWJhaVoZIhdmYXNoaW9uIGJvdXRpcXVlcyBkdWJhaZIBDmNsb3RoaW5nX3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4V1JXTnFiRlJsUms1T1ZFVkpORTFHY0U1WFV6RTFZekExYkZrell4QUKqAWEKCC9tLzAzMnRsEAEqFSIRZmFzaGlvbiBib3V0aXF1ZXMoADIfEAEiG_Ny-iCZFz_B7XvSTywrUndnj8Gqd_S08Lk7bTIbEAIiF2Zhc2hpb24gYm91dGlxdWVzIGR1YmFp4AEA-gEFCIYFEEs!16s%2Fg%2F11wj0yrx77?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "2",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:05:12.677Z",
+          "dataQualityScore": 45,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Rugmys Boutique",
+          "address": "Shop 1 - 18A St - Al Karama - Dubai",
+          "phone": "+971522717861",
+          "website": "http://www.rugmysboutique.com/",
+          "rating": 4.6,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Boutique",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2460011,
+            "lng": 55.30649
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Rugmys+Boutique/@25.2460011,55.30649,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43b4292748e5:0xf5d2acdc9b28da43!8m2!3d25.2460011!4d55.30649!16s%2Fg%2F11rcs7gtrq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "1",
+            "floor": null,
+            "office": "Shop 1"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:05:48.687Z",
+          "dataQualityScore": 65,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Jumbo Electronics",
+          "address": "Deira City Center, Gr Floor - Dubai",
+          "phone": null,
+          "website": "https://www.jumbo.ae/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+          "rating": 3.8,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Electronics Store",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.251552,
+            "lng": 55.3148136
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Jumbo+Electronics/@25.251552,55.3148136,15z/data=!4m10!1m2!2m1!1selectronics+stores+Dubai!3m6!1s0x3e5f5d20e8f9f019:0xfd00c3ad11407e60!8m2!3d25.251552!4d55.332838!15sChhlbGVjdHJvbmljcyBzdG9yZXMgRHViYWlaGiIYZWxlY3Ryb25pY3Mgc3RvcmVzIGR1YmFpkgERZWxlY3Ryb25pY3Nfc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUlBjR0pRYjJKQkVBRaoBYwoIL20vMDJtcnAQASoWIhJlbGVjdHJvbmljcyBzdG9yZXMoADIfEAEiG0phBrdKwhQoVFJqyb_UJqIdLRcD_joIn4aTezIcEAIiGGVsZWN0cm9uaWNzIHN0b3JlcyBkdWJhaeABAPoBBAgAED8!16s%2Fg%2F1tdw6jc4?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "and brand new",
+            "Marvin and  miss  laarne"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:06:53.213Z",
+          "dataQualityScore": 52,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "TV INSTALLATION DUBAI",
+          "address": "Baghlaf Building - 26B St - Deira - Dubai",
+          "phone": "+971562696421",
+          "website": null,
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Electronics Store",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2646846,
+            "lng": 55.3228599
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/TV+INSTALLATION+DUBAI/@25.2646846,55.3228599,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f434eaeb89aa1:0xa25db52447f3796a!8m2!3d25.2646846!4d55.3228599!16s%2Fg%2F11cm0q9mtx?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T22:07:44.966Z",
+          "dataQualityScore": 52,
+          "verificationStatus": "Partially Verified"
+        }
+      ]
+    },
+    "other": {
+      "count": 8,
+      "businesses": [
+        {
+          "businessName": "BrandStory | Marketing Agency in Dubai",
+          "address": "G5, Al Meheri Plaza, opp DBC building Al Khabaisi Area - Deira - Dubai",
+          "phone": "+971522831655",
+          "website": "https://www.brandstory.ae/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Marketing Agency",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.262923,
+            "lng": 55.3329919
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/BrandStory+%7C+Marketing+Agency+in+Dubai/@25.262923,55.3329919,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6d3d63755bdb:0xcb6dc8a6ec14f4a2!8m2!3d25.262923!4d55.3329919!16s%2Fg%2F11jn2396qs?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:29:44.776Z",
+          "dataQualityScore": 82,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "HHS Lawyers And Legal Consultants - Lawyers in Dubai",
+          "address": "IBIS Hotel Building Office Entrance 5th Floor, Office No.: 5008 - Al Rigga Rd - Dubai",
+          "phone": "+971507869887",
+          "website": "https://hhslawyers.com/?utm_source=google&utm_medium=GMB&utm_campaign=Dubai",
+          "rating": 4.6,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Law Firm",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.265408,
+            "lng": 55.3036826
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/HHS+Lawyers+And+Legal+Consultants+-+Lawyers+in+Dubai/@25.265408,55.3036826,15z/data=!4m10!1m2!2m1!1slegal+services+Dubai!3m6!1s0x3e5f5cceb763c9eb:0x2374c76fc3a0b66b!8m2!3d25.265408!4d55.321707!15sChRsZWdhbCBzZXJ2aWNlcyBEdWJhaVoWIhRsZWdhbCBzZXJ2aWNlcyBkdWJhaZIBCGxhd19maXJtmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJtYzB4MWVVMTNFQUWqAWYKCS9tLzAxZjA4cgoIL20vMDRnYjcQASoSIg5sZWdhbCBzZXJ2aWNlcygAMh8QASIbuS0PQbwgOZpGNsaEqAC1A8JCqGj9owvi1BEiMhgQAiIUbGVnYWwgc2VydmljZXMgZHViYWngAQD6AQQIbxA0!16s%2Fg%2F11c718wx5x?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Freezone SHJClosed"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "5008",
+            "floor": null,
+            "office": "Office Entrance"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:30:50.389Z",
+          "dataQualityScore": 85,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Hussain Lootah & Associates- Best Law Firm Dubai & Property Lawyers",
+          "address": "Al Gurg - 8th Floor - Tower 1 Baniyas Rd - Deira - Riggat Al Buteen - Dubai",
+          "phone": null,
+          "website": "http://www.hlootahlaw.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "7:30 AM–5:30 PM"
+          },
+          "description": null,
+          "category": "Law Firm",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2595681,
+            "lng": 55.3187628
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Hussain+Lootah+%26+Associates-+Best+Law+Firm+Dubai+%26+Property+Lawyers/@25.2595681,55.3187628,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f428c3481334d:0xb71913e5ee05b770!8m2!3d25.2595681!4d55.3187628!16s%2Fg%2F11bbwppn9m?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "1",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:31:26.745Z",
+          "dataQualityScore": 62,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Far Way General Trading LLC",
+          "address": "#507, New Century City Tower Near Deira City Centre, Metro Exit 2 - Dubai",
+          "phone": null,
+          "website": "https://www.farwaycompany.com/",
+          "rating": 4.8,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Food and beverage exporter",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2546078,
+            "lng": 55.3116453
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Far+Way+General+Trading+LLC/@25.2546078,55.3116453,15z/data=!4m10!1m2!2m1!1strading+companies+Dubai!3m6!1s0x3e5f4349d2d18023:0x36750ca587109e27!8m2!3d25.2546078!4d55.3296697!15sChd0cmFkaW5nIGNvbXBhbmllcyBEdWJhaVoZIhd0cmFkaW5nIGNvbXBhbmllcyBkdWJhaZIBGmZvb2RfYW5kX2JldmVyYWdlX2V4cG9ydGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJKYVRkcWVFSjNFQUWqAVcQASoVIhF0cmFkaW5nIGNvbXBhbmllcygAMh8QASIbhx7kO7wGYRsK8cobm08qOkxiFUfI8gQe-NelMhsQAiIXdHJhZGluZyBjb21wYW5pZXMgZHViYWngAQD6AQQIABA4!16s%2Fg%2F1263cmccg?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "Arif \nAppreciate your kind reviews and it means"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "507",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:34:10.846Z",
+          "dataQualityScore": 67,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Ryan Worldwide - Customs clearing Agent Dubai- Shipping company in Dubai | Freight forwarding | Import and export clearance",
+          "address": "Office#5, Al Naboodah building, Next to Deira City centre Street - Dubai",
+          "phone": "+971559020985",
+          "website": "https://ryan-worldwide.com/import-and-export-services/",
+          "rating": 4.6,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Shipping",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2559368,
+            "lng": 55.313583
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Ryan+Worldwide+-+Customs+clearing+Agent+Dubai-+Shipping+company+in+Dubai+%7C+Freight+forwarding+%7C+Import+and+export+clearance/@25.2559368,55.313583,15z/data=!4m10!1m2!2m1!1simport+export+Dubai!3m6!1s0x3e5f434e004c75ed:0xdf44ee53a4b4ac9d!8m2!3d25.2559368!4d55.3316074!15sChNpbXBvcnQgZXhwb3J0IER1YmFpWhUiE2ltcG9ydCBleHBvcnQgZHViYWmSAQ5jdXN0b21zX2Jyb2tlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOSU1tVTJXalYzUlJBQqoBjwEKDS9nLzExanNsbG5maGMKDS9nLzExd2IxZGM2cTcKCS9tLzAxZjA4cgoJL20vMDFzcjNxCgovbS8wMjY0MHBjEAEqESINaW1wb3J0IGV4cG9ydCgAMh8QASIbXKU8clVuFSPQcv2AkauKwzW32hc32emlCGuPMhcQAiITaW1wb3J0IGV4cG9ydCBkdWJhaeABAPoBBAgwEEQ!16s%2Fg%2F12hm3p71j?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "clearing Agent Dubai- Shipping company in Dubai",
+            "broker",
+            "clearance services",
+            "Sumath and the entire Ryan team for their outstanding support",
+            "Clearance",
+            "Broker",
+            "Clearing Agent",
+            "Clearing LLC- Seaport"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": "Deira",
+            "emirate": "Dubai",
+            "buildingNumber": "5",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:35:42.107Z",
+          "dataQualityScore": 72,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Armada Distribution Co LLC",
+          "address": "No.27 Al Khabaisi Street - behind Gargash Enterprises Badar Building - Dubai",
+          "phone": null,
+          "website": "https://www.armadadistribution.com/",
+          "rating": 4.4,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "8:30 AM–5:30 PM"
+          },
+          "description": null,
+          "category": "Food products supplier",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2628912,
+            "lng": 55.3254912
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Armada+Distribution+Co+LLC/@25.2628912,55.3254912,15z/data=!4m10!1m2!2m1!1sdistribution+companies+Dubai!3m6!1s0x3e5f5ce912ee77db:0xab7acfd7c1324f1c!8m2!3d25.2695759!4d55.3401656!15sChxkaXN0cmlidXRpb24gY29tcGFuaWVzIER1YmFpWh4iHGRpc3RyaWJ1dGlvbiBjb21wYW5pZXMgZHViYWmSARZmb29kX3Byb2R1Y3RzX3N1cHBsaWVymgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF0WjA5SFpYcG5SUkFCqgFhEAEqGiIWZGlzdHJpYnV0aW9uIGNvbXBhbmllcygAMh8QASIbhJ796-2jUq5kzqRfw9q1kPEac-0_bnEeduSlMiAQAiIcZGlzdHJpYnV0aW9uIGNvbXBhbmllcyBkdWJhaeABAPoBBAgAEEw!16s%2Fg%2F11bbwwtycc?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "27",
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:38:55.340Z",
+          "dataQualityScore": 60,
+          "verificationStatus": "Partially Verified"
+        },
+        {
+          "businessName": "Xedos Technologies LLC - IT Support Dubai | IT AMC Services in Dubai | IT Solutions Company UAE | Tally Solutions in UAE",
+          "address": "Unigrove Business Centre, Al Dar University Building - Office 26,4th Floor - Al Garhoud - Dubai",
+          "phone": "+971526073989",
+          "website": "https://xedos.ae/",
+          "rating": 5,
+          "reviewCount": 0,
+          "businessHours": null,
+          "description": null,
+          "category": "Computer support and services",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2525862,
+            "lng": 55.3388302
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Xedos+Technologies+LLC+-+IT+Support+Dubai+%7C+IT+AMC+Services+in+Dubai+%7C+IT+Solutions+Company+UAE+%7C+Tally+Solutions+in+UAE/@25.2525862,55.3388302,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d07126d90fd:0xd6de782764a6f3cc!8m2!3d25.2525862!4d55.3388302!16s%2Fg%2F11h2bbc24p?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [
+            "running smoothly",
+            "Tally Software Services"
+          ],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": "26",
+            "floor": null,
+            "office": "Office 26"
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:49:29.380Z",
+          "dataQualityScore": 70,
+          "verificationStatus": "Verified"
+        },
+        {
+          "businessName": "Zentroa Technologies | Best Dubai Web Design Company | SEO Agency Dubai | Digital Marketing Agency in Dubai",
+          "address": "Ascon House - First Floor - Salah Al Din St - Muteena - Dubai",
+          "phone": "+971525599052",
+          "website": "https://zentroa.com/",
+          "rating": 4.9,
+          "reviewCount": 0,
+          "businessHours": {
+            "Monday": "Closed"
+          },
+          "description": null,
+          "category": "Marketing Agency",
+          "priceRange": null,
+          "coordinates": {
+            "lat": 25.2709057,
+            "lng": 55.3073813
+          },
+          "googleMapsUrl": "https://www.google.com/maps/place/Zentroa+Technologies+%7C+Best+Dubai+Web+Design+Company+%7C+SEO+Agency+Dubai+%7C+Digital+Marketing+Agency+in+Dubai/@25.2709057,55.3073813,15z/data=!3m1!5s0x3e5f5cc873434b1b:0x5db0862ed294112c!4m10!1m2!2m1!1sweb+development+Dubai!3m6!1s0x3e5f5c0c65fc5d1d:0xf5e5ab1402b4bddb!8m2!3d25.2709057!4d55.3254057!15sChV3ZWIgZGV2ZWxvcG1lbnQgRHViYWlaFyIVd2ViIGRldmVsb3BtZW50IGR1YmFpkgEQd2Vic2l0ZV9kZXNpZ25lcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOYWExQm1YMWQzRUFFqgF9CggvbS8wODVuNAoJL20vMDFmMDhyCgkvbS8wMndkeTgKCC9tLzA4Mjh2EAEqEyIPd2ViIGRldmVsb3BtZW50KAAyHxABIhsO1_5nZ85CgkNXZvE8RdePFFoco3FQLDDxqC4yGRACIhV3ZWIgZGV2ZWxvcG1lbnQgZHViYWngAQD6AQUI0gIQSQ!16s%2Fg%2F11f2ht116v?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+          "primaryPhoto": null,
+          "additionalEmails": [],
+          "socialMedia": {},
+          "contactPersons": [],
+          "locationDetails": {
+            "streetAddress": null,
+            "area": null,
+            "emirate": "Dubai",
+            "buildingNumber": null,
+            "floor": null,
+            "office": null
+          },
+          "businessOwner": null,
+          "lastUpdated": "2025-09-30T21:52:08.610Z",
+          "dataQualityScore": 80,
+          "verificationStatus": "Verified"
+        }
+      ]
+    }
+  },
+  "allLeads": [
+    {
+      "businessName": "The VAT Consultant",
+      "address": "Fourth Floor, Hamsah-A Building - Office No - 413 - 3A St - Al Karama - Dubai",
+      "phone": null,
+      "website": "https://thevatconsultant.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Tax Consultant",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.251396,
+        "lng": 55.2911396
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+VAT+Consultant/@25.251396,55.2911396,15z/data=!3m1!5s0x3e5f432956134b51:0x750f23b7cfeebd07!4m9!1m2!2m1!1saccounting+firms+Dubai!3m5!1s0x3e5f43aaf2d00a95:0x9ae47df1a2ca8931!8m2!3d25.2513963!4d55.3091645!16s%2Fg%2F11nl6l3rwk?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "in Dubai"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "413",
+        "floor": null,
+        "office": "Office No"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:25:54.845Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Farahat & Co. - Auditing Firm and TAX Consultants",
+      "address": "IBIS Hotel Building - Office Entrance 5th Floor - Office No.5001 - Al Rigga Rd - Dubai",
+      "phone": null,
+      "website": "https://farahatco.com/?utm_source=google&utm_medium=GMB&utm_campaign=Dubai",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Tax Consultant",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2652046,
+        "lng": 55.3210629
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Farahat+%26+Co.+-+Auditing+Firm+and+TAX+Consultants/@25.2652046,55.3210629,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5ccebf52f08f:0x9abd5d8d2b10a61!8m2!3d25.2652046!4d55.3210629!16s%2Fg%2F1tsr1n_8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "in Dubai"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "5001",
+        "floor": null,
+        "office": "Office Entrance"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:26:30.458Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Start Any Business",
+      "address": "Fahidi Heights - Office Suite 1200 - Sharaf DG Metro Station - Bur Dubai - Dubai بر - Dubai",
+      "phone": "+971554334958",
+      "website": "https://www.startanybusiness.ae/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Management Consultant",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.258238,
+        "lng": 55.2795286
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Start+Any+Business/@25.258238,55.2795286,15z/data=!4m9!1m2!2m1!1sbusiness+consultants+Dubai!3m5!1s0x3e5f432f36c7277d:0x5d6208e63bbde967!8m2!3d25.2582383!4d55.2975534!16s%2Fg%2F11l2cwjldh?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Syam and Ms",
+        "Isha Bala and Mr"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Bur Dubai",
+        "emirate": "Dubai",
+        "buildingNumber": "1200",
+        "floor": null,
+        "office": "Office Suite"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:27:25.204Z",
+      "dataQualityScore": 87,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "FLYBIZ BUSINESS SETUP CONSULTANTS",
+      "address": "Level 10, Al Nouf - tower Office Number 1004 - next to Business village and Dubai Economy and Tourism - Port Saeed - Dubai",
+      "phone": "+971565346781",
+      "website": "https://flybiz.ae/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "8:30 AM–5:30 PM"
+      },
+      "description": null,
+      "category": "Management Consultant",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2564843,
+        "lng": 55.3254522
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/FLYBIZ+BUSINESS+SETUP+CONSULTANTS/@25.2564843,55.3254522,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4316e1d84067:0xa621f1d308f16f84!8m2!3d25.2564843!4d55.3254522!16s%2Fg%2F11s2nr6c86?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Ajas and Mr"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "10",
+        "floor": "Level 10",
+        "office": "Office Number"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:28:01.755Z",
+      "dataQualityScore": 85,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Creative Link Design and Printing Shop",
+      "address": "Metro Station - opp. Gold Souk - Ayal Nasir - Dubai",
+      "phone": "+971504903289",
+      "website": "http://www.creativelinkdubai.com/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Print shop",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.275341,
+        "lng": 55.2855836
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Creative+Link+Design+and+Printing+Shop/@25.275341,55.2855836,15z/data=!4m9!1m2!2m1!1smarketing+agencies+Dubai!3m5!1s0x3e5f5dfb233803bd:0x971fd26e698d6a75!8m2!3d25.2753406!4d55.3036075!16s%2Fg%2F11w1p_l5_s?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:29:09.857Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "BrandStory | Marketing Agency in Dubai",
+      "address": "G5, Al Meheri Plaza, opp DBC building Al Khabaisi Area - Deira - Dubai",
+      "phone": "+971522831655",
+      "website": "https://www.brandstory.ae/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Marketing Agency",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.262923,
+        "lng": 55.3329919
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/BrandStory+%7C+Marketing+Agency+in+Dubai/@25.262923,55.3329919,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6d3d63755bdb:0xcb6dc8a6ec14f4a2!8m2!3d25.262923!4d55.3329919!16s%2Fg%2F11jn2396qs?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:29:44.776Z",
+      "dataQualityScore": 82,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "HHS Lawyers And Legal Consultants - Lawyers in Dubai",
+      "address": "IBIS Hotel Building Office Entrance 5th Floor, Office No.: 5008 - Al Rigga Rd - Dubai",
+      "phone": "+971507869887",
+      "website": "https://hhslawyers.com/?utm_source=google&utm_medium=GMB&utm_campaign=Dubai",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Law Firm",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.265408,
+        "lng": 55.3036826
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/HHS+Lawyers+And+Legal+Consultants+-+Lawyers+in+Dubai/@25.265408,55.3036826,15z/data=!4m10!1m2!2m1!1slegal+services+Dubai!3m6!1s0x3e5f5cceb763c9eb:0x2374c76fc3a0b66b!8m2!3d25.265408!4d55.321707!15sChRsZWdhbCBzZXJ2aWNlcyBEdWJhaVoWIhRsZWdhbCBzZXJ2aWNlcyBkdWJhaZIBCGxhd19maXJtmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJtYzB4MWVVMTNFQUWqAWYKCS9tLzAxZjA4cgoIL20vMDRnYjcQASoSIg5sZWdhbCBzZXJ2aWNlcygAMh8QASIbuS0PQbwgOZpGNsaEqAC1A8JCqGj9owvi1BEiMhgQAiIUbGVnYWwgc2VydmljZXMgZHViYWngAQD6AQQIbxA0!16s%2Fg%2F11c718wx5x?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Freezone SHJClosed"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "5008",
+        "floor": null,
+        "office": "Office Entrance"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:30:50.389Z",
+      "dataQualityScore": 85,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Hussain Lootah & Associates- Best Law Firm Dubai & Property Lawyers",
+      "address": "Al Gurg - 8th Floor - Tower 1 Baniyas Rd - Deira - Riggat Al Buteen - Dubai",
+      "phone": null,
+      "website": "http://www.hlootahlaw.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "7:30 AM–5:30 PM"
+      },
+      "description": null,
+      "category": "Law Firm",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2595681,
+        "lng": 55.3187628
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Hussain+Lootah+%26+Associates-+Best+Law+Firm+Dubai+%26+Property+Lawyers/@25.2595681,55.3187628,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f428c3481334d:0xb71913e5ee05b770!8m2!3d25.2595681!4d55.3187628!16s%2Fg%2F11bbwppn9m?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "1",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:31:26.745Z",
+      "dataQualityScore": 62,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Black Swan Business Setup Services LLC",
+      "address": "The Citadel - Tower Office No: 3701 and 3702 - Business Bay - Dubai",
+      "phone": null,
+      "website": "https://blackswanbss.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Management Consultant",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.184033,
+        "lng": 55.1166994
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Black+Swan+Business+Setup+Services+LLC/@25.184033,55.1166994,12z/data=!4m9!1m2!2m1!1sbusiness+setup+Dubai!3m5!1s0x3e5f69d048a3a307:0xf174e33f96c7a245!8m2!3d25.1840327!4d55.2608951!16s%2Fg%2F11hcjzq18b?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Anand Vats was exceptionally knowledgeable and responsive throughout the process",
+        "Rupa Agarwal"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Business Bay",
+        "emirate": "Dubai",
+        "buildingNumber": "3701",
+        "floor": null,
+        "office": "Office No"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:32:29.787Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Far Way General Trading LLC",
+      "address": "#507, New Century City Tower Near Deira City Centre, Metro Exit 2 - Dubai",
+      "phone": null,
+      "website": "https://www.farwaycompany.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Food and beverage exporter",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2546078,
+        "lng": 55.3116453
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Far+Way+General+Trading+LLC/@25.2546078,55.3116453,15z/data=!4m10!1m2!2m1!1strading+companies+Dubai!3m6!1s0x3e5f4349d2d18023:0x36750ca587109e27!8m2!3d25.2546078!4d55.3296697!15sChd0cmFkaW5nIGNvbXBhbmllcyBEdWJhaVoZIhd0cmFkaW5nIGNvbXBhbmllcyBkdWJhaZIBGmZvb2RfYW5kX2JldmVyYWdlX2V4cG9ydGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJKYVRkcWVFSjNFQUWqAVcQASoVIhF0cmFkaW5nIGNvbXBhbmllcygAMh8QASIbhx7kO7wGYRsK8cobm08qOkxiFUfI8gQe-NelMhsQAiIXdHJhZGluZyBjb21wYW5pZXMgZHViYWngAQD6AQQIABA4!16s%2Fg%2F1263cmccg?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Arif \nAppreciate your kind reviews and it means"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "507",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:34:10.846Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Central Trading Company LLC",
+      "address": "Al Ittehad Street - Dubai",
+      "phone": null,
+      "website": "https://www.ctc.ae/?utm_source=Google%20Maps&utm_medium=Organic&utm_campaign=Traffic",
+      "rating": 4.4,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "1:30–5:30 PM"
+      },
+      "description": null,
+      "category": "Trading Company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2599783,
+        "lng": 55.3329793
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Central+Trading+Company+LLC/@25.2599783,55.3329793,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cdd571f16b1:0x347c733f67142efe!8m2!3d25.2599783!4d55.3329793!16s%2Fg%2F11bbwmljxf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "corrupt peoples and company",
+        "Rijju"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:34:46.884Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Ryan Worldwide - Customs clearing Agent Dubai- Shipping company in Dubai | Freight forwarding | Import and export clearance",
+      "address": "Office#5, Al Naboodah building, Next to Deira City centre Street - Dubai",
+      "phone": "+971559020985",
+      "website": "https://ryan-worldwide.com/import-and-export-services/",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Shipping",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2559368,
+        "lng": 55.313583
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Ryan+Worldwide+-+Customs+clearing+Agent+Dubai-+Shipping+company+in+Dubai+%7C+Freight+forwarding+%7C+Import+and+export+clearance/@25.2559368,55.313583,15z/data=!4m10!1m2!2m1!1simport+export+Dubai!3m6!1s0x3e5f434e004c75ed:0xdf44ee53a4b4ac9d!8m2!3d25.2559368!4d55.3316074!15sChNpbXBvcnQgZXhwb3J0IER1YmFpWhUiE2ltcG9ydCBleHBvcnQgZHViYWmSAQ5jdXN0b21zX2Jyb2tlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOSU1tVTJXalYzUlJBQqoBjwEKDS9nLzExanNsbG5maGMKDS9nLzExd2IxZGM2cTcKCS9tLzAxZjA4cgoJL20vMDFzcjNxCgovbS8wMjY0MHBjEAEqESINaW1wb3J0IGV4cG9ydCgAMh8QASIbXKU8clVuFSPQcv2AkauKwzW32hc32emlCGuPMhcQAiITaW1wb3J0IGV4cG9ydCBkdWJhaeABAPoBBAgwEEQ!16s%2Fg%2F12hm3p71j?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "clearing Agent Dubai- Shipping company in Dubai",
+        "broker",
+        "clearance services",
+        "Sumath and the entire Ryan team for their outstanding support",
+        "Clearance",
+        "Broker",
+        "Clearing Agent",
+        "Clearing LLC- Seaport"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "5",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:35:42.107Z",
+      "dataQualityScore": 72,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Sindhiya Organics LLC - GEORGIA",
+      "address": "Office: M-82, Plot # 71 (312-895) IT Center, Beside Al Raffa Police Station Near Algubaiba Metro/Bus Station, Alraffa - Street - Bur Dubai - Al Souq Al Kabeer - Dubai",
+      "phone": null,
+      "website": "https://sindharoma.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "2:30–8:30 PM"
+      },
+      "description": null,
+      "category": "Import export company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2619105,
+        "lng": 55.2902862
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Sindhiya+Organics+LLC+-+GEORGIA/@25.2619105,55.2902862,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4344ce00ffbb:0x46239c5999e45ca1!8m2!3d25.2619105!4d55.2902862!16s%2Fg%2F11t3f13xlg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "for your kind words"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Bur Dubai",
+        "emirate": "Dubai",
+        "buildingNumber": "82",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:36:18.461Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "DANDAR General Trading LLC - Wholesale Market Dubai",
+      "address": "Back of Riviera Hotel, Building - : 4 18th St - Deira - Al Rigga - Dubai",
+      "phone": "+971544733937",
+      "website": "https://www.dandar.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Wholesale",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2675411,
+        "lng": 55.2347167
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/DANDAR+General+Trading+LLC+-+Wholesale+Market+Dubai/@25.2675411,55.2347167,13z/data=!4m10!1m2!2m1!1swholesale+trading+Dubai!3m6!1s0x3e5f43bb73b4190f:0xbff701d194cec70e!8m2!3d25.2675411!4d55.3068145!15sChd3aG9sZXNhbGUgdHJhZGluZyBEdWJhaVoZIhd3aG9sZXNhbGUgdHJhZGluZyBkdWJhaZIBEHdob2xlc2FsZV9tYXJrZXSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjB4VFZremNIWldSa3BoVGtWU1RGWlZXbXhWU0VabVQwZG9NbVJHUlJBQqoBVxABKhUiEXdob2xlc2FsZSB0cmFkaW5nKAAyHxABIhuz5vWnR94lDsXyD3nbRbqD1Bkn6HzfeGEHowoyGxACIhd3aG9sZXNhbGUgdHJhZGluZyBkdWJhaeABAPoBBAgAEDs!16s%2Fg%2F11q4j44m1n?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "4",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:37:24.152Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Fakhruddin General Trading LLC",
+      "address": "66 Al Sabkha St - Deira - Al Sabkha - Dubai",
+      "phone": "+971556001672",
+      "website": "http://fakhruddintrading.com/",
+      "rating": 4.7,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Wholesale",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2688183,
+        "lng": 55.3018817
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Fakhruddin+General+Trading+LLC/@25.2688183,55.3018817,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4347d9b3d227:0xd5756d2434593ff8!8m2!3d25.2688183!4d55.3018817!16s%2Fg%2F11cm03f_v5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Murtaza in this company",
+        "that",
+        "Fadi"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "66",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:37:59.898Z",
+      "dataQualityScore": 87,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Armada Distribution Co LLC",
+      "address": "No.27 Al Khabaisi Street - behind Gargash Enterprises Badar Building - Dubai",
+      "phone": null,
+      "website": "https://www.armadadistribution.com/",
+      "rating": 4.4,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "8:30 AM–5:30 PM"
+      },
+      "description": null,
+      "category": "Food products supplier",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2628912,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Armada+Distribution+Co+LLC/@25.2628912,55.3254912,15z/data=!4m10!1m2!2m1!1sdistribution+companies+Dubai!3m6!1s0x3e5f5ce912ee77db:0xab7acfd7c1324f1c!8m2!3d25.2695759!4d55.3401656!15sChxkaXN0cmlidXRpb24gY29tcGFuaWVzIER1YmFpWh4iHGRpc3RyaWJ1dGlvbiBjb21wYW5pZXMgZHViYWmSARZmb29kX3Byb2R1Y3RzX3N1cHBsaWVymgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF0WjA5SFpYcG5SUkFCqgFhEAEqGiIWZGlzdHJpYnV0aW9uIGNvbXBhbmllcygAMh8QASIbhJ796-2jUq5kzqRfw9q1kPEac-0_bnEeduSlMiAQAiIcZGlzdHJpYnV0aW9uIGNvbXBhbmllcyBkdWJhaeABAPoBBAgAEEw!16s%2Fg%2F11bbwwtycc?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "27",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:38:55.340Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "NOWA GENERAL TRADING LLC",
+      "address": "Deira - Al Sabkha - Dubai",
+      "phone": null,
+      "website": "http://www.nowa.ae/",
+      "rating": 4.3,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Wholesale",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2710434,
+        "lng": 55.2988032
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/NOWA+GENERAL+TRADING+LLC/@25.2710434,55.2988032,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f431ec82a35f3:0xf1e2d12434fbb4da!8m2!3d25.2710434!4d55.2988032!16s%2Fg%2F11j3sgcftt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:39:31.302Z",
+      "dataQualityScore": 47,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "General Trading",
+      "address": "Deira - Dubai",
+      "phone": "+971521343454",
+      "website": null,
+      "rating": 4.5,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Wholesale",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2759659,
+        "lng": 55.3135196
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/General+Trading/@25.2759659,55.3135196,15z/data=!4m10!1m2!2m1!1sgeneral+trading+Dubai!3m6!1s0x3e5f5db4e97e1f03:0xe8d2abbd76e6edeb!8m2!3d25.2759659!4d55.331544!15sChVnZW5lcmFsIHRyYWRpbmcgRHViYWmSASJlbGVjdHJvbmljc19hY2Nlc3Nvcmllc193aG9sZXNhbGVyqgFNCg0vZy8xMWMzMG5iODRsEAEyHxABIhuyxQrifXmgV8VUvNkPS0hkeMyztxOV83DQnEYyGRACIhVnZW5lcmFsIHRyYWRpbmcgZHViYWngAQA!16s%2Fg%2F11lgpn4664?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:40:23.446Z",
+      "dataQualityScore": 52,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Peniel Technology LLC",
+      "address": "Office 205, NBQ Bank Building - 16th St - Khalid Bin Al Waleed Rd - Bur Dubai - Dubai",
+      "phone": "+971509617708",
+      "website": "https://www.penieltech.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Software company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2565087,
+        "lng": 55.2836389
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Peniel+Technology+LLC/@25.2565087,55.2836389,15z/data=!4m10!1m2!2m1!1sIT+companies+Dubai!3m6!1s0x3e5f434bc5378621:0xf122ee3366790238!8m2!3d25.2565087!4d55.3016633!15sChJJVCBjb21wYW5pZXMgRHViYWlaFCISaXQgY29tcGFuaWVzIGR1YmFpkgEQc29mdHdhcmVfY29tcGFueZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRMWRUbHlTemgzUlJBQqoBZQoNL2cvMTFoMmJiYzI0cAoIL20vMDN5dGMQASoQIgxpdCBjb21wYW5pZXMoADIeEAEiGg-dvmj4cCsSHPQJ9IguG3VR2FL11FbvIdDSMhYQAiISaXQgY29tcGFuaWVzIGR1YmFp4AEA-gEECEQQSw!16s%2Fg%2F1wnd_jwg?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "are running smoothly"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Bur Dubai",
+        "emirate": "Dubai",
+        "buildingNumber": "205",
+        "floor": null,
+        "office": "Office 205"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:48:53.245Z",
+      "dataQualityScore": 87,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Xedos Technologies LLC - IT Support Dubai | IT AMC Services in Dubai | IT Solutions Company UAE | Tally Solutions in UAE",
+      "address": "Unigrove Business Centre, Al Dar University Building - Office 26,4th Floor - Al Garhoud - Dubai",
+      "phone": "+971526073989",
+      "website": "https://xedos.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Computer support and services",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2525862,
+        "lng": 55.3388302
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Xedos+Technologies+LLC+-+IT+Support+Dubai+%7C+IT+AMC+Services+in+Dubai+%7C+IT+Solutions+Company+UAE+%7C+Tally+Solutions+in+UAE/@25.2525862,55.3388302,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d07126d90fd:0xd6de782764a6f3cc!8m2!3d25.2525862!4d55.3388302!16s%2Fg%2F11h2bbc24p?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "running smoothly",
+        "Tally Software Services"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "26",
+        "floor": null,
+        "office": "Office 26"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:49:29.380Z",
+      "dataQualityScore": 70,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "ToXSL Technologies",
+      "address": "BUR DUBAI - R308 Building - near Burjuman Mall - Al Mankhool - Dubai",
+      "phone": "+971542007788",
+      "website": "https://toxsl.ae/",
+      "rating": 4.7,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Software company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2550691,
+        "lng": 55.2843658
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/ToXSL+Technologies/@25.2550691,55.2843658,15z/data=!4m10!1m2!2m1!1ssoftware+companies+Dubai!3m6!1s0x3e5f656cb983ee57:0xde57360ed678865f!8m2!3d25.2550691!4d55.3023902!15sChhzb2Z0d2FyZSBjb21wYW5pZXMgRHViYWlaGiIYc29mdHdhcmUgY29tcGFuaWVzIGR1YmFpkgEQc29mdHdhcmVfY29tcGFueZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VScUxUVjFRV0ZuRUFFqgFjCggvbS8wMW1mMBABKhYiEnNvZnR3YXJlIGNvbXBhbmllcygAMh8QASIbhg6t25e9q2vu1mz4kDDspo6xFcTN1UOzVlfHMhwQAiIYc29mdHdhcmUgY29tcGFuaWVzIGR1YmFp4AEA-gEECHgQPg!16s%2Fg%2F11t6pm2brs?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Bur Dubai",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:50:36.112Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Zentroa Technologies | Best Dubai Web Design Company | SEO Agency Dubai | Digital Marketing Agency in Dubai",
+      "address": "Ascon House - First Floor - Salah Al Din St - Muteena - Dubai",
+      "phone": "+971525599052",
+      "website": "https://zentroa.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Marketing Agency",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2709057,
+        "lng": 55.3073813
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Zentroa+Technologies+%7C+Best+Dubai+Web+Design+Company+%7C+SEO+Agency+Dubai+%7C+Digital+Marketing+Agency+in+Dubai/@25.2709057,55.3073813,15z/data=!3m1!5s0x3e5f5cc873434b1b:0x5db0862ed294112c!4m10!1m2!2m1!1sweb+development+Dubai!3m6!1s0x3e5f5c0c65fc5d1d:0xf5e5ab1402b4bddb!8m2!3d25.2709057!4d55.3254057!15sChV3ZWIgZGV2ZWxvcG1lbnQgRHViYWlaFyIVd2ViIGRldmVsb3BtZW50IGR1YmFpkgEQd2Vic2l0ZV9kZXNpZ25lcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOYWExQm1YMWQzRUFFqgF9CggvbS8wODVuNAoJL20vMDFmMDhyCgkvbS8wMndkeTgKCC9tLzA4Mjh2EAEqEyIPd2ViIGRldmVsb3BtZW50KAAyHxABIhsO1_5nZ85CgkNXZvE8RdePFFoco3FQLDDxqC4yGRACIhV3ZWIgZGV2ZWxvcG1lbnQgZHViYWngAQD6AQUI0gIQSQ!16s%2Fg%2F11f2ht116v?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:52:08.610Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Tomsher Technologies LLC | Web Design Company Dubai | Digital Marketing",
+      "address": "13 26th St, Wafi Residence, opposite Dubai Healthcare City Metro Station, Oud Metha Road, - Dubai",
+      "phone": "+971555600966",
+      "website": "https://www.tomsher.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Digital Marketing",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2305101,
+        "lng": 55.3210733
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Tomsher+Technologies+LLC+%7C+Web+Design+Company+Dubai+%7C+Digital+Marketing/@25.2305101,55.3210733,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d3616f6e899:0xf2df842cf46f09c7!8m2!3d25.2305101!4d55.3210733!16s%2Fg%2F11fz9wt6jk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {
+        "whatsapp": "https://wa.me/+971555600966"
+      },
+      "contactPersons": [
+        "without wasting time or resources"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "13",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:52:45.191Z",
+      "dataQualityScore": 85,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Health Check up Dubai",
+      "address": "Airport Rd - Al Garhoud - Dubai",
+      "phone": "+971585400360",
+      "website": "https://www.healthchecks360.com/healthscreeningpackages.php",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Medical laboratory",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2628912,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Health+Check+up+Dubai/@25.2628912,55.3254912,15z/data=!4m9!1m2!2m1!1smedical+centers+Dubai!3m5!1s0x3e5f6be6cab4e8ab:0xe6146fc1ca187ac5!8m2!3d25.2527293!4d55.3428998!16s%2Fg%2F11qq1g0slh?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Mahaveer Mehta Dermatology center Dubai"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:53:55.403Z",
+      "dataQualityScore": 70,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "First Medical Center",
+      "address": "Level 7, Bu Haleeba Plaza - Al Muraqqabat Street - Dubai",
+      "phone": null,
+      "website": "https://firstmedicalcenter.simplybook.it/",
+      "rating": 4.7,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Medical Center",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2646049,
+        "lng": 55.3288838
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/First+Medical+Center/@25.2646049,55.3288838,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cc4ef88d857:0x672070cba5da23e2!8m2!3d25.2646049!4d55.3288838!16s%2Fg%2F1q62crpj3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "CYJ Hair Filler is the world",
+        "CYJ Hair Filler"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "7",
+        "floor": "Level 7",
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:54:31.256Z",
+      "dataQualityScore": 50,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Oral Implantology Medical Center",
+      "address": "Al Wahda Building - 204 - opp. City Center - Deira - Dubai",
+      "phone": null,
+      "website": "https://www.oralimplantologist.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Clinic",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.255662,
+        "lng": 55.3120006
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Oral+Implantology+Medical+Center/@25.255662,55.3120006,15z/data=!4m9!1m2!2m1!1sdental+clinics+Dubai!3m5!1s0x3e5f5cd92155281d:0xe6e3495329c7eba4!8m2!3d25.2556615!4d55.3300246!16s%2Fg%2F11bbwpds4_?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {
+        "instagram": "https://instagram.com/dralaadbc"
+      },
+      "contactPersons": [
+        "Majd explained the procedure and helped me with my tooth ache",
+        "Alaa Dental Beauty Clinic",
+        "Shiji",
+        "Mansoori Clinic",
+        "Joji Specialised Dental Implantology Center"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "204",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:55:26.656Z",
+      "dataQualityScore": 52,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Miami General Dental Clinic",
+      "address": "Deira - Al Rigga - Dubai",
+      "phone": "+971548883372",
+      "website": null,
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Clinic",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2636757,
+        "lng": 55.325599
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Miami+General+Dental+Clinic/@25.2636757,55.325599,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d1e0d3058ad:0x3a8d8b12b7f74d3b!8m2!3d25.2636757!4d55.325599!16s%2Fg%2F11wjbrtggl?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Mohamed",
+        "Majd Albalous is very thorough with his job"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:56:02.680Z",
+      "dataQualityScore": 57,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Movement ON Physiotherapy Clinic",
+      "address": "Century 21 Building, UNIT 202, 2nd Floor (Road Facing Facility Opposite Kabayel Discount Center & Beside Hilton Garden Inn Hotel Parking zone 124 C (Sufficient RTA parking available 2 AED /hr Rigga, Muraqabat - St - Deira - Dubai",
+      "phone": "+971504240151",
+      "website": "https://movementonphysio.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Clinic",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2656325,
+        "lng": 55.3115983
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Movement+ON+Physiotherapy+Clinic/@25.2656325,55.3115983,15z/data=!4m10!1m2!2m1!1sphysiotherapy+Dubai!3m6!1s0x3e5f5d0ba4ecfd87:0xd4ddc412d60059ef!8m2!3d25.2656325!4d55.3296227!15sChNwaHlzaW90aGVyYXB5IER1YmFpWhUiE3BoeXNpb3RoZXJhcHkgZHViYWmSAQ9waHlzaW90aGVyYXBpc3SaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUk1PVmxtV25GQlJSQUKqAU8QASoRIg1waHlzaW90aGVyYXB5KAAyHxABIhvY0CgD7Ux7WNEwek1uUvww1BUFjGClWhbGopIyFxACIhNwaHlzaW90aGVyYXB5IGR1YmFp4AEA-gEFCIACEEc!16s%2Fg%2F11v3qnnxjt?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Vinesh Kumar PT",
+        "Rami Hamed Center",
+        "Ravi Khamar",
+        "Reya  are extremely knowledgeable and took personal care in understanding my problem areas",
+        "Ravi was very caring and honest with the diagnostics"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "21",
+        "floor": null,
+        "office": "UNIT 202"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:57:01.137Z",
+      "dataQualityScore": 87,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Physiocare - physiotherapy center",
+      "address": "Building 64 - Umm Hurair Second - Dubai Healthcare City - Dubai",
+      "phone": null,
+      "website": "http://www.physiocare.ae/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Clinic",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2339847,
+        "lng": 55.3182372
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Physiocare+-+physiotherapy+center/@25.2339847,55.3182372,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d481ed019c9:0xcb5924a210228512!8m2!3d25.2339847!4d55.3182372!16s%2Fg%2F11_s9_x3k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "64",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:57:52.979Z",
+      "dataQualityScore": 45,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Egy Build Construction LLC | Best Construction Company in Dubai | Construction Companies Dubai",
+      "address": "45B St - Deira - Dubai",
+      "phone": null,
+      "website": "https://egybuild.ae/",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Construction Company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.262194,
+        "lng": 55.3094142
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Egy+Build+Construction+LLC+%7C+Best+Construction+Company+in+Dubai+%7C+Construction+Companies+Dubai/@25.262194,55.3094142,15z/data=!4m10!1m2!2m1!1sconstruction+companies+Dubai!3m6!1s0x3e5f5cdad2811a61:0xb2bd0caf4007f697!8m2!3d25.262194!4d55.3274386!15sChxjb25zdHJ1Y3Rpb24gY29tcGFuaWVzIER1YmFpWh4iHGNvbnN0cnVjdGlvbiBjb21wYW5pZXMgZHViYWmSARRjb25zdHJ1Y3Rpb25fY29tcGFueZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOZmJuWmZiVUpuRUFFqgFsCgkvbS8wMWYwOHIQASoaIhZjb25zdHJ1Y3Rpb24gY29tcGFuaWVzKAAyHxABIhtTgmTbONc4-fyJ_2PR-e3ASwd8LCxg4fG7nJ8yIBACIhxjb25zdHJ1Y3Rpb24gY29tcGFuaWVzIGR1YmFp4AEA-gEECC8QOg!16s%2Fg%2F1hm1qz5g8?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T21:58:49.086Z",
+      "dataQualityScore": 62,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Binladin Contracting Group L.L.C",
+      "address": "Bin Ladin Building - Abu Baker Al Siddique St - Al Khabaisi - Dubai",
+      "phone": null,
+      "website": "http://www.bcg-uae.com/",
+      "rating": 4.2,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Construction Company",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2695279,
+        "lng": 55.3128001
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Binladin+Contracting+Group+L.L.C/@25.2695279,55.3128001,15z/data=!4m10!1m2!2m1!1scontracting+Dubai!3m6!1s0x3e5f5cc6b527ccdb:0x6ee498229f0a56f3!8m2!3d25.2695279!4d55.3308245!15sChFjb250cmFjdGluZyBEdWJhaZIBFGNvbnN0cnVjdGlvbl9jb21wYW55qgFWCgkvbS8wMWYwOHIQASoPIgtjb250cmFjdGluZygAMh8QASIbF_lccP0NIhrT9flMrz_GNnoIb1QUmZKo1wmfMhUQAiIRY29udHJhY3RpbmcgZHViYWngAQA!16s%2Fg%2F124yp01mx?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:00:20.541Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "FUTURE CONTRACTING COMPANY LLC",
+      "address": "City Pharmacy Building - 101 22A St - Deira - Dubai",
+      "phone": null,
+      "website": "http://www.futurecontracting.ae/",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Contractor",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2626163,
+        "lng": 55.3318996
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/FUTURE+CONTRACTING+COMPANY+LLC/@25.2626163,55.3318996,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cdcbfe74c2f:0x328e9a956d4a378e!8m2!3d25.2626163!4d55.3318996!16s%2Fg%2F11bzr9wwfh?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "101",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:01:13.668Z",
+      "dataQualityScore": 62,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "ORRO INTERIOR DESIGN LLC | Luxury Fit out Contractor in Dubai & AbuDhabi | Fit out Company",
+      "address": "St - office 509, sapphire Tower - Al Ittihad Rd - Port Saeed - Dubai",
+      "phone": null,
+      "website": "http://www.orrointeriors.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Contractor",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2611988,
+        "lng": 55.3144315
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/ORRO+INTERIOR+DESIGN+LLC+%7C+Luxury+Fit+out+Contractor+in+Dubai+%26+AbuDhabi+%7C+Fit+out+Company/@25.2611988,55.3144315,15z/data=!4m10!1m2!2m1!1sinterior+design+Dubai!3m6!1s0x3e5f5cdc5e4036f5:0x6d03c3304ae55502!8m2!3d25.2611988!4d55.3324559!15sChVpbnRlcmlvciBkZXNpZ24gRHViYWlaFyIVaW50ZXJpb3IgZGVzaWduIGR1YmFpkgEKY29udHJhY3RvcpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMHhjMDB5V214T1ZXaHFZbFZXZUU5WE1XRlZlbEl4VW1wV1QyUnNSUkFCqgFyCgkvbS8wMnJmZHEKCS9tLzAxZjA4cgoIL20vMDJjd20QASoTIg9pbnRlcmlvciBkZXNpZ24oADIeEAEiGoZSLsafRrqbdN6mpaUJl2gb7F3ICk9UIokVMhkQAiIVaW50ZXJpb3IgZGVzaWduIGR1YmFp4AEA-gEECEsQSw!16s%2Fg%2F11crtwhbmw?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "email": "info@orrointeriors.com",
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "509",
+        "floor": null,
+        "office": "office 509"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:02:10.253Z",
+      "dataQualityScore": 70,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Decor N More LLC",
+      "address": "Mohammad Bin Abdulrahman Alashram Building 46 A - 214,Block A - Office 101 Sheikh Rashid Rd - Al Garhoud - Dubai",
+      "phone": "+971566445055",
+      "website": "https://dnmuae.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "Contractor",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2498969,
+        "lng": 55.3373188
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Decor+N+More+LLC/@25.2498969,55.3373188,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6b715535fc5b:0xb8bae617a36e41d!8m2!3d25.2498969!4d55.3373188!16s%2Fg%2F1q64lh1tw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "email": "info@dnmuae.com",
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Mohanad"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "46",
+        "floor": null,
+        "office": "Office 101"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:02:46.234Z",
+      "dataQualityScore": 95,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Top Brands Outlet Dubai",
+      "address": "Abu Baker Al Siddique St - Deira - Dubai",
+      "phone": "+971501694694",
+      "website": "http://topbrandsoutlets.com/",
+      "rating": 4.3,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Outlet store",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2630656,
+        "lng": 55.3107167
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Top+Brands+Outlet+Dubai/@25.2630656,55.3107167,15z/data=!4m10!1m2!2m1!1sretail+stores+Dubai!3m6!1s0x3e5f5d91e8fbef3f:0x5ebb54c91c492f88!8m2!3d25.2630656!4d55.3287411!15sChNyZXRhaWwgc3RvcmVzIER1YmFpWhUiE3JldGFpbCBzdG9yZXMgZHViYWmSAQxvdXRsZXRfc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTnRYeTF4ZVVSM0VBRaoBWgoJL20vMDE5MV83EAEqESINcmV0YWlsIHN0b3JlcygAMh8QASIbv9eDTdRBQCnT83C-JMeClzKVPM0GUuoVFcQ_MhcQAiITcmV0YWlsIHN0b3JlcyBkdWJhaeABAPoBBAgAEDc!16s%2Fg%2F11rn4lm2tw?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "are top notch"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:03:40.980Z",
+      "dataQualityScore": 72,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Brands For Less - Dubai Mall",
+      "address": "Cinema Parking 1 - next to Waitrose Supermarket LG Floor - Burj Khalifa - Dubai Mall - Dubai",
+      "phone": null,
+      "website": "http://www.brandsforless.com/",
+      "rating": 4.1,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Discount store",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.1981389,
+        "lng": 55.2795941
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Brands+For+Less+-+Dubai+Mall/@25.1981389,55.2795941,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6b838cfd51f1:0xcd81264e1d27545d!8m2!3d25.1981389!4d55.2795941!16s%2Fg%2F11k75mqphm?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "email": "customercare@bflgroup.ae",
+      "additionalEmails": [],
+      "socialMedia": {
+        "whatsapp": "https://wa.me/+9718008333"
+      },
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "1",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:04:17.070Z",
+      "dataQualityScore": 55,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Pearls Fashion Boutique Dubai",
+      "address": "Al Sharhan Apartments Amman Street - D97 7A St - near NMC Hospital - Al Qusais - Al Nahda 2 - Dubai",
+      "phone": null,
+      "website": "https://pearlsfashions.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Boutique",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2911179,
+        "lng": 55.3519036
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Pearls+Fashion+Boutique+Dubai/@25.2911179,55.3519036,15z/data=!4m10!1m2!2m1!1sfashion+boutiques+Dubai!3m6!1s0x3e5f5d001155372f:0x562715c94947123f!8m2!3d25.2911179!4d55.369928!15sChdmYXNoaW9uIGJvdXRpcXVlcyBEdWJhaVoZIhdmYXNoaW9uIGJvdXRpcXVlcyBkdWJhaZIBDmNsb3RoaW5nX3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4V1JXTnFiRlJsUms1T1ZFVkpORTFHY0U1WFV6RTFZekExYkZrell4QUKqAWEKCC9tLzAzMnRsEAEqFSIRZmFzaGlvbiBib3V0aXF1ZXMoADIfEAEiG_Ny-iCZFz_B7XvSTywrUndnj8Gqd_S08Lk7bTIbEAIiF2Zhc2hpb24gYm91dGlxdWVzIGR1YmFp4AEA-gEFCIYFEEs!16s%2Fg%2F11wj0yrx77?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:05:12.677Z",
+      "dataQualityScore": 45,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "Rugmys Boutique",
+      "address": "Shop 1 - 18A St - Al Karama - Dubai",
+      "phone": "+971522717861",
+      "website": "http://www.rugmysboutique.com/",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Boutique",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2460011,
+        "lng": 55.30649
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Rugmys+Boutique/@25.2460011,55.30649,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43b4292748e5:0xf5d2acdc9b28da43!8m2!3d25.2460011!4d55.30649!16s%2Fg%2F11rcs7gtrq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "1",
+        "floor": null,
+        "office": "Shop 1"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:05:48.687Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Verified"
+    },
+    {
+      "businessName": "Jumbo Electronics",
+      "address": "Deira City Center, Gr Floor - Dubai",
+      "phone": null,
+      "website": "https://www.jumbo.ae/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+      "rating": 3.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Electronics Store",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.251552,
+        "lng": 55.3148136
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Jumbo+Electronics/@25.251552,55.3148136,15z/data=!4m10!1m2!2m1!1selectronics+stores+Dubai!3m6!1s0x3e5f5d20e8f9f019:0xfd00c3ad11407e60!8m2!3d25.251552!4d55.332838!15sChhlbGVjdHJvbmljcyBzdG9yZXMgRHViYWlaGiIYZWxlY3Ryb25pY3Mgc3RvcmVzIGR1YmFpkgERZWxlY3Ryb25pY3Nfc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUlBjR0pRYjJKQkVBRaoBYwoIL20vMDJtcnAQASoWIhJlbGVjdHJvbmljcyBzdG9yZXMoADIfEAEiG0phBrdKwhQoVFJqyb_UJqIdLRcD_joIn4aTezIcEAIiGGVsZWN0cm9uaWNzIHN0b3JlcyBkdWJhaeABAPoBBAgAED8!16s%2Fg%2F1tdw6jc4?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "and brand new",
+        "Marvin and  miss  laarne"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:06:53.213Z",
+      "dataQualityScore": 52,
+      "verificationStatus": "Partially Verified"
+    },
+    {
+      "businessName": "TV INSTALLATION DUBAI",
+      "address": "Baghlaf Building - 26B St - Deira - Dubai",
+      "phone": "+971562696421",
+      "website": null,
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Electronics Store",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2646846,
+        "lng": 55.3228599
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/TV+INSTALLATION+DUBAI/@25.2646846,55.3228599,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f434eaeb89aa1:0xa25db52447f3796a!8m2!3d25.2646846!4d55.3228599!16s%2Fg%2F11cm0q9mtx?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-09-30T22:07:44.966Z",
+      "dataQualityScore": 52,
+      "verificationStatus": "Partially Verified"
+    }
+  ]
+}
