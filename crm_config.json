@@ -2,15 +2,21 @@
   "enabled": true,
   "crm_type": "odoo17",
   "credentials": {
-    "url": "http://localhost:8069",
-    "db": "your_database_name",
+    "url": "https://scholarixglobal.com",
+    "db": "scholarixv17",
     "username": "admin",
-    "password": "admin"
+    "password": "50dff9876307772283feb7b0d63ecb8b2448f410"
   },
   "push_settings": {
     "real_time": true,
     "batch_at_end": true,
     "retry_on_failure": true,
     "max_retries": 3
+  },
+  "odoo_settings": {
+    "default_stage": "New",
+    "auto_create_partner": true,
+    "assign_to_user": true,
+    "create_tags": true
   }
 }

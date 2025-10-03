@@ -26,13 +26,12 @@ class GoogleMapsLeadScraper:
         self.scraped_names = set()
         self.crm_connector = None
         self.crm_enabled = False
-        self.push_settings = {}
         self.load_crm_config()
         
     def load_crm_config(self):
         """Load CRM configuration from config file"""
         try:
-            config_path = os.path.join(os.path.dirname(__file__), "crm_config.json")
+            config_path = "d:/apify/apify_actor/crm_config.json"
             if os.path.exists(config_path):
                 with open(config_path, 'r') as f:
                     config = json.load(f)
@@ -44,11 +43,19 @@ class GoogleMapsLeadScraper:
                     
                     self.crm_connector = get_crm_connector(crm_type, **credentials)
                     self.crm_enabled = True
-                    logger.info(f"✓ CRM integration enabled: {crm_type.upper()}")
+                    logger.info(f"✓ CRM integration enabled: {crm_type}")
+                    
+                    # Check yesterday's performance if Odoo
+                    if crm_type.lower() in ['odoo17', 'odoo18']:
+                        try:
+                            stats = self.crm_connector.get_yesterday_stats()
+                            logger.info(f"📊 Yesterday ({stats['date']}): {stats['total_leads']} leads scraped")
+                        except Exception as e:
+                            logger.warning(f"Could not fetch yesterday's stats: {e}")
                 else:
                     logger.info("CRM integration disabled in config")
             else:
-                logger.warning(f"CRM config file not found at: {config_path}")
+                logger.warning("CRM config file not found. CRM push disabled.")
         except Exception as e:
             logger.error(f"Error loading CRM config: {e}")
             self.crm_enabled = False
@@ -101,6 +108,42 @@ class GoogleMapsLeadScraper:
         logger.info(f"Time remaining: {int(remaining.total_seconds() / 60)} minutes")
         return True
     
+    def extract_email(self):
+        """Extract email from business details"""
+        try:
+            # Try to find email in the page source
+            page_source = self.driver.page_source
+            
+            # Look for email patterns
+            import re
+            email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+            emails = re.findall(email_pattern, page_source)
+            
+            # Filter out common non-business emails
+            excluded_domains = ['google.com', 'gmail.com', 'maps.google', 'gstatic.com', 'googleusercontent.com']
+            
+            for email in emails:
+                domain = email.split('@')[1].lower()
+                if not any(excluded in domain for excluded in excluded_domains):
+                    logger.info(f"Found email: {email}")
+                    return email
+            
+            # Try to find email button or link
+            try:
+                email_elements = self.driver.find_elements(By.XPATH, 
+                    "//a[contains(@href, 'mailto:')]")
+                if email_elements:
+                    email_href = email_elements[0].get_attribute('href')
+                    email = email_href.replace('mailto:', '').split('?')[0]
+                    return email
+            except:
+                pass
+            
+        except Exception as e:
+            logger.debug(f"Email extraction error: {e}")
+        
+        return "Not available"
+    
     def extract_phone(self):
         """Extract phone number from business details"""
         try:
@@ -138,26 +181,33 @@ class GoogleMapsLeadScraper:
         except:
             return "Dubai, UAE"
     
-    def calculate_priority(self, phone, website):
+    def calculate_priority(self, phone, website, email):
         """Calculate priority based on available data"""
         has_phone = phone not in ["Contact via website", "Not available"]
         has_website = website not in ["Not available", ""]
+        has_email = email not in ["Not available", ""]
         
-        if has_phone and has_website:
+        contact_count = sum([has_phone, has_website, has_email])
+        
+        if contact_count >= 3:
             return "URGENT"
-        elif has_phone or has_website:
+        elif contact_count >= 2:
             return "HIGH"
-        else:
+        elif contact_count >= 1:
             return "MEDIUM"
+        else:
+            return "LOW"
     
-    def calculate_quality_score(self, phone, website, category):
+    def calculate_quality_score(self, phone, website, category, email):
         """Calculate quality score (1-10)"""
-        score = 5
+        score = 4
         
         if phone not in ["Contact via website", "Not available"]:
             score += 2
         if website not in ["Not available", ""]:
             score += 2
+        if email not in ["Not available", ""]:
+            score += 1
         if category and category != "N/A":
             score += 1
         
@@ -192,6 +242,7 @@ class GoogleMapsLeadScraper:
             # Extract contact details
             phone = self.extract_phone()
             website = self.extract_website()
+            email = self.extract_email()
             address = self.extract_address()
             
             # Build result
@@ -199,10 +250,11 @@ class GoogleMapsLeadScraper:
                 'Name': name,
                 'Category': category,
                 'Phone': phone,
+                'Email': email,
                 'Website': website,
                 'Address': address,
-                'Priority': self.calculate_priority(phone, website),
-                'Quality Score': self.calculate_quality_score(phone, website, category),
+                'Priority': self.calculate_priority(phone, website, email),
+                'Quality Score': self.calculate_quality_score(phone, website, category, email),
                 'Data Source': 'Google Maps Scraper',
                 'Search Term': search_term,
                 'Timestamp': datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + 'Z'
@@ -279,7 +331,7 @@ class GoogleMapsLeadScraper:
                     
                     if business_data:
                         self.results.append(business_data)
-                        logger.info(f"✓ Scraped ({len(self.results)}): {business_data['Name']} - {business_data['Phone']}")
+                        logger.info(f"✓ Scraped ({len(self.results)}): {business_data['Name']} - Phone: {business_data['Phone']} - Email: {business_data['Email']}")
                     
                     time.sleep(1)  # Rate limiting
                     
@@ -301,9 +353,9 @@ class GoogleMapsLeadScraper:
             logger.warning("No results to save")
             return
         
-        # Write CSV with exact same format
+        # Write CSV with email field included
         with open(filename, 'w', newline='', encoding='utf-8') as f:
-            fieldnames = ['Name', 'Category', 'Phone', 'Website', 'Address', 
+            fieldnames = ['Name', 'Category', 'Phone', 'Email', 'Website', 'Address', 
                          'Priority', 'Quality Score', 'Data Source', 'Search Term', 'Timestamp']
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
@@ -360,23 +412,69 @@ class GoogleMapsLeadScraper:
                 logger.warning("No results collected")
 
 if __name__ == "__main__":
-    # Search queries based on Dubai business categories
+    # Search queries targeting HIGH-POTENTIAL companies needing ERP, Automation & AI
     search_queries = [
-        "chartered accountants",
-        "accounting services",
-        "business consultancy",
-        "VAT services",
-        "tax consultants",
-        "auditing firms",
-        "business setup services",
-        "PRO services",
-        "corporate services",
-        "financial consultants",
-        "legal consultants",
-        "company formation",
-        "bookkeeping services",
-        "payroll services",
-        "CFO services"
+        # Manufacturing & Trading (High ERP potential)
+        "manufacturing companies Dubai",
+        "trading companies Dubai",
+        "import export companies Dubai",
+        "wholesale distributors Dubai",
+        "logistics companies Dubai",
+        "warehousing services Dubai",
+        
+        # Retail & E-commerce (Automation & ERP potential)
+        "retail companies Dubai",
+        "ecommerce businesses Dubai",
+        "online stores Dubai",
+        "distribution companies Dubai",
+        
+        # Construction & Real Estate (Project Management & ERP)
+        "construction companies Dubai",
+        "real estate developers Dubai",
+        "property management Dubai",
+        "facilities management Dubai",
+        
+        # Healthcare (Digital transformation potential)
+        "private clinics Dubai",
+        "medical centers Dubai",
+        "dental clinics Dubai",
+        "healthcare providers Dubai",
+        
+        # Hospitality & Tourism (Operations automation)
+        "hotels Dubai",
+        "restaurants Dubai",
+        "catering services Dubai",
+        "travel agencies Dubai",
+        "tourism companies Dubai",
+        
+        # Professional Services (Growing SMEs)
+        "law firms Dubai",
+        "consulting firms Dubai",
+        "marketing agencies Dubai",
+        "recruitment agencies Dubai",
+        "training centers Dubai",
+        
+        # Technology & Innovation (Early adopters)
+        "software companies Dubai",
+        "IT companies Dubai",
+        "digital agencies Dubai",
+        "startups Dubai",
+        
+        # Financial Services (Compliance & automation needs)
+        "accounting firms Dubai",
+        "auditing firms Dubai",
+        "business consultants Dubai",
+        "financial advisors Dubai",
+        
+        # Education (Digital transformation)
+        "training institutes Dubai",
+        "educational centers Dubai",
+        "coaching centers Dubai",
+        
+        # Automotive & Technical (Service management)
+        "car dealerships Dubai",
+        "auto service centers Dubai",
+        "technical services Dubai"
     ]
     
     # Run for 1 hour (60 minutes)
