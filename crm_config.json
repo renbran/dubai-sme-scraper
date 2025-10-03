@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "crm_type": "odoo17",
+  "credentials": {
+    "url": "http://localhost:8069",
+    "db": "your_database_name",
+    "username": "admin",
+    "password": "admin"
+  },
+  "push_settings": {
+    "real_time": true,
+    "batch_at_end": true,
+    "retry_on_failure": true,
+    "max_retries": 3
+  }
+}

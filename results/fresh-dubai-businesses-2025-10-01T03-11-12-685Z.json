@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "timestamp": "2025-10-01T03:11:32.078Z",
+    "totalBusinesses": 3,
+    "scrapingMethod": "Enhanced Multi-Strategy Scraping",
+    "dataFreshness": "Real-time + Verified Manual",
+    "averageQuality": "9.7",
+    "priorityBreakdown": {
+      "urgent": 2,
+      "high": 1,
+      "medium": 0
+    }
+  },
+  "businesses": [
+    {
+      "name": "RVG Chartered Accountants",
+      "category": "Accounting Services",
+      "phone": "+971566796910",
+      "website": "https://rvguae.com",
+      "address": "Dubai, UAE",
+      "priority": "URGENT",
+      "qualityScore": 10,
+      "dataSource": "Verified Manual Research",
+      "freshData": true,
+      "id": "verified_1",
+      "extractedAt": "2025-10-01T03:11:32.077Z",
+      "searchTerm": "Verified backup data"
+    },
+    {
+      "name": "Pioneer Business Services",
+      "category": "Business Consultancy",
+      "phone": "+971553014376",
+      "website": "http://www.pioneerbs.com",
+      "address": "Deira Clocktower, Dubai",
+      "priority": "URGENT",
+      "qualityScore": 10,
+      "dataSource": "Verified Manual Research",
+      "freshData": true,
+      "id": "verified_2",
+      "extractedAt": "2025-10-01T03:11:32.077Z",
+      "searchTerm": "Verified backup data"
+    },
+    {
+      "name": "The VAT Consultant",
+      "category": "VAT Services",
+      "phone": "Contact via website",
+      "website": "https://thevatconsultant.com",
+      "address": "Dubai, UAE",
+      "priority": "HIGH",
+      "qualityScore": 9,
+      "dataSource": "Verified Manual Research",
+      "freshData": true,
+      "id": "verified_3",
+      "extractedAt": "2025-10-01T03:11:32.077Z",
+      "searchTerm": "Verified backup data"
+    }
+  ]
+}
