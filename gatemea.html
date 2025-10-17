@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate Mea LLC/FZ - Sample Accounting Entries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .entry-container {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .entry-header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .entry-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .entry-subtitle {
+            font-size: 14px;
+            margin: 5px 0 0 0;
+            opacity: 0.9;
+        }
+        .use-case {
+            background-color: #e8f4f8;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        .use-case-title {
+            font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        .debit {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .credit {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .total-row {
+            background-color: #ecf0f1;
+            font-weight: bold;
+        }
+        .entity-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .badge-llc {
+            background-color: #3498db;
+            color: white;
+        }
+        .badge-fzo {
+            background-color: #e67e22;
+            color: white;
+        }
+        .badge-both {
+            background-color: #9b59b6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #2c3e50;">Gate Mea LLC/FZ - Sample Accounting Entries</h1>
+    <p style="text-align: center; color: #7f8c8d; margin-bottom: 40px;">Comprehensive workflow transactions with detailed journal entries</p>
+
+    <!-- Entry 1: Purchase from Supplier -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #1: Purchase from Supplier</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-fzo">GATE MEA FZO</span> Date: October 1, 2025 | Ref: PO-2025-001</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea FZO purchases inventory worth $50,000 from an international supplier on credit terms. The goods will be used for distribution to both local and international markets.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Inventory - FZO</td>
+                    <td>Purchase of goods from supplier</td>
+                    <td class="debit">50,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Accounts Payable - Suppliers</td>
+                    <td>Amount due to supplier</td>
+                    <td>-</td>
+                    <td class="credit">50,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>50,000.00</td>
+                    <td>50,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 2: Intercompany Sale FZO to LLC -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #2: Intercompany Sale - FZO to LLC</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-both">BOTH ENTITIES</span> Date: October 3, 2025 | Ref: IC-2025-015</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea FZO sells inventory worth $30,000 (cost: $20,000) to Gate Mea LLC for distribution to the local market. This is an intercompany transaction that requires elimination in consolidated statements.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Entity</th>
+                    <th>Account</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><strong>FZO Books:</strong></td>
+                    <td>Intercompany Receivable - LLC</td>
+                    <td class="debit">30,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Intercompany Sales Revenue</td>
+                    <td>-</td>
+                    <td class="credit">30,000.00</td>
+                </tr>
+                <tr>
+                    <td>Cost of Goods Sold - Intercompany</td>
+                    <td class="debit">20,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Inventory - FZO</td>
+                    <td>-</td>
+                    <td class="credit">20,000.00</td>
+                </tr>
+                <tr style="height: 10px;"><td colspan="4"></td></tr>
+                <tr>
+                    <td rowspan="2"><strong>LLC Books:</strong></td>
+                    <td>Inventory - LLC</td>
+                    <td class="debit">30,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Intercompany Payable - FZO</td>
+                    <td>-</td>
+                    <td class="credit">30,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 3: Sale to Local Market -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #3: Sale to Local Market Customer</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-llc">GATE MEA LLC</span> Date: October 5, 2025 | Ref: INV-2025-245</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea LLC sells goods worth $45,000 to a local market customer on credit. The cost of goods sold is $30,000. Payment terms are Net 30 days.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Accounts Receivable - Local Market</td>
+                    <td>Sale to local customer</td>
+                    <td class="debit">45,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Sales Revenue - Local Market</td>
+                    <td>Revenue recognition</td>
+                    <td>-</td>
+                    <td class="credit">45,000.00</td>
+                </tr>
+                <tr>
+                    <td>Cost of Goods Sold</td>
+                    <td>Cost of inventory sold</td>
+                    <td class="debit">30,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Inventory - LLC</td>
+                    <td>Reduction in inventory</td>
+                    <td>-</td>
+                    <td class="credit">30,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>75,000.00</td>
+                    <td>75,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 4: Sale to International Market -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #4: Sale to International Market</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-fzo">GATE MEA FZO</span> Date: October 7, 2025 | Ref: EXP-2025-089</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea FZO exports goods worth $65,000 to an international customer. The cost of goods is $40,000. Payment received via wire transfer in advance.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bank Account - FZO</td>
+                    <td>Payment received from international customer</td>
+                    <td class="debit">65,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Sales Revenue - International</td>
+                    <td>Export sales revenue</td>
+                    <td>-</td>
+                    <td class="credit">65,000.00</td>
+                </tr>
+                <tr>
+                    <td>Cost of Goods Sold</td>
+                    <td>Cost of exported goods</td>
+                    <td class="debit">40,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Inventory - FZO</td>
+                    <td>Reduction in inventory</td>
+                    <td>-</td>
+                    <td class="credit">40,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>105,000.00</td>
+                    <td>105,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 5: E-commerce Platform Sale -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #5: E-commerce Platform Sale</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-llc">GATE MEA LLC</span> Date: October 8, 2025 | Ref: EC-2025-1523</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea LLC processes an e-commerce sale worth $8,500 through its online platform. The platform charges a 5% commission ($425). Customer pays via credit card. Cost of goods sold is $5,000.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bank Account - LLC</td>
+                    <td>Net payment received (after platform fee)</td>
+                    <td class="debit">8,075.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>E-commerce Platform Fees</td>
+                    <td>Platform commission (5%)</td>
+                    <td class="debit">425.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Sales Revenue - E-commerce</td>
+                    <td>Online sale revenue</td>
+                    <td>-</td>
+                    <td class="credit">8,500.00</td>
+                </tr>
+                <tr>
+                    <td>Cost of Goods Sold</td>
+                    <td>Cost of inventory sold</td>
+                    <td class="debit">5,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Inventory - LLC</td>
+                    <td>Reduction in inventory</td>
+                    <td>-</td>
+                    <td class="credit">5,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>13,500.00</td>
+                    <td>13,500.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 6: Warehouse Delivery to Client Consignment -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #6: Warehouse Delivery to Client Consignment</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-llc">GATE MEA LLC</span> Date: October 10, 2025 | Ref: CONS-2025-012</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea LLC transfers inventory worth $25,000 (at cost) from Warehouse-2 to a client's consignment location. Goods remain owned by Gate Mea until sold by the client. Delivery cost is $500.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Inventory on Consignment</td>
+                    <td>Transfer to consignment location</td>
+                    <td class="debit">25,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Inventory - Warehouse 2</td>
+                    <td>Reduction from warehouse inventory</td>
+                    <td>-</td>
+                    <td class="credit">25,000.00</td>
+                </tr>
+                <tr>
+                    <td>Delivery Expenses</td>
+                    <td>Transportation cost to consignment location</td>
+                    <td class="debit">500.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Cash/Bank Account</td>
+                    <td>Payment for delivery service</td>
+                    <td>-</td>
+                    <td class="credit">500.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>25,500.00</td>
+                    <td>25,500.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 7: Sale to KSA Branch -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #7: Sale to KSA Branch</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-fzo">GATE MEA FZO</span> Date: October 12, 2025 | Ref: KSA-2025-034</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea FZO sells inventory worth $55,000 to the KSA Branch on credit terms. The cost of goods is $35,000. This is an inter-branch transaction requiring proper documentation for customs and VAT purposes.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Accounts Receivable - KSA Branch</td>
+                    <td>Sale to KSA branch</td>
+                    <td class="debit">55,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Sales Revenue - KSA</td>
+                    <td>Revenue from KSA branch sale</td>
+                    <td>-</td>
+                    <td class="credit">55,000.00</td>
+                </tr>
+                <tr>
+                    <td>Cost of Goods Sold</td>
+                    <td>Cost of goods sold to KSA</td>
+                    <td class="debit">35,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Inventory - FZO</td>
+                    <td>Reduction in inventory</td>
+                    <td>-</td>
+                    <td class="credit">35,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>90,000.00</td>
+                    <td>90,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 8: Payment to Supplier -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #8: Payment to Supplier with Early Payment Discount</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-fzo">GATE MEA FZO</span> Date: October 14, 2025 | Ref: PAY-2025-067</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea FZO pays $50,000 owed to a supplier from Entry #1. The supplier offers a 2% early payment discount ($1,000) for payment within 10 days. Payment made via wire transfer.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Accounts Payable - Suppliers</td>
+                    <td>Settlement of supplier invoice</td>
+                    <td class="debit">50,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Bank Account - FZO</td>
+                    <td>Wire transfer payment</td>
+                    <td>-</td>
+                    <td class="credit">49,000.00</td>
+                </tr>
+                <tr>
+                    <td>Purchase Discounts</td>
+                    <td>Early payment discount earned (2%)</td>
+                    <td>-</td>
+                    <td class="credit">1,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>50,000.00</td>
+                    <td>50,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 9: Warehouse Operating Expenses -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #9: Warehouse Operating Expenses</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-llc">GATE MEA LLC</span> Date: October 15, 2025 | Ref: EXP-2025-234</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea LLC pays monthly operating expenses for Warehouse-1 and Warehouse-2. Expenses include rent ($8,000), utilities ($1,500), warehouse staff salaries ($12,000), and maintenance ($2,500).
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rent Expense - Warehouse</td>
+                    <td>Monthly warehouse rent</td>
+                    <td class="debit">8,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Utilities Expense</td>
+                    <td>Electricity and water for warehouses</td>
+                    <td class="debit">1,500.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Salaries Expense - Warehouse Staff</td>
+                    <td>Monthly payroll for warehouse employees</td>
+                    <td class="debit">12,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Maintenance Expense</td>
+                    <td>Equipment and facility maintenance</td>
+                    <td class="debit">2,500.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Bank Account - LLC</td>
+                    <td>Payment of warehouse expenses</td>
+                    <td>-</td>
+                    <td class="credit">24,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL</td>
+                    <td>24,000.00</td>
+                    <td>24,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Entry 10: Intercompany Settlement -->
+    <div class="entry-container">
+        <div class="entry-header">
+            <p class="entry-title">Entry #10: Intercompany Account Settlement</p>
+            <p class="entry-subtitle"><span class="entity-badge badge-both">BOTH ENTITIES</span> Date: October 15, 2025 | Ref: IC-PAY-2025-008</p>
+        </div>
+        <div class="use-case">
+            <div class="use-case-title">Use Case:</div>
+            Gate Mea LLC settles its intercompany payable to Gate Mea FZO from Entry #2 ($30,000) by wire transfer. This transaction clears the intercompany balance between the two entities.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Entity</th>
+                    <th>Account</th>
+                    <th>Debit ($)</th>
+                    <th>Credit ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"><strong>LLC Books:</strong></td>
+                    <td>Intercompany Payable - FZO</td>
+                    <td class="debit">30,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Bank Account - LLC</td>
+                    <td>-</td>
+                    <td class="credit">30,000.00</td>
+                </tr>
+                <tr style="height: 10px;"><td colspan="4"></td></tr>
+                <tr>
+                    <td rowspan="2"><strong>FZO Books:</strong></td>
+                    <td>Bank Account - FZO</td>
+                    <td class="debit">30,000.00</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Intercompany Receivable - LLC</td>
+                    <td>-</td>
+                    <td class="credit">30,000.00</td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="2">TOTAL (Each Entity)</td>
+                    <td>30,000.00</td>
+                    <td>30,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="background-color: #2c3e50; color: white; padding: 20px; text-align: center; margin-top: 40px; border-radius: 8px;">
+        <p style="margin: 0; font-size: 14px;">Gate Mea LLC/FZ - Sample Accounting Entries</p>
+        <p style="margin: 5px 0 0 0; font-size: 12px; opacity: 0.8;">Generated for workflow documentation and training purposes</p>
+    </div>
+</body>
+</html>

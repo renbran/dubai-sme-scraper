@@ -1,5 +1,7 @@
+import requests
 import logging
 from typing import Dict, List
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -14,6 +16,49 @@ class CRMConnector:
         """Push multiple leads to CRM"""
         raise NotImplementedError
 
+class GenericWebhookConnector(CRMConnector):
+    """Generic webhook connector for Odoo and other CRMs"""
+    
+    def __init__(self, webhook_url: str, auth_header: str = None):
+        self.webhook_url = webhook_url
+        self.headers = {"Content-Type": "application/json"}
+        
+        if auth_header:
+            self.headers["Authorization"] = auth_header
+    
+    def push_lead(self, lead_data: Dict) -> bool:
+        """Push single lead via webhook"""
+        try:
+            response = requests.post(self.webhook_url, headers=self.headers, json=lead_data, timeout=30)
+            
+            if response.status_code in [200, 201, 202]:
+                logger.info(f"✓ Pushed via webhook: {lead_data.get('Name')}")
+                return True
+            else:
+                logger.error(f"Webhook error: {response.status_code} - {response.text}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"Error pushing via webhook: {e}")
+            return False
+    
+    def push_leads_batch(self, leads: List[Dict]) -> Dict:
+        """Push multiple leads via webhook"""
+        try:
+            payload = {"leads": leads, "batch": True, "count": len(leads)}
+            response = requests.post(self.webhook_url, headers=self.headers, json=payload, timeout=60)
+            
+            if response.status_code in [200, 201, 202]:
+                logger.info(f"✓ Pushed {len(leads)} leads via webhook batch")
+                return {"success": len(leads), "failed": 0}
+            else:
+                logger.error(f"Webhook batch error: {response.status_code}")
+                return {"success": 0, "failed": len(leads)}
+                
+        except Exception as e:
+            logger.error(f"Error pushing batch via webhook: {e}")
+            return {"success": 0, "failed": len(leads)}
+
 def get_crm_connector(crm_type: str, **credentials):
     """Factory function to get appropriate CRM connector"""
     
@@ -24,6 +69,11 @@ def get_crm_connector(crm_type: str, **credentials):
             db=credentials.get('db'),
             username=credentials.get('username'),
             password=credentials.get('password')
+        )
+    elif crm_type.lower() == 'webhook':
+        return GenericWebhookConnector(
+            webhook_url=credentials.get('webhook_url'),
+            auth_header=credentials.get('auth_header')
         )
     
     raise ValueError(f"Unsupported CRM type: {crm_type}")

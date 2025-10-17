@@ -11,7 +11,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import os
 import json
-from crm_connector import get_crm_connector
+import re
+from webhook_crm_connector import get_webhook_connector
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -41,17 +42,17 @@ class GoogleMapsLeadScraper:
                     credentials = config.get('credentials', {})
                     self.push_settings = config.get('push_settings', {})
                     
-                    self.crm_connector = get_crm_connector(crm_type, **credentials)
-                    self.crm_enabled = True
-                    logger.info(f"✓ CRM integration enabled: {crm_type}")
-                    
-                    # Check yesterday's performance if Odoo
-                    if crm_type.lower() in ['odoo17', 'odoo18']:
-                        try:
-                            stats = self.crm_connector.get_yesterday_stats()
-                            logger.info(f"📊 Yesterday ({stats['date']}): {stats['total_leads']} leads scraped")
-                        except Exception as e:
-                            logger.warning(f"Could not fetch yesterday's stats: {e}")
+                    # Initialize webhook connector
+                    if crm_type.lower() == 'webhook':
+                        self.crm_connector = get_webhook_connector(
+                            webhook_url=credentials.get('webhook_url'),
+                            auth_header=credentials.get('auth_header')
+                        )
+                        self.crm_enabled = True
+                        logger.info(f"✓ Webhook CRM integration enabled: {credentials.get('webhook_url')}")
+                    else:
+                        logger.error(f"Unsupported CRM type: {crm_type}")
+                        self.crm_enabled = False
                 else:
                     logger.info("CRM integration disabled in config")
             else:
@@ -83,6 +84,27 @@ class GoogleMapsLeadScraper:
         except Exception as e:
             logger.error(f"Error pushing to CRM: {e}")
             return False
+    
+    def should_push_to_crm(self, lead_data: dict) -> bool:
+        """Check if lead should be pushed to CRM (must have either email OR phone)"""
+        phone = lead_data.get('Phone', '').strip()
+        email = lead_data.get('Email', '').strip()
+        
+        # Must have either phone OR email, and they must not be "Not available"
+        has_phone = phone and phone != "Not available" and phone != "Contact via website"
+        has_email = email and email != "Not available" and "@" in email
+        
+        if has_phone or has_email:
+            contact_info = []
+            if has_phone:
+                contact_info.append(f"Phone: {phone}")
+            if has_email:
+                contact_info.append(f"Email: {email}")
+            logger.info(f"✅ CRM PUSH QUALIFIED: {lead_data['Name']} - {' | '.join(contact_info)}")
+            return True
+        else:
+            logger.info(f"⏭️ CRM PUSH SKIPPED: {lead_data['Name']} - Missing both phone AND email")
+            return False
         
     def setup_driver(self):
         """Setup Chrome driver with options"""
@@ -103,7 +125,7 @@ class GoogleMapsLeadScraper:
         elapsed = datetime.now() - self.start_time
         remaining = self.duration - elapsed
         if remaining.total_seconds() <= 0:
-            logger.info("Time limit reached (1 hour)")
+            logger.info("Time limit reached (2 hours)")
             return False
         logger.info(f"Time remaining: {int(remaining.total_seconds() / 60)} minutes")
         return True
@@ -262,9 +284,10 @@ class GoogleMapsLeadScraper:
             
             self.scraped_names.add(name)
             
-            # Push to CRM in real-time if enabled
+            # Push to CRM in real-time if enabled (only leads with email AND phone)
             if self.crm_enabled and self.push_settings.get('real_time', True):
-                self.push_to_crm(business_data)
+                if self.should_push_to_crm(business_data):
+                    self.push_to_crm(business_data)
             
             return business_data
             
@@ -365,10 +388,10 @@ class GoogleMapsLeadScraper:
         return filename
     
     def run(self):
-        """Main scraping loop - runs for 1 hour"""
+        """Main scraping loop - runs for 2 hours"""
         try:
             self.setup_driver()
-            logger.info(f"🚀 Starting 1-hour scraping session...")
+            logger.info(f"🚀 Starting 2-hour scraping session...")
             logger.info(f"Start time: {self.start_time.strftime('%Y-%m-%d %H:%M:%S')}")
             
             if self.crm_enabled:
@@ -412,40 +435,47 @@ class GoogleMapsLeadScraper:
                 logger.warning("No results collected")
 
 if __name__ == "__main__":
-    # Search queries targeting HIGH-POTENTIAL companies needing ERP, Automation & AI
+    # Search queries targeting BUSINESS SETUP, RETAIL, ACCOUNTING & PRO SERVICES
     search_queries = [
-        # Manufacturing & Trading (High ERP potential)
-        "manufacturing companies Dubai",
-        "trading companies Dubai",
-        "import export companies Dubai",
-        "wholesale distributors Dubai",
-        "logistics companies Dubai",
-        "warehousing services Dubai",
+        # Business Setup Services (High-potential target clients)
+        "business setup companies Dubai",
+        "company formation Dubai",
+        "business license services Dubai",
+        "business setup consultants Dubai",
+        "corporate services Dubai",
+        "business incorporation Dubai",
+        "mainland company setup Dubai",
+        "freezone business setup Dubai",
         
-        # Retail & E-commerce (Automation & ERP potential)
-        "retail companies Dubai",
-        "ecommerce businesses Dubai",
-        "online stores Dubai",
-        "distribution companies Dubai",
+        # Retail Businesses (E-commerce & operations optimization potential)
+        "retail stores Dubai",
+        "shopping centers Dubai",
+        "retail chains Dubai",
+        "fashion retailers Dubai",
+        "electronics stores Dubai",
+        "supermarkets Dubai",
+        "department stores Dubai",
+        "retail outlets Dubai",
         
-        # Construction & Real Estate (Project Management & ERP)
-        "construction companies Dubai",
-        "real estate developers Dubai",
-        "property management Dubai",
-        "facilities management Dubai",
+        # Accounting Firms (Professional services, CRM & automation potential)
+        "accounting firms Dubai",
+        "chartered accountants Dubai",
+        "audit firms Dubai",
+        "tax consultants Dubai",
+        "bookkeeping services Dubai",
+        "financial advisors Dubai",
+        "accounting services Dubai",
+        "certified accountants Dubai",
         
-        # Healthcare (Digital transformation potential)
-        "private clinics Dubai",
-        "medical centers Dubai",
-        "dental clinics Dubai",
-        "healthcare providers Dubai",
-        
-        # Hospitality & Tourism (Operations automation)
-        "hotels Dubai",
-        "restaurants Dubai",
-        "catering services Dubai",
-        "travel agencies Dubai",
-        "tourism companies Dubai",
+        # PRO Services (Government relations & documentation services)
+        "PRO services Dubai",
+        "government relations Dubai",
+        "visa services Dubai",
+        "document clearing Dubai",
+        "immigration services Dubai",
+        "labor card services Dubai",
+        "emirates id services Dubai",
+        "ministry attestation Dubai",
         
         # Professional Services (Growing SMEs)
         "law firms Dubai",
@@ -465,18 +495,20 @@ if __name__ == "__main__":
         "auditing firms Dubai",
         "business consultants Dubai",
         "financial advisors Dubai",
+        "accounting services Dubai",
+        "certified accountants Dubai",
         
-        # Education (Digital transformation)
-        "training institutes Dubai",
-        "educational centers Dubai",
-        "coaching centers Dubai",
-        
-        # Automotive & Technical (Service management)
-        "car dealerships Dubai",
-        "auto service centers Dubai",
-        "technical services Dubai"
+        # PRO Services (Government relations & documentation services)
+        "PRO services Dubai",
+        "government relations Dubai",
+        "visa services Dubai",
+        "document clearing Dubai",
+        "immigration services Dubai",
+        "labor card services Dubai",
+        "emirates id services Dubai",
+        "ministry attestation Dubai"
     ]
     
-    # Run for 1 hour (60 minutes)
-    scraper = GoogleMapsLeadScraper(search_queries, duration_minutes=60)
+    # Run for 2 hours (120 minutes)
+    scraper = GoogleMapsLeadScraper(search_queries, duration_minutes=120)
     scraper.run()
