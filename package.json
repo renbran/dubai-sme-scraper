@@ -32,6 +32,7 @@
   "license": "MIT",
   "dependencies": {
     "apify": "^3.1.0",
+    "apify-client": "^2.20.0",
     "axios": "^1.12.1",
     "cheerio": "^1.0.0-rc.12",
     "csv-writer": "^1.6.0",

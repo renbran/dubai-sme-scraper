@@ -1,0 +1,43 @@
+{
+  "categories": [
+    "real estate companies Deira Dubai",
+    "property management companies Deira Dubai",
+    "rental homes Deira Dubai",
+    "holiday homes Deira Dubai",
+    "real estate developer Deira Dubai",
+    "realtors Deira Dubai",
+    "real estate companies Burjuman Dubai",
+    "property management companies Burjuman Dubai",
+    "rental properties Burjuman Dubai",
+    "holiday homes Burjuman Dubai",
+    "real estate companies Al Rigga Dubai",
+    "property management Al Rigga Dubai",
+    "realtors Al Rigga Dubai",
+    "holiday homes Al Rigga Dubai",
+    "real estate companies Bur Dubai",
+    "property management Bur Dubai",
+    "real estate companies Al Karama Dubai",
+    "property management Al Karama Dubai",
+    "real estate companies Al Mankhool Dubai",
+    "real estate companies Port Saeed Dubai"
+  ],
+  "maxResultsPerCategory": 25,
+  "searchRadius": "Business Bay",
+  "dataQualityLevel": "standard",
+  "concurrency": {
+    "maxConcurrency": 2,
+    "requestDelay": 3000,
+    "retryAttempts": 3
+  },
+  "outputFormat": {
+    "includePhotos": false,
+    "includeReviews": false,
+    "includeCoordinates": true,
+    "includeSocialMedia": false,
+    "includeEmails": true,
+    "scrapeWebsiteForEmails": true
+  },
+  "proxyConfiguration": {
+    "useApifyProxy": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "crm_type": "webhook",
+  "credentials": {
+    "webhook_url": "http://scholarixglobal.com/web/hook/aa6e5d99-5030-4128-864f-9d9a35725c0f",
+    "auth_header": null
+  },
+  "push_settings": {
+    "real_time": true,
+    "batch_at_end": true,
+    "retry_on_failure": true,
+    "max_retries": 3
+  },
+  "webhook_settings": {
+    "timeout": 30,
+    "verify_ssl": true,
+    "batch_size": 50
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "categories": [
+    "coffee shops dubai marina"
+  ],
+  "maxResultsPerCategory": 5,
+  "dataQualityLevel": "standard",
+  "searchRadius": "Dubai Marina",
+  "googleSheetsConfig": {
+    "enabled": false
+  },
+  "concurrency": {
+    "maxConcurrency": 1,
+    "requestDelay": 3000,
+    "retryAttempts": 3
+  },
+  "outputFormat": {
+    "includePhotos": true,
+    "includeReviews": false,
+    "includeCoordinates": true,
+    "includeSocialMedia": false
+  }
+}

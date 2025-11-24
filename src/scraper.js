@@ -62,7 +62,10 @@ class GoogleMapsScraper {
                 '--no-zygote',
                 '--disable-gpu',
                 '--disable-web-security',
-                '--disable-features=VizDisplayCompositor'
+                '--disable-features=VizDisplayCompositor',
+                '--disable-blink-features=AutomationControlled',
+                '--disable-features=IsolateOrigins,site-per-process',
+                '--window-size=1366,768'
             ]
         };
 
@@ -71,20 +74,10 @@ class GoogleMapsScraper {
             browserOptions.proxy = this.options.proxyConfig;
         }
 
-        // Use system Chromium if available, fallback to Playwright's Chromium
-        const executablePath = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH || '/usr/bin/chromium-browser';
-        
-        try {
-            console.log(`[${getTimestamp()}] Attempting to launch browser with system executable: ${executablePath}`);
-            browserOptions.executablePath = executablePath;
-            this.browser = await chromium.launch(browserOptions);
-            console.log(`[${getTimestamp()}] Browser initialized successfully with system executable`);
-        } catch (error) {
-            console.log(`[${getTimestamp()}] System browser failed, trying Playwright's Chromium: ${error.message}`);
-            delete browserOptions.executablePath;
-            this.browser = await chromium.launch(browserOptions);
-            console.log(`[${getTimestamp()}] Browser initialized successfully with Playwright's Chromium`);
-        }
+        // Use Playwright's Chromium (skip system browser on Windows)
+        console.log(`[${getTimestamp()}] Launching browser with Playwright Chromium...`);
+        this.browser = await chromium.launch(browserOptions);
+        console.log(`[${getTimestamp()}] Browser initialized successfully`);
     }
 
     /**
@@ -103,6 +96,22 @@ class GoogleMapsScraper {
         // Set timeouts
         page.setDefaultTimeout(this.options.timeout);
         page.setDefaultNavigationTimeout(PERFORMANCE.NAVIGATION_TIMEOUT);
+
+        // Remove webdriver detection markers
+        await page.addInitScript(() => {
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined,
+            });
+            window.chrome = {
+                runtime: {},
+            };
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => [1, 2, 3, 4, 5],
+            });
+            Object.defineProperty(navigator, 'languages', {
+                get: () => ['en-US', 'en'],
+            });
+        });
 
         // Block unnecessary resources
         await page.route('**/*', (route) => {
@@ -190,12 +199,23 @@ class GoogleMapsScraper {
                 // Process new businesses
                 for (let i = lastBusinessCount; i < businessElements.length && businesses.length < maxResults; i++) {
                     try {
+                        // Check if page/browser is still alive
+                        if (page.isClosed()) {
+                            console.error(`[${getTimestamp()}] Page closed unexpectedly, stopping extraction`);
+                            break;
+                        }
+
                         const businessData = await this.extractBusinessData(page, businessElements[i], i);
                         if (businessData) {
                             businesses.push(businessData);
                             console.log(`[${getTimestamp()}] Extracted: ${businessData.businessName}`);
                         }
                     } catch (error) {
+                        // Check for browser closure errors
+                        if (error.message.includes('Target page, context or browser has been closed')) {
+                            console.error(`[${getTimestamp()}] Browser closed by Google Maps, stopping extraction`);
+                            break;
+                        }
                         console.warn(`[${getTimestamp()}] Error extracting business ${i}:`, error.message);
                         this.stats.failed++;
                     }
@@ -286,9 +306,19 @@ class GoogleMapsScraper {
      */
     async extractBusinessData(page, businessElement, index) {
         try {
+            // Check browser health before extraction
+            if (page.isClosed()) {
+                throw new Error('Page closed before extraction');
+            }
+
             // Enhanced click mechanism for better reliability
             await this.safeClick(page, businessElement, index);
             await sleep(randomDelay(2000, 3000));
+
+            // Check again after click
+            if (page.isClosed()) {
+                throw new Error('Page closed after clicking business element');
+            }
 
             // Wait for business details to load
             await page.waitForSelector(GOOGLE_MAPS.SELECTORS.BUSINESS_NAME, {
