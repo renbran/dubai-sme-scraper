@@ -1,0 +1,65 @@
+{
+  "apollo": {
+    "enabled": true,
+    "apiKey": "${APOLLO_API_KEY}",
+    "rateLimit": 60,
+    "timeout": 30000,
+    "retryAttempts": 3
+  },
+  "search": {
+    "location": ["United Arab Emirates", "Dubai"],
+    "seniorityLevels": [
+      "founder",
+      "c_suite",
+      "vp",
+      "director",
+      "owner",
+      "partner"
+    ],
+    "targetTitles": [
+      "CEO",
+      "Chief Executive Officer",
+      "CFO",
+      "Chief Financial Officer",
+      "CTO",
+      "Chief Technology Officer",
+      "CIO",
+      "Chief Information Officer",
+      "COO",
+      "Chief Operating Officer",
+      "CMO",
+      "Chief Marketing Officer",
+      "Founder",
+      "Co-Founder",
+      "Managing Director",
+      "VP",
+      "Vice President",
+      "Director"
+    ],
+    "maxExecutivesPerCompany": 5,
+    "maxCompaniesPerCategory": 10
+  },
+  "integration": {
+    "googleMaps": {
+      "enabled": true,
+      "enrichWithApollo": true,
+      "maxResults": 10,
+      "minRating": 3.0
+    },
+    "aiEnrichment": {
+      "enabled": true,
+      "model": "gpt-4o-mini"
+    },
+    "crm": {
+      "enabled": true,
+      "pushExecutiveContacts": true,
+      "primaryContactField": "contact_name"
+    }
+  },
+  "output": {
+    "saveJSON": true,
+    "saveCSV": true,
+    "includeExecutiveDetails": true,
+    "includeCompanyIntelligence": true
+  }
+}

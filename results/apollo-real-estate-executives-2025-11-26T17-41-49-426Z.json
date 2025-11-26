@@ -1,0 +1,257 @@
+[
+  {
+    "company": {
+      "name": "Asteco",
+      "domain": "asteco.com",
+      "industry": "real estate",
+      "description": "Asteco is a prominent real estate services company based in the United Arab Emirates, with over 40 years of experience since its establishment in 1985. The company is known for providing comprehensive real estate solutions across the UAE, including Abu Dhabi, Dubai, Al Ain, and the Northern Emirates. Asteco emphasizes professionalism, transparency, and service excellence in managing a diverse portfolio of residential, commercial, and mixed-use properties.\n\nAsteco offers a wide range of services, including property management, community management, valuation and advisory, and sales and leasing. Their property management services cover rent collection, financial management, maintenance supervision, and lease management. The company also supports owners' associations by fostering well-maintained communities and providing expert association services. Additionally, Asteco delivers independent valuations and strategic consultancy to help clients make informed real estate decisions. With a strong focus on maximizing asset value and tenant satisfaction, Asteco serves a diverse clientele, including property owners, developers, investors, and government entities throughout the region.",
+      "employeeCount": 1200,
+      "revenue": 20000000,
+      "street": "جادة 1385",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "website": "http://www.asteco.com",
+      "linkedinUrl": "http://www.linkedin.com/company/asteco-mena",
+      "phone": "+971 600 547773",
+      "apolloId": "54a134c969702d407fe45000"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:23.500Z"
+  },
+  {
+    "company": {
+      "name": "Emaar India",
+      "domain": "emaar.com",
+      "industry": "real estate",
+      "description": "Emaar India Limited is a leading real estate developer in India, specializing in the promotion, construction, and sale of integrated townships, residential and commercial buildings, and hospitality projects. Founded in 2005, the company has developed over 50 projects across major cities such as Gurugram, Delhi/NCR, Mohali, and Chennai, covering more than 1,000 acres.\n\nAs a subsidiary of Emaar Properties PJSC, Emaar India offers a diverse range of properties, including luxury apartments, villas, office spaces, and shopping malls. The company emphasizes quality and timely project delivery, supported by a robust workforce that can expand significantly during peak project phases. Emaar India actively engages with its customers, ensuring transparency and trust throughout the development process.",
+      "employeeCount": 760,
+      "revenue": 8758636000,
+      "street": "",
+      "city": "New Delhi",
+      "country": "India",
+      "website": "http://www.emaar.com",
+      "linkedinUrl": "http://www.linkedin.com/company/emaarindia",
+      "phone": "+971 4 366 1688",
+      "apolloId": "5ed1b0dcbb86c20001bed98d"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:27.445Z"
+  },
+  {
+    "company": {
+      "name": "Eltizam Group",
+      "domain": "eltizam.com",
+      "industry": "investment management",
+      "description": "Eltizam Asset Management Group is a UAE-based company specializing in physical asset management and investment. Founded in 2009 and owned by Royal Group, it focuses on managing built assets across the MENA region with a technology-driven approach. The company provides integrated asset and property management solutions primarily for commercial real estate.\n\nEltizam offers a wide range of services through its subsidiaries, including asset management, property management, facilities management, and community management. Its subsidiary, Tafawuq Facilities Management, handles maintenance and support services, while Three60 Communities manages residential and mixed-use communities. The company serves commercial property owners, investors, and developers, helping them optimize their real estate assets.\n\nHeadquartered in Abu Dhabi, Eltizam employs approximately 1,390 people and has reported revenues of around $21.1 million. The company emphasizes technology integration to enhance asset performance and client satisfaction, positioning itself as a leading asset management firm in the region.",
+      "employeeCount": 320,
+      "revenue": 707000000,
+      "street": "",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "website": "http://www.eltizam.com",
+      "linkedinUrl": "http://www.linkedin.com/company/eltizam-group",
+      "phone": "+971 2 698 0000",
+      "apolloId": "556de08973696411de5eb801"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:29.165Z"
+  },
+  {
+    "company": {
+      "name": "DAMAC Properties",
+      "domain": "damacproperties.com",
+      "industry": "real estate",
+      "description": "DAMAC Properties is a luxury real estate development company based in Dubai, United Arab Emirates. Founded in 2002 by Hussain Sajwani, it specializes in high-end residential villas, apartments, and mixed-use properties across the Gulf Cooperation Council countries, the wider Middle East, and the United Kingdom. The company has an extensive portfolio that includes residential apartments, hotel apartments, serviced apartments, villas, offices, and retail spaces.\n\nIn addition to property development, DAMAC offers a variety of services such as interior design, project management, and facilities management. The company operates hotel apartments in partnership with Paramount Hotels & Resorts and has delivered around 24,000 homes, with a current development portfolio of approximately 40,000 units. DAMAC targets luxury real estate buyers and investors, and it has engaged in notable sponsorships, including a partnership with Chelsea Football Club.",
+      "employeeCount": 1600,
+      "revenue": 1295348000,
+      "street": "شارع الشيخ زايد",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "website": "http://www.damacproperties.com",
+      "linkedinUrl": "http://www.linkedin.com/company/damac-properties",
+      "phone": "+971 4 373 1000",
+      "apolloId": "54a11dd769702d97c1344301"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:32.737Z"
+  },
+  {
+    "company": {
+      "name": "Nakheel",
+      "domain": "nakheel.com",
+      "industry": "real estate",
+      "description": "Nakheel is a leading real estate development company based in Dubai, United Arab Emirates. Established in 2000, it has become a master developer and is recognized for its ambitious projects that have significantly influenced Dubai’s urban landscape. As the second-largest property developer in Dubai, Nakheel is known for its innovative and large-scale developments, including the iconic Palm Islands.\n\nThe company specializes in various sectors, including residential, commercial, retail, hospitality, and leisure. Notable projects include luxury villas, major retail destinations like Dragon Mart and Deira Mall, and a diverse range of hotels and resorts. Nakheel also manages residential communities and provides marine services to support its waterfront developments. With a focus on digital innovation, Nakheel offers tools like the My Nakheel App for property management. The company serves a wide customer base, including property investors, homeowners, retailers, and tourists, catering to various market segments.",
+      "employeeCount": 2000,
+      "revenue": 327000000,
+      "street": "King Salman Bin Abdulaziz Al Saud Street",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "website": "http://www.nakheel.com",
+      "linkedinUrl": "http://www.linkedin.com/company/nakheelofficial",
+      "phone": "+971 4 390 3333",
+      "apolloId": "5fca62d0e62bbf0001d41e8b"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:34.504Z"
+  },
+  {
+    "company": {
+      "name": "Bayut.com",
+      "domain": "bayut.com",
+      "industry": "real estate",
+      "description": "Bayut.com is a prominent property classifieds website based in Dubai, United Arab Emirates, established in 2008. As part of the Dubizzle Group, it connects buyers, sellers, landlords, tenants, and real estate agents throughout the UAE. The platform features a vast inventory of property listings, including homes for sale, rent, and investment opportunities, sourced from over 3,500 real estate agencies.\n\nBayut enhances the property search experience with innovative PropTech solutions and tools. Its services include property search and listings for residential and commercial properties, as well as providing interactive data and market reports in collaboration with the Dubai Land Department. Headquartered in Dubai Design District (d3), Bayut is dedicated to addressing property-related challenges and has established itself as a market leader in the UAE’s real estate sector.",
+      "employeeCount": 260,
+      "revenue": 20000000,
+      "street": "",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "website": "http://www.bayut.com",
+      "linkedinUrl": "http://www.linkedin.com/company/bayut-com",
+      "phone": "+971 4 422 0098",
+      "apolloId": "5da12fc388e5c300017682f5"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:36.213Z"
+  },
+  {
+    "company": {
+      "name": "Just Rentals UAE",
+      "domain": "justrentals.com",
+      "industry": "real estate",
+      "description": "Just Rentals UAE is a real estate company located in Dubai, specifically at 2201, AA1 Tower, Mazaya Business Avenue, Jumeirah Lake Towers. The company operates with a small team and focuses on providing a web portal for residential and commercial property rentals throughout Dubai, Abu Dhabi, and the wider UAE region.\n\nThe platform lists thousands of available properties, connecting property owners with prospective tenants. It aims to streamline the rental process for both residential and commercial clients, making it easier for individuals and businesses to find suitable rental options in the UAE.",
+      "employeeCount": 2,
+      "revenue": 50000000,
+      "street": "First Al Khail Street",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "website": "http://www.justrentals.com",
+      "linkedinUrl": "http://www.linkedin.com/company/justrentals-com",
+      "phone": "+971 4 454 8464",
+      "apolloId": "54a11e8369702d84c5977101"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:38.378Z"
+  },
+  {
+    "company": {
+      "name": "StayOne",
+      "domain": "stayone.com",
+      "industry": "leisure, travel & tourism",
+      "description": "StayOne is a luxury vacation rental platform founded in December 2017 and based in London, UK. The company connects owners of high-end homes with discerning travelers looking for exclusive, vetted luxury properties around the world. With over 3,500 fully vetted properties in more than 70 countries, StayOne focuses on creating a trusted community for renting homes.\n\nThe platform offers access to the finest one percent of holiday homes, catering to an exclusive network of over 100,000 affluent members globally. StayOne emphasizes personalized service, verifying all prospective guests to ensure security for homeowners. It operates on a commission-based model, where fees are only charged upon confirmed bookings. The company utilizes technology to streamline property management, automatically syncing rates, availability, and bookings. StayOne also markets properties through its newsletter and social media, targeting affluent travelers who appreciate quality and exclusivity.",
+      "employeeCount": 13,
+      "revenue": 3000000,
+      "street": "146號 德輔道西",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "website": "http://www.stayone.com",
+      "linkedinUrl": "http://www.linkedin.com/company/stayone",
+      "phone": "+44 20 3963 0704",
+      "apolloId": "5b159289a6da9870ecf0697a"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:40.106Z"
+  },
+  {
+    "company": {
+      "name": "Vacation Homes",
+      "domain": "vacationhomes.ae"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:41.821Z"
+  },
+  {
+    "company": {
+      "name": "HomeZen Holiday Homes",
+      "domain": "homezen.ae"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:43.992Z"
+  },
+  {
+    "company": {
+      "name": "Farnek Services LLC",
+      "domain": "farnek.com",
+      "industry": "facilities services",
+      "description": "Farnek Services LLC is a Swiss-owned independent total facilities management company based in the United Arab Emirates, established in 1980. The company specializes in sustainable and technology-driven solutions across various sectors, including aviation, hospitality, banking, retail, telecommunications, and education. With a workforce of 9,000 to 10,000 professionals, Farnek focuses on optimizing facility performance while promoting sustainability and innovation.\n\nFarnek offers a range of services, including total facilities management, sustainability management, home and property maintenance, and the integration of advanced technology in facility operations. The company is dedicated to delivering high-quality service and emphasizes values such as excellence, respect, integrity, teamwork, and continuous learning. With its headquarters in Dubai and offices throughout the UAE, Farnek is well-positioned to meet the diverse needs of its clients across multiple industries.",
+      "employeeCount": 9000,
+      "revenue": 165200000,
+      "street": "",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "website": "http://www.farnek.com",
+      "linkedinUrl": "http://www.linkedin.com/company/farnek-services-llc",
+      "phone": "+971 4 382 4400",
+      "apolloId": "54a1b36b7468694012d56809"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:45.663Z"
+  },
+  {
+    "company": {
+      "name": "Khidmah",
+      "domain": "khidmah.ae"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:47.297Z"
+  },
+  {
+    "company": {
+      "name": "Imdad",
+      "domain": "imdad.ae"
+    },
+    "executives": [],
+    "executiveCount": 0,
+    "hasExecutiveContacts": false,
+    "primaryContact": null,
+    "category": "Real Estate & Property Management",
+    "scrapedAt": "2025-11-26T17:41:49.425Z"
+  }
+]

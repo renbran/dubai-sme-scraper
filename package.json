@@ -15,7 +15,19 @@
     "test:sheets": "jest --testPathPattern=sheets",
     "lint": "eslint src/ --ext .js",
     "lint:fix": "eslint src/ --ext .js --fix",
-    "dev": "nodemon src/main.js"
+    "dev": "nodemon src/main.js",
+    "apollo:test": "node scripts/tests/apollo-executive-test.js",
+    "apollo:campaign": "node scripts/campaigns/apollo-combined-campaign.js",
+    "apollo:realestate": "node scripts/campaigns/apollo-real-estate-campaign.js",
+    "realestate": "node scripts/campaigns/real-estate-gmaps-campaign.js",
+    "linkedin": "node scripts/campaigns/linkedin-real-estate-search.js",
+    "enrich": "node scripts/campaigns/dual-enrichment-campaign.js",
+    "enrich:test": "node scripts/tests/enrichment-test.js",
+    "hybrid": "node scripts/campaigns/hybrid-enrichment-campaign.js",
+    "verify": "node scripts/utilities/verify-generic-emails.js",
+    "score": "node scripts/utilities/score-leads.js",
+    "segment": "node scripts/utilities/segment-leads.js",
+    "consolidate": "node scripts/utilities/consolidate-results.js"
   },
   "keywords": [
     "apify",
@@ -36,6 +48,7 @@
     "axios": "^1.12.1",
     "cheerio": "^1.0.0-rc.12",
     "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.3",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "openai": "^5.20.2",

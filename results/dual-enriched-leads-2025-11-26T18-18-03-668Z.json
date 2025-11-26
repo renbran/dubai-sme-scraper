@@ -1,0 +1,2901 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-26T18:18:03.669Z",
+    "totalBusinesses": 42,
+    "enriched": {
+      "hunter": 15,
+      "snov": 0,
+      "total": 15
+    },
+    "executivesFound": 35
+  },
+  "businesses": [
+    {
+      "businessName": "CHADILS Valuation and Advisory Services",
+      "address": "Arcade Building - 208 - Dubai",
+      "phone": null,
+      "website": "http://www.chadils.com/",
+      "rating": 4.1,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "property management company in Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.250059,
+        "lng": 55.3033711
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/CHADILS+Valuation+and+Advisory+Services/@25.250059,55.3033711,14z/data=!4m9!1m2!2m1!1sproperty+management+company+in+Dubai!3m5!1s0x3e5f5d1f9aa9e121:0xcb65e110439384d5!8m2!3d25.2500591!4d55.3394202!16s%2Fg%2F11b7dzcg76?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Asif Iqbal"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "208",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:44:15.949Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.chadils.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:45:22.100Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "ASICO Property Management",
+      "address": "13 45A St - Al Muraqqabat - Deira - Dubai",
+      "phone": null,
+      "website": "http://www.asico.ae/",
+      "rating": 3.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "8:30 AM–5:30 PM"
+      },
+      "description": null,
+      "category": "property management company in Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.265605,
+        "lng": 55.3296718
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/ASICO+Property+Management/@25.265605,55.3296718,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d28e9549717:0xf8e87b581a892485!8m2!3d25.265605!4d55.3296718!16s%2Fg%2F11h5sx026m?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "like the house keys"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "13",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:44:51.727Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.asico.ae/",
+      "contactScore": 25,
+      "scrapedAt": "2025-11-26T17:45:22.101Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "asico.ae",
+        "organization": "Asico",
+        "emailPattern": "{first}.{last}",
+        "executives": [
+          {
+            "firstName": "Wail",
+            "lastName": "Abualhamail",
+            "email": "wail.abualhamail@asico.ae",
+            "position": "Real Estate Director",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/wail-abualhamail-65831018b",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          }
+        ]
+      },
+      "contactPerson": "Wail Abualhamail",
+      "contactEmail": "wail.abualhamail@asico.ae",
+      "contactPosition": "Real Estate Director",
+      "contactLinkedIn": "https://www.linkedin.com/in/wail-abualhamail-65831018b"
+    },
+    {
+      "businessName": "The Co—Spaces (Downtown Dubai)",
+      "address": "304 Saaha Offices B Souk Al Bahar - Dubai",
+      "phone": null,
+      "website": "http://www.theco-spaces.com/",
+      "rating": 4.2,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "property management Dubai Downtown",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.1927673,
+        "lng": 55.2661769
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Co%E2%80%94Spaces+(Downtown+Dubai)/@25.1927673,55.2661769,15z/data=!4m9!1m2!2m1!1sproperty+management+Dubai+Downtown!3m5!1s0x3e5f68294dfa0ae1:0x447d665da22bd2bb!8m2!3d25.1931365!4d55.2767482!16s%2Fg%2F12vtvc0qs?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "304",
+        "floor": null,
+        "office": "Offices"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:47:31.712Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.theco-spaces.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:48:37.143Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "BSO - Real Estate Management, Dubai, UAE",
+      "address": "Office 903, A4 - Financial Street - Business Bay - Downtown Dubai - Dubai",
+      "phone": null,
+      "website": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal",
+      "rating": 4.4,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "property management Dubai Downtown",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.1942233,
+        "lng": 55.2893399
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/BSO+-+Real+Estate+Management,+Dubai,+UAE/@25.1942233,55.2893399,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6b417d155555:0x461819f14ce6a50f!8m2!3d25.1942233!4d55.2893399!16s%2Fg%2F11f4ppbn6x?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Marjorie James"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Downtown Dubai",
+        "emirate": "Dubai",
+        "buildingNumber": "903",
+        "floor": null,
+        "office": "Office 903"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:48:07.722Z",
+      "dataQualityScore": 52,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://bso.ae/?utm_source=Google-map&utm_content=Dubai-crystal",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:48:37.143Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "bso.ae",
+        "organization": "BSO Real Estate Management",
+        "emailPattern": "{f}.{last}",
+        "executives": [
+          {
+            "firstName": "Savia",
+            "lastName": "Gomes",
+            "email": "s.gomes@bso.ae",
+            "position": "Administrative Executive",
+            "seniority": "executive",
+            "department": "management",
+            "linkedin": "https://www.linkedin.com/in/savia-gomes-821273200",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          },
+          {
+            "firstName": "Ramzis",
+            "lastName": "Nagimov",
+            "email": "r.nagimov@bso.ae",
+            "position": "Managing Director",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/ramzis-nagimov",
+            "twitter": null,
+            "phone": null,
+            "confidence": 96
+          },
+          {
+            "firstName": "Egor",
+            "lastName": "Busteryakov",
+            "email": "e.busteryakov@bso.ae",
+            "position": "CEO",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/egor-busteryakov-12204329",
+            "twitter": null,
+            "phone": null,
+            "confidence": 82
+          }
+        ]
+      },
+      "contactPerson": "Savia Gomes",
+      "contactEmail": "s.gomes@bso.ae",
+      "contactPosition": "Administrative Executive",
+      "contactLinkedIn": "https://www.linkedin.com/in/savia-gomes-821273200"
+    },
+    {
+      "businessName": "Coral Business Solutions",
+      "address": "Platinum Business Centre - 302 - Al Qusais - Dubai",
+      "phone": "+971504007432",
+      "website": "https://www.coralme.com/",
+      "rating": 4.4,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "building management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.287571,
+        "lng": 55.3328791
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Coral+Business+Solutions/@25.287571,55.3328791,14z/data=!4m9!1m2!2m1!1sbuilding+management+Dubai!3m5!1s0x3e5f5c3d33f2161b:0x6bf2b54b5ff6551e!8m2!3d25.2875712!4d55.3689279!16s%2Fg%2F1tj94x9n?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "302",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:49:04.586Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971504007432",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T17:50:10.332Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "coralme.com",
+        "organization": "Coral Business Solutions",
+        "emailPattern": "{first}",
+        "executives": [
+          {
+            "firstName": "Printo",
+            "lastName": "Paul",
+            "email": "printo@coralme.com",
+            "position": "Chief Executive Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/coralme",
+            "twitter": null,
+            "phone": null,
+            "confidence": 84
+          }
+        ]
+      },
+      "contactPerson": "Printo Paul",
+      "contactEmail": "printo@coralme.com",
+      "contactPosition": "Chief Executive Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/coralme"
+    },
+    {
+      "businessName": "Blue Diamond General Maintenance LLC",
+      "address": "NEAR EPCO PETROL, Al Ansari Building - Street # 11A - Port Saeed - Dubai",
+      "phone": null,
+      "website": "https://bluediamondfm.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "building management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2617107,
+        "lng": 55.3317721
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Blue+Diamond+General+Maintenance+LLC/@25.2617107,55.3317721,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cdc99f38f79:0x934f14ce2e49d4f3!8m2!3d25.2617107!4d55.3317721!16s%2Fg%2F11bbwnlcyv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:49:40.058Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://bluediamondfm.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:50:10.332Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "bluediamondfm.com",
+        "organization": "Blue Diamond Group",
+        "emailPattern": "{first}",
+        "executives": [
+          {
+            "firstName": "Muhammad",
+            "lastName": "Reddy",
+            "email": "muhammad@bluediamondfm.com",
+            "position": "Managing Director",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/muhammad-reddy-31b27958",
+            "twitter": null,
+            "phone": null,
+            "confidence": 93
+          },
+          {
+            "firstName": "Sanjay",
+            "lastName": "Kumar",
+            "email": "sanjay@bluediamondfm.com",
+            "position": "Purchasing Executive",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/sanjay-kumar-62a0b819b",
+            "twitter": null,
+            "phone": null,
+            "confidence": 92
+          }
+        ]
+      },
+      "contactPerson": "Muhammad Reddy",
+      "contactEmail": "muhammad@bluediamondfm.com",
+      "contactPosition": "Managing Director",
+      "contactLinkedIn": "https://www.linkedin.com/in/muhammad-reddy-31b27958"
+    },
+    {
+      "businessName": "S N house Villa",
+      "address": "Dubai, United Arab Emirates",
+      "phone": null,
+      "website": "https://www.bluepillow.com/search/67a24381905c444f2d0cce50?dest=ago&cat=Vacation+rental+%28other%29&lat=25.28066&lng=55.33844&language=en",
+      "rating": null,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "holiday homes Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2806606,
+        "lng": 55.1942444
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/S+N+house+Villa/@25.2806606,55.1942444,12z/data=!4m12!1m2!2m1!1sholiday+homes+Dubai!3m8!5m2!4m1!1i2!8m2!3d25.2806606!4d55.3384399!16s%2Fg%2F11xd39w6gm!17BQ0FF?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": "United"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:50:38.002Z",
+      "dataQualityScore": 35,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.bluepillow.com/search/67a24381905c444f2d0cce50?dest=ago&cat=Vacation+rental+%28other%29&lat=25.28066&lng=55.33844&language=en",
+      "contactScore": 25,
+      "scrapedAt": "2025-11-26T17:51:41.292Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "bluepillow.com",
+        "organization": "Bluepillow",
+        "emailPattern": null,
+        "executives": [
+          {
+            "firstName": "Giovanni",
+            "lastName": "Ripoldi",
+            "email": "g.ripoldi@bluepillow.com",
+            "position": "Chief Product Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/giovanniripoldi",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          },
+          {
+            "firstName": "Gabriele",
+            "lastName": "Manduchi",
+            "email": "g.manduchi@bluepillow.com",
+            "position": "Chief Technology Officer",
+            "seniority": "executive",
+            "department": "it",
+            "linkedin": "https://www.linkedin.com/in/gabrielemanduchi",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          }
+        ]
+      },
+      "contactPerson": "Giovanni Ripoldi",
+      "contactEmail": "g.ripoldi@bluepillow.com",
+      "contactPosition": "Chief Product Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/giovanniripoldi"
+    },
+    {
+      "businessName": "Al Manar Grand Hotel Apartment",
+      "address": "Dubai, United Arab Emirates",
+      "phone": null,
+      "website": "https://www.bluepillow.com/search/594385fb7c00cb0e6433581f?dest=bkng&cat=Apartment&lat=25.24836&lng=55.29674&language=en",
+      "rating": 4.2,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "vacation rentals Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2483597,
+        "lng": 55.2967415
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Al+Manar+Grand+Hotel+Apartment/@25.2483597,55.2967415,14z/data=!3m1!4b1!4m9!3m8!5m2!4m1!1i2!8m2!3d25.2483597!4d55.2967415!16s%2Fg%2F11x8qy19zj!17BQ0FF?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Airport shuttle Smoke-free Crib Elevator Fireplace Ironing Board Microwave TV Washer Review summary from travel sites"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": "United"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:52:42.574Z",
+      "dataQualityScore": 50,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.bluepillow.com/search/594385fb7c00cb0e6433581f?dest=bkng&cat=Apartment&lat=25.24836&lng=55.29674&language=en",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:53:11.811Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "bluepillow.com",
+        "organization": "Bluepillow",
+        "emailPattern": null,
+        "executives": [
+          {
+            "firstName": "Giovanni",
+            "lastName": "Ripoldi",
+            "email": "g.ripoldi@bluepillow.com",
+            "position": "Chief Product Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/giovanniripoldi",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          },
+          {
+            "firstName": "Gabriele",
+            "lastName": "Manduchi",
+            "email": "g.manduchi@bluepillow.com",
+            "position": "Chief Technology Officer",
+            "seniority": "executive",
+            "department": "it",
+            "linkedin": "https://www.linkedin.com/in/gabrielemanduchi",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          }
+        ]
+      },
+      "contactPerson": "Giovanni Ripoldi",
+      "contactEmail": "g.ripoldi@bluepillow.com",
+      "contactPosition": "Chief Product Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/giovanniripoldi"
+    },
+    {
+      "businessName": "Moon Valley Hotel Apartment - Bur Dubai, Burjuman",
+      "address": "Dubai, United Arab Emirates",
+      "phone": null,
+      "website": "https://www.bluepillow.com/search/59438a777c00cb0e64355b1b?dest=bkng&cat=Apartment&lat=25.25633&lng=55.30331&language=en",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "short term rental Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2563305,
+        "lng": 55.2672615
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Moon+Valley+Hotel+Apartment+-+Bur+Dubai,+Burjuman/@25.2563305,55.2672615,14z/data=!4m12!1m2!2m1!1sshort+term+rental+Dubai!3m8!5m2!4m1!1i2!8m2!3d25.2563305!4d55.3033104!16s%2Fg%2F11x8qwm2pj!17BQ0FF?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "in the Bur Dubai  ApartmentSleeps",
+        "Cozy rooms in the Bur Dubai AED",
+        "Airport shuttle Smoke-free Crib Elevator Ironing Board Microwave TV Washer Review summary from travel sites"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": "United"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:53:41.077Z",
+      "dataQualityScore": 50,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.bluepillow.com/search/59438a777c00cb0e64355b1b?dest=bkng&cat=Apartment&lat=25.25633&lng=55.30331&language=en",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:54:42.834Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "bluepillow.com",
+        "organization": "Bluepillow",
+        "emailPattern": null,
+        "executives": [
+          {
+            "firstName": "Giovanni",
+            "lastName": "Ripoldi",
+            "email": "g.ripoldi@bluepillow.com",
+            "position": "Chief Product Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/giovanniripoldi",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          },
+          {
+            "firstName": "Gabriele",
+            "lastName": "Manduchi",
+            "email": "g.manduchi@bluepillow.com",
+            "position": "Chief Technology Officer",
+            "seniority": "executive",
+            "department": "it",
+            "linkedin": "https://www.linkedin.com/in/gabrielemanduchi",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          }
+        ]
+      },
+      "contactPerson": "Giovanni Ripoldi",
+      "contactEmail": "g.ripoldi@bluepillow.com",
+      "contactPosition": "Chief Product Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/giovanniripoldi"
+    },
+    {
+      "businessName": "GuestReady - Property Management Dubai",
+      "address": "Bayswater Tower - Office 1206 - Marasi Dr - Business Bay - Dubai",
+      "phone": null,
+      "website": "https://www.guestready.com/property-management-dubai/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing-dubai",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Airbnb management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.1841209,
+        "lng": 55.1199945
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/GuestReady+-+Property+Management+Dubai/@25.1841209,55.1199945,12z/data=!4m10!1m2!2m1!1sAirbnb+management+Dubai!3m6!1s0x3e5f694e020d019b:0x376a6955f3dd640c!8m2!3d25.1841209!4d55.2641901!15sChdBaXJibmIgbWFuYWdlbWVudCBEdWJhaVoZIhdhaXJibmIgbWFuYWdlbWVudCBkdWJhaZIBG3Byb3BlcnR5X21hbmFnZW1lbnRfY29tcGFueeABAA!16s%2Fg%2F11g_z3ctmt?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Business Bay",
+        "emirate": "Dubai",
+        "buildingNumber": "1206",
+        "floor": null,
+        "office": "Office 1206"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:55:09.946Z",
+      "dataQualityScore": 47,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.guestready.com/property-management-dubai/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing-dubai",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:56:14.387Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "guestready.com",
+        "organization": "GuestReady",
+        "emailPattern": "{first}.{last}",
+        "executives": [
+          {
+            "firstName": "Abhishek",
+            "lastName": "Tak",
+            "email": "abhishek.tak@guestready.com",
+            "position": "Finance Director",
+            "seniority": "executive",
+            "department": "finance",
+            "linkedin": "https://www.linkedin.com/in/abhishek-tak-ab510649",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          },
+          {
+            "firstName": "Charlotte",
+            "lastName": "Fremond",
+            "email": "charlotte.fremond@guestready.com",
+            "position": "Sales Director",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/charlotte-fremond-0824b61b1",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          },
+          {
+            "firstName": "Ana",
+            "lastName": "Coelho",
+            "email": "ana.coelho@guestready.com",
+            "position": "Marketing Executive",
+            "seniority": "executive",
+            "department": "marketing",
+            "linkedin": "https://www.linkedin.com/in/ana-coelho-983b99219",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          },
+          {
+            "firstName": "Beatriz",
+            "lastName": "Araújo",
+            "email": "beatriz.araujo@guestready.com",
+            "position": "Head of Operations",
+            "seniority": "executive",
+            "department": "management",
+            "linkedin": "https://www.linkedin.com/in/beatriz-araújo-b2687ba6",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          },
+          {
+            "firstName": "João",
+            "lastName": "Vassalo",
+            "email": "joao.vassalo@guestready.com",
+            "position": "Sales Director",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/joão-osório-vassalo-58059528",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          }
+        ]
+      },
+      "contactPerson": "Abhishek Tak",
+      "contactEmail": "abhishek.tak@guestready.com",
+      "contactPosition": "Finance Director",
+      "contactLinkedIn": "https://www.linkedin.com/in/abhishek-tak-ab510649"
+    },
+    {
+      "businessName": "DAIFY Holiday Homes Rental Management Agency",
+      "address": "Sheikh Zayed Rd - Trade Center First - Dubai",
+      "phone": "+971585882690",
+      "website": "https://www.daifyhomes.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "Airbnb management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2095252,
+        "lng": 55.2728263
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/DAIFY+Holiday+Homes+Rental+Management+Agency/@25.2095252,55.2728263,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f1394469715b3:0x6c1c83c152955594!8m2!3d25.2095252!4d55.2728263!16s%2Fg%2F11s0s3w4mh?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:55:45.393Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971585882690",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T17:56:14.388Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder",
+        "Vacation Rental Manager",
+        "Holiday Homes Director"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Hyatt Place Dubai Al Rigga Residences",
+      "address": "Al Rigga Rd - near Rigga Metro Station - Al Muraqqabat - Deira - Dubai",
+      "phone": null,
+      "website": "https://www.hyattplacedubairesidences.com/hyatt-place-dubai-al-rigga/?utm_source=GMB&utm_medium=gmb_listing&utm_campaign=hyattplacedubaialriggaresidences",
+      "rating": 4.3,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "serviced apartments Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2630915,
+        "lng": 55.2919491
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Hyatt+Place+Dubai+Al+Rigga+Residences/@25.2630915,55.2919491,14z/data=!4m10!1m2!2m1!1sserviced+apartments+Dubai!3m6!1s0x3e5f5d89bdfeb5bd:0xeeb81c2a1ff5b5a3!8m2!3d25.2630915!4d55.327998!15sChlzZXJ2aWNlZCBhcGFydG1lbnRzIER1YmFpkgEcZnVybmlzaGVkX2FwYXJ0bWVudF9idWlsZGluZ-ABAA!16s%2Fg%2F11swpdg4pf?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:56:38.924Z",
+      "dataQualityScore": 47,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.hyattplacedubairesidences.com/hyatt-place-dubai-al-rigga/?utm_source=GMB&utm_medium=gmb_listing&utm_campaign=hyattplacedubaialriggaresidences",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:57:43.177Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Dream City Hotel Apartments LLC",
+      "address": "Al Rigga Street - behind Clock Tower - Deira - Dubai",
+      "phone": null,
+      "website": "https://www.oyorooms.com/h/218746?utm_source=Google_gmb_UA&utm_medium=Organic&utm_campaign=UAE_DUB650&latitude=25.26077&longitude=55.32419&locale=en",
+      "rating": 4.2,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "serviced apartments Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2606774,
+        "lng": 55.3242701
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Dream+City+Hotel+Apartments+LLC/@25.2606774,55.3242701,17z/data=!3m1!4b1!4m9!3m8!1s0x3e5f5dc65cc1e83f:0xbcca8a2ac7e1f061!5m2!4m1!1i2!8m2!3d25.2606774!4d55.3242701!16s%2Fg%2F11g1_99sy3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Airport shuttle Hot tub Fitness center Smoke-free Questions and answers"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:57:13.844Z",
+      "dataQualityScore": 52,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.oyorooms.com/h/218746?utm_source=Google_gmb_UA&utm_medium=Organic&utm_campaign=UAE_DUB650&latitude=25.26077&longitude=55.32419&locale=en",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T17:57:43.178Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "oyorooms.com",
+        "organization": "OYO",
+        "emailPattern": "{first}.{last}",
+        "executives": [
+          {
+            "firstName": "Vijay",
+            "lastName": "Yadav",
+            "email": "vijay.yadav@oyorooms.com",
+            "position": "Executive",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/vijay-yadav-a4707110a",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          },
+          {
+            "firstName": "Shivangi",
+            "lastName": "Dwivedi",
+            "email": "shivangi.dwivedi@oyorooms.com",
+            "position": "Senior Executive",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/shivangi-dwivedi-b91aa81a0",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          },
+          {
+            "firstName": "Prem",
+            "lastName": "Rathore",
+            "email": "prem.rathore@oyorooms.com",
+            "position": "Managing Director",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/prem-rathore-64a437217",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          },
+          {
+            "firstName": "Wanda",
+            "lastName": "Permatasari",
+            "email": "wanda.permatasari@oyorooms.com",
+            "position": "Executive",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/wanda-permatasari-55027220b",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          },
+          {
+            "firstName": "Astrid",
+            "lastName": "Chelsea",
+            "email": "astrid.chelsea@oyorooms.com",
+            "position": "CEO",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/astrid-chelsea-646a23294",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          }
+        ]
+      },
+      "contactPerson": "Vijay Yadav",
+      "contactEmail": "vijay.yadav@oyorooms.com",
+      "contactPosition": "Executive",
+      "contactLinkedIn": "https://www.linkedin.com/in/vijay-yadav-a4707110a"
+    },
+    {
+      "businessName": "Abdul Noor Al Rais Group",
+      "address": "Abu Baker Al Siddique St - Port Saeed - Deira - Dubai",
+      "phone": "+971551055588",
+      "website": "http://www.anrg.ae/",
+      "rating": 4.2,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "rental management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.26136,
+        "lng": 55.2928601
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Abdul+Noor+Al+Rais+Group/@25.26136,55.2928601,14z/data=!4m10!1m2!2m1!1srental+management+Dubai!3m6!1s0x3e5f5cdb225fc2bf:0x7de60680254b60e6!8m2!3d25.26136!4d55.328909!15sChdyZW50YWwgbWFuYWdlbWVudCBEdWJhaVoZIhdyZW50YWwgbWFuYWdlbWVudCBkdWJhaZIBG3Byb3BlcnR5X21hbmFnZW1lbnRfY29tcGFueZoBJENoZERTVWhOTUc5blMwVk5Wemh1U1dsQlp6bFFWREZCUlJBQuABAPoBBQivARBL!16s%2Fg%2F11bbwq33kq?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "email": "complain@anrg.ae",
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:58:10.909Z",
+      "dataQualityScore": 92,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971551055588",
+      "contactScore": 95,
+      "scrapedAt": "2025-11-26T17:59:28.740Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "anrg.ae",
+        "organization": "ANRG",
+        "emailPattern": "{first}",
+        "executives": [
+          {
+            "firstName": "Ahmad",
+            "lastName": "Alrais",
+            "email": "ahmad@anrg.ae",
+            "position": "Chief Executive Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/ahmad-alrais-688452280",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          },
+          {
+            "firstName": "Marilyn",
+            "lastName": "Ronquillo",
+            "email": "marilyn@anrg.ae",
+            "position": "Account Executive",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/marilyn-ronquillo-ba20b1220",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          }
+        ]
+      },
+      "contactPerson": "Ahmad Alrais",
+      "contactEmail": "ahmad@anrg.ae",
+      "contactPosition": "Chief Executive Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/ahmad-alrais-688452280"
+    },
+    {
+      "businessName": "ASICO Property Management",
+      "address": "13 45A St - Al Muraqqabat - Deira - Dubai",
+      "phone": null,
+      "website": "http://www.asico.ae/",
+      "rating": 3.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "8:30 AM–5:30 PM"
+      },
+      "description": null,
+      "category": "lease management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.265605,
+        "lng": 55.2936229
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/ASICO+Property+Management/@25.265605,55.2936229,14z/data=!4m10!1m2!2m1!1slease+management+Dubai!3m6!1s0x3e5f5d28e9549717:0xf8e87b581a892485!8m2!3d25.265605!4d55.3296718!15sChZsZWFzZSBtYW5hZ2VtZW50IER1YmFpWhgiFmxlYXNlIG1hbmFnZW1lbnQgZHViYWmSARtwcm9wZXJ0eV9tYW5hZ2VtZW50X2NvbXBhbnmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTXRMWEJ1YWpOM1JSQULgAQD6AQUIpQEQRQ!16s%2Fg%2F11h5sx026m?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "suman",
+        "like the house keys"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "13",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T17:59:57.222Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.asico.ae/",
+      "contactScore": 25,
+      "scrapedAt": "2025-11-26T18:01:13.171Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "asico.ae",
+        "organization": "Asico",
+        "emailPattern": "{first}.{last}",
+        "executives": [
+          {
+            "firstName": "Wail",
+            "lastName": "Abualhamail",
+            "email": "wail.abualhamail@asico.ae",
+            "position": "Real Estate Director",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/wail-abualhamail-65831018b",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          }
+        ]
+      },
+      "contactPerson": "Wail Abualhamail",
+      "contactEmail": "wail.abualhamail@asico.ae",
+      "contactPosition": "Real Estate Director",
+      "contactLinkedIn": "https://www.linkedin.com/in/wail-abualhamail-65831018b"
+    },
+    {
+      "businessName": "New Sinclair Property Management LLC.",
+      "address": "Bldg, Bank Street Building - Office No - 406 Khalid Bin Al Waleed Rd - Al Mankhool - Dubai",
+      "phone": "+971506029669",
+      "website": "https://www.newsinclair.com/",
+      "rating": 3.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "lease management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2555144,
+        "lng": 55.3019947
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/New+Sinclair+Property+Management+LLC./@25.2555144,55.3019947,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6950d47057bb:0xf16c6250841532a5!8m2!3d25.2555144!4d55.3019947!16s%2Fg%2F11j3jyhrhc?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "406",
+        "floor": null,
+        "office": "Office No"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:00:32.907Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971506029669",
+      "contactScore": 55,
+      "scrapedAt": "2025-11-26T18:01:13.171Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "WO—RK by The Co—Spaces (Burjuman Metro)",
+      "address": "Burjuman Metro Station (entrance - Unit R40 - 2 C Floor 10/2 - beside DU and Carrefour retail shops - Dubai",
+      "phone": null,
+      "website": "https://www.wo-rk.me/",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "tenant management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.254136,
+        "lng": 55.2684431
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/WO%E2%80%94RK+by+The+Co%E2%80%94Spaces+(Burjuman+Metro)/@25.254136,55.2684431,14z/data=!4m9!1m2!2m1!1stenant+management+Dubai!3m5!1s0x3e5f4311a40298eb:0x70d11c529fe5e55d!8m2!3d25.2541361!4d55.3044916!16s%2Fg%2F11wc9qsgxy?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": "Floor 10",
+        "office": "Unit R40"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:01:38.862Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://www.wo-rk.me/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T18:02:44.472Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "ASICO Property Management",
+      "address": "13 45A St - Al Muraqqabat - Deira - Dubai",
+      "phone": null,
+      "website": "http://www.asico.ae/",
+      "rating": 3.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "8:30 AM–5:30 PM"
+      },
+      "description": null,
+      "category": "tenant management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.265605,
+        "lng": 55.3296718
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/ASICO+Property+Management/@25.265605,55.3296718,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d28e9549717:0xf8e87b581a892485!8m2!3d25.265605!4d55.3296718!16s%2Fg%2F11h5sx026m?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "like the house keys"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "13",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:02:14.360Z",
+      "dataQualityScore": 67,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.asico.ae/",
+      "contactScore": 25,
+      "scrapedAt": "2025-11-26T18:02:44.473Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "asico.ae",
+        "organization": "Asico",
+        "emailPattern": "{first}.{last}",
+        "executives": [
+          {
+            "firstName": "Wail",
+            "lastName": "Abualhamail",
+            "email": "wail.abualhamail@asico.ae",
+            "position": "Real Estate Director",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/wail-abualhamail-65831018b",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          }
+        ]
+      },
+      "contactPerson": "Wail Abualhamail",
+      "contactEmail": "wail.abualhamail@asico.ae",
+      "contactPosition": "Real Estate Director",
+      "contactLinkedIn": "https://www.linkedin.com/in/wail-abualhamail-65831018b"
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:03:11.285Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.129Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:03:27.574Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.130Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:03:44.050Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.130Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:04:00.267Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.131Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:04:16.970Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.131Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:04:33.062Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.131Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:04:49.801Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.131Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:05:06.203Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.132Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:05:25.198Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.132Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:05:42.266Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.132Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:05:58.788Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.132Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:06:15.558Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.133Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:06:32.296Z",
+      "dataQualityScore": 80,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.133Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "of property management"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:06:48.612Z",
+      "dataQualityScore": 85,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.133Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Crew Property Management Services",
+      "address": "Dubai Commercity - Building 2 - 11 17th St - Umm Ramool - Dubai",
+      "phone": "+971501527777",
+      "website": "https://www.thecrew.ae/",
+      "rating": 5,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate agency Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2608483,
+        "lng": 55.3254912
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Crew+Property+Management+Services/@25.2608483,55.3254912,14z/data=!4m9!1m2!2m1!1sreal+estate+agency+Dubai!3m5!1s0x44ecc780c9f1dd3f:0x18f746d3371b64a6!8m2!3d25.2346386!4d55.3698531!16s%2Fg%2F11x2_3m38s?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "of property management"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "2",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:07:05.237Z",
+      "dataQualityScore": 85,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971501527777",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:07:06.133Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Nasser Al Emadi Real Estate Brokers",
+      "address": "Deira, Dutco House - Office 704 - 44 Al Ittihad Rd - Port Saeed - Deira - Dubai",
+      "phone": null,
+      "website": "https://nasseralemadi.com/",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "real estate broker Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2536259,
+        "lng": 55.2935189
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Nasser+Al+Emadi+Real+Estate+Brokers/@25.2536259,55.2935189,14z/data=!4m10!1m2!2m1!1sreal+estate+broker+Dubai!3m6!1s0x3e5f5d729b2648e9:0x9f1b1221097a6bc9!8m2!3d25.2536259!4d55.3295678!15sChhyZWFsIGVzdGF0ZSBicm9rZXIgRHViYWlaGiIYcmVhbCBlc3RhdGUgYnJva2VyIGR1YmFpkgEScmVhbF9lc3RhdGVfYWdlbmN5mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5ZZURaSVptTkJFQUXgAQD6AQQIABAa!16s%2Fg%2F11pf86mc99?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": "704",
+        "floor": null,
+        "office": "Office 704"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:07:33.403Z",
+      "dataQualityScore": 62,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://nasseralemadi.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T18:08:38.242Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Impressive Real Estate LLC",
+      "address": "Office # 963, The Burjuman Business Tower - Al Mankhool - Dubai",
+      "phone": "+971507465012",
+      "website": "http://www.impressiverealestate.net/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "real estate broker Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2516171,
+        "lng": 55.3012382
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Impressive+Real+Estate+LLC/@25.2516171,55.3012382,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f433096e7414f:0x2c36f246a95842f7!8m2!3d25.2516171!4d55.3012382!16s%2Fg%2F11rkdnrxlr?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "963",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:08:09.534Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971507465012",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:08:38.243Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "The Infinite Service",
+      "address": "Discovery tower, Office 104 - Dubai Studio City - Dubai",
+      "phone": null,
+      "website": "http://theinfiniteservice.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "property consultant Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.042096,
+        "lng": 55.2144271
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Infinite+Service/@25.042096,55.2144271,14z/data=!4m9!1m2!2m1!1sproperty+consultant+Dubai!3m5!1s0x3e5f6f06e7824a7b:0x1ebb7ede53a57aed!8m2!3d25.0420956!4d55.2504763!16s%2Fg%2F11rqs_6fv6?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Saleem"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "104",
+        "floor": null,
+        "office": "Office 104"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:09:03.918Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://theinfiniteservice.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T18:10:20.864Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Property inspection Dubai | Zimal snagging service",
+      "address": "Dubai Insurance Building - Al Rigga Rd - Al Muraqqabat - Deira - Dubai",
+      "phone": "+971561300654",
+      "website": "https://propertyinspectiondxb.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "property consultant Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2618841,
+        "lng": 55.3273209
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Property+inspection+Dubai+%7C+Zimal+snagging+service/@25.2618841,55.3273209,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5d003468a1d3:0xf317d4e821ab26e2!8m2!3d25.2618841!4d55.3273209!16s%2Fg%2F11y8jfbgm8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Nafeez explained everything clearly"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:09:40.046Z",
+      "dataQualityScore": 72,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971561300654",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:10:20.865Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Latinem Facilities Management",
+      "address": "Nad Al Sheba - Nad Al Sheba 1 - Dubai",
+      "phone": null,
+      "website": "https://latinemfm.com/",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "facilities management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.176546,
+        "lng": 55.2747053
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Latinem+Facilities+Management/@25.176546,55.2747053,14z/data=!4m10!1m2!2m1!1sfacilities+management+Dubai!3m6!1s0x3e5f69d3dcbd4aff:0x2a81596e68ddf9e8!8m2!3d25.176546!4d55.3107542!15sChtmYWNpbGl0aWVzIG1hbmFnZW1lbnQgRHViYWlaHSIbZmFjaWxpdGllcyBtYW5hZ2VtZW50IGR1YmFpkgEbcHJvcGVydHlfbWFuYWdlbWVudF9jb21wYW55mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5TYzI5WGJ6aEJSUkFC4AEA-gEECAAQOQ!16s%2Fg%2F11sbcw1w3f?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Darshan Mukhiya",
+        "Sadam\n\nThese two hardworking men recently helped me hang some frames and install",
+        "Darshan and Mr"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "1",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:10:49.723Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "https://latinemfm.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T18:12:03.289Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "latinemfm.com",
+        "organization": "Latinem Facilities Management",
+        "emailPattern": "{first}.{last}",
+        "executives": [
+          {
+            "firstName": "Vipul",
+            "lastName": "Chandel",
+            "email": "vipul.chandel@latinemfm.com",
+            "position": "Executive",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": null,
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          }
+        ]
+      },
+      "contactPerson": "Vipul Chandel",
+      "contactEmail": "vipul.chandel@latinemfm.com",
+      "contactPosition": "Executive",
+      "contactLinkedIn": null
+    },
+    {
+      "businessName": "AL Waleed Facilities Management",
+      "address": "HO Building - Office 209, Al Waleed - Zaa'beel St - Al Karama - Dubai",
+      "phone": "+971581035828",
+      "website": "http://www.alwaleedfm.com/",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "businessHours": null,
+      "description": null,
+      "category": "facilities management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2491009,
+        "lng": 55.3092934
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/AL+Waleed+Facilities+Management/@25.2491009,55.3092934,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f436b997dee5f:0xffa739b9c61b9ab4!8m2!3d25.2491009!4d55.3092934!16s%2Fg%2F11rzfq6nsd?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "209",
+        "floor": null,
+        "office": "Office 209"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:11:24.419Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971581035828",
+      "contactScore": 65,
+      "scrapedAt": "2025-11-26T18:12:03.290Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "CHADILS Valuation and Advisory Services",
+      "address": "Arcade Building - 208 - Dubai",
+      "phone": null,
+      "website": "http://www.chadils.com/",
+      "rating": 4.1,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "estate management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.250059,
+        "lng": 55.3033711
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/CHADILS+Valuation+and+Advisory+Services/@25.250059,55.3033711,14z/data=!4m9!1m2!2m1!1sestate+management+Dubai!3m5!1s0x3e5f5d1f9aa9e121:0xcb65e110439384d5!8m2!3d25.2500591!4d55.3394202!16s%2Fg%2F11b7dzcg76?hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [
+        "Asif Iqbal"
+      ],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "208",
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:12:33.811Z",
+      "dataQualityScore": 65,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.chadils.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T18:13:39.969Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "searched": true,
+        "found": false
+      }
+    },
+    {
+      "businessName": "Abdul Noor Al Rais Group",
+      "address": "Abu Baker Al Siddique St - Port Saeed - Deira - Dubai",
+      "phone": "+971551055588",
+      "website": "http://www.anrg.ae/",
+      "rating": 4.2,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "estate management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.26136,
+        "lng": 55.328909
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Abdul+Noor+Al+Rais+Group/@25.26136,55.328909,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5cdb225fc2bf:0x7de60680254b60e6!8m2!3d25.26136!4d55.328909!16s%2Fg%2F11bbwq33kq?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "email": "complain@anrg.ae",
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": "Deira",
+        "emirate": "Dubai",
+        "buildingNumber": null,
+        "floor": null,
+        "office": null
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:13:08.709Z",
+      "dataQualityScore": 92,
+      "verificationStatus": "Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "+971551055588",
+      "contactScore": 95,
+      "scrapedAt": "2025-11-26T18:13:39.970Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "anrg.ae",
+        "organization": "ANRG",
+        "emailPattern": "{first}",
+        "executives": [
+          {
+            "firstName": "Ahmad",
+            "lastName": "Alrais",
+            "email": "ahmad@anrg.ae",
+            "position": "Chief Executive Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/ahmad-alrais-688452280",
+            "twitter": null,
+            "phone": null,
+            "confidence": 98
+          },
+          {
+            "firstName": "Marilyn",
+            "lastName": "Ronquillo",
+            "email": "marilyn@anrg.ae",
+            "position": "Account Executive",
+            "seniority": "executive",
+            "department": "sales",
+            "linkedin": "https://www.linkedin.com/in/marilyn-ronquillo-ba20b1220",
+            "twitter": null,
+            "phone": null,
+            "confidence": 99
+          }
+        ]
+      },
+      "contactPerson": "Ahmad Alrais",
+      "contactEmail": "ahmad@anrg.ae",
+      "contactPosition": "Chief Executive Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/ahmad-alrais-688452280"
+    },
+    {
+      "businessName": "Strata Global Owners Association & Community Management Services",
+      "address": "Latifa Tower - Office 3901 Sheikh Zayed Rd - Trade Center First - Dubai",
+      "phone": null,
+      "website": "http://www.strata-global.com/",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "businessHours": {
+        "Monday": "Closed"
+      },
+      "description": null,
+      "category": "community management Dubai",
+      "priceRange": null,
+      "coordinates": {
+        "lat": 25.2219682,
+        "lng": 55.2812052
+      },
+      "googleMapsUrl": "https://www.google.com/maps/place/Strata+Global+Owners+Association+%26+Community+Management+Services/@25.2219682,55.2812052,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6bc01381f281:0x65933db45b4c09b4!8m2!3d25.2219682!4d55.2812052!16s%2Fg%2F11dxbdrc1m?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      "primaryPhoto": null,
+      "additionalEmails": [],
+      "socialMedia": {},
+      "contactPersons": [],
+      "locationDetails": {
+        "streetAddress": null,
+        "area": null,
+        "emirate": "Dubai",
+        "buildingNumber": "3901",
+        "floor": null,
+        "office": "Office 3901"
+      },
+      "businessOwner": null,
+      "lastUpdated": "2025-11-26T18:14:39.401Z",
+      "dataQualityScore": 60,
+      "verificationStatus": "Partially Verified",
+      "sector": "Real Estate & Property Management",
+      "hasDirectContact": "http://www.strata-global.com/",
+      "contactScore": 35,
+      "scrapedAt": "2025-11-26T18:15:08.106Z",
+      "potentialExecutives": [
+        "Managing Director",
+        "Property Manager",
+        "Operations Manager",
+        "Owner",
+        "Founder"
+      ],
+      "hunterData": {
+        "domain": "strata-global.com",
+        "organization": "Strata Global",
+        "emailPattern": "{first}.{l}",
+        "executives": [
+          {
+            "firstName": "Khaled",
+            "lastName": "Kaawar",
+            "email": "khaled.k@strata-global.com",
+            "position": "Chief Executive Officer",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/khaled-kaawar-a6b728",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          },
+          {
+            "firstName": "Muhammad",
+            "lastName": "Iftikhar",
+            "email": "muhammad.i@strata-global.com",
+            "position": "Finance Director",
+            "seniority": "executive",
+            "department": "finance",
+            "linkedin": "https://www.linkedin.com/in/muhammad-iftikhar-42775830",
+            "twitter": null,
+            "phone": null,
+            "confidence": 94
+          },
+          {
+            "firstName": "Shoaib",
+            "lastName": "Shah",
+            "email": "shoaib.s@strata-global.com",
+            "position": "Director of Community Management",
+            "seniority": "executive",
+            "department": "management",
+            "linkedin": "https://www.linkedin.com/in/shoaib-shah-07701685",
+            "twitter": null,
+            "phone": null,
+            "confidence": 93
+          },
+          {
+            "firstName": "Magdi",
+            "lastName": "Talaat",
+            "email": "magdi.t@strata-global.com",
+            "position": "Director of Community Engagement",
+            "seniority": "executive",
+            "department": "management",
+            "linkedin": "https://www.linkedin.com/in/magdi-talaat-3329a799",
+            "twitter": null,
+            "phone": null,
+            "confidence": 92
+          },
+          {
+            "firstName": "Arshad",
+            "lastName": "Shek",
+            "email": "arshad@strata-global.com",
+            "position": "Managing Director",
+            "seniority": "executive",
+            "department": "executive",
+            "linkedin": "https://www.linkedin.com/in/arshad-shek-a210b128",
+            "twitter": null,
+            "phone": null,
+            "confidence": 89
+          }
+        ]
+      },
+      "contactPerson": "Khaled Kaawar",
+      "contactEmail": "khaled.k@strata-global.com",
+      "contactPosition": "Chief Executive Officer",
+      "contactLinkedIn": "https://www.linkedin.com/in/khaled-kaawar-a6b728"
+    }
+  ],
+  "executives": [
+    {
+      "name": "Wail Abualhamail",
+      "email": "wail.abualhamail@asico.ae",
+      "position": "Real Estate Director",
+      "linkedin": "https://www.linkedin.com/in/wail-abualhamail-65831018b",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Savia Gomes",
+      "email": "s.gomes@bso.ae",
+      "position": "Administrative Executive",
+      "linkedin": "https://www.linkedin.com/in/savia-gomes-821273200",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Ramzis Nagimov",
+      "email": "r.nagimov@bso.ae",
+      "position": "Managing Director",
+      "linkedin": "https://www.linkedin.com/in/ramzis-nagimov",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Egor Busteryakov",
+      "email": "e.busteryakov@bso.ae",
+      "position": "CEO",
+      "linkedin": "https://www.linkedin.com/in/egor-busteryakov-12204329",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Printo Paul",
+      "email": "printo@coralme.com",
+      "position": "Chief Executive Officer",
+      "linkedin": "https://www.linkedin.com/in/coralme",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Muhammad Reddy",
+      "email": "muhammad@bluediamondfm.com",
+      "position": "Managing Director",
+      "linkedin": "https://www.linkedin.com/in/muhammad-reddy-31b27958",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Sanjay Kumar",
+      "email": "sanjay@bluediamondfm.com",
+      "position": "Purchasing Executive",
+      "linkedin": "https://www.linkedin.com/in/sanjay-kumar-62a0b819b",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Giovanni Ripoldi",
+      "email": "g.ripoldi@bluepillow.com",
+      "position": "Chief Product Officer",
+      "linkedin": "https://www.linkedin.com/in/giovanniripoldi",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Gabriele Manduchi",
+      "email": "g.manduchi@bluepillow.com",
+      "position": "Chief Technology Officer",
+      "linkedin": "https://www.linkedin.com/in/gabrielemanduchi",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Giovanni Ripoldi",
+      "email": "g.ripoldi@bluepillow.com",
+      "position": "Chief Product Officer",
+      "linkedin": "https://www.linkedin.com/in/giovanniripoldi",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Gabriele Manduchi",
+      "email": "g.manduchi@bluepillow.com",
+      "position": "Chief Technology Officer",
+      "linkedin": "https://www.linkedin.com/in/gabrielemanduchi",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Giovanni Ripoldi",
+      "email": "g.ripoldi@bluepillow.com",
+      "position": "Chief Product Officer",
+      "linkedin": "https://www.linkedin.com/in/giovanniripoldi",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Gabriele Manduchi",
+      "email": "g.manduchi@bluepillow.com",
+      "position": "Chief Technology Officer",
+      "linkedin": "https://www.linkedin.com/in/gabrielemanduchi",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Abhishek Tak",
+      "email": "abhishek.tak@guestready.com",
+      "position": "Finance Director",
+      "linkedin": "https://www.linkedin.com/in/abhishek-tak-ab510649",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Charlotte Fremond",
+      "email": "charlotte.fremond@guestready.com",
+      "position": "Sales Director",
+      "linkedin": "https://www.linkedin.com/in/charlotte-fremond-0824b61b1",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Ana Coelho",
+      "email": "ana.coelho@guestready.com",
+      "position": "Marketing Executive",
+      "linkedin": "https://www.linkedin.com/in/ana-coelho-983b99219",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Beatriz Araújo",
+      "email": "beatriz.araujo@guestready.com",
+      "position": "Head of Operations",
+      "linkedin": "https://www.linkedin.com/in/beatriz-araújo-b2687ba6",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "João Vassalo",
+      "email": "joao.vassalo@guestready.com",
+      "position": "Sales Director",
+      "linkedin": "https://www.linkedin.com/in/joão-osório-vassalo-58059528",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Vijay Yadav",
+      "email": "vijay.yadav@oyorooms.com",
+      "position": "Executive",
+      "linkedin": "https://www.linkedin.com/in/vijay-yadav-a4707110a",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Shivangi Dwivedi",
+      "email": "shivangi.dwivedi@oyorooms.com",
+      "position": "Senior Executive",
+      "linkedin": "https://www.linkedin.com/in/shivangi-dwivedi-b91aa81a0",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Prem Rathore",
+      "email": "prem.rathore@oyorooms.com",
+      "position": "Managing Director",
+      "linkedin": "https://www.linkedin.com/in/prem-rathore-64a437217",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Wanda Permatasari",
+      "email": "wanda.permatasari@oyorooms.com",
+      "position": "Executive",
+      "linkedin": "https://www.linkedin.com/in/wanda-permatasari-55027220b",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Astrid Chelsea",
+      "email": "astrid.chelsea@oyorooms.com",
+      "position": "CEO",
+      "linkedin": "https://www.linkedin.com/in/astrid-chelsea-646a23294",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Ahmad Alrais",
+      "email": "ahmad@anrg.ae",
+      "position": "Chief Executive Officer",
+      "linkedin": "https://www.linkedin.com/in/ahmad-alrais-688452280",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Marilyn Ronquillo",
+      "email": "marilyn@anrg.ae",
+      "position": "Account Executive",
+      "linkedin": "https://www.linkedin.com/in/marilyn-ronquillo-ba20b1220",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Wail Abualhamail",
+      "email": "wail.abualhamail@asico.ae",
+      "position": "Real Estate Director",
+      "linkedin": "https://www.linkedin.com/in/wail-abualhamail-65831018b",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Wail Abualhamail",
+      "email": "wail.abualhamail@asico.ae",
+      "position": "Real Estate Director",
+      "linkedin": "https://www.linkedin.com/in/wail-abualhamail-65831018b",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Vipul Chandel",
+      "email": "vipul.chandel@latinemfm.com",
+      "position": "Executive",
+      "linkedin": null,
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Ahmad Alrais",
+      "email": "ahmad@anrg.ae",
+      "position": "Chief Executive Officer",
+      "linkedin": "https://www.linkedin.com/in/ahmad-alrais-688452280",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Marilyn Ronquillo",
+      "email": "marilyn@anrg.ae",
+      "position": "Account Executive",
+      "linkedin": "https://www.linkedin.com/in/marilyn-ronquillo-ba20b1220",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Khaled Kaawar",
+      "email": "khaled.k@strata-global.com",
+      "position": "Chief Executive Officer",
+      "linkedin": "https://www.linkedin.com/in/khaled-kaawar-a6b728",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Muhammad Iftikhar",
+      "email": "muhammad.i@strata-global.com",
+      "position": "Finance Director",
+      "linkedin": "https://www.linkedin.com/in/muhammad-iftikhar-42775830",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Shoaib Shah",
+      "email": "shoaib.s@strata-global.com",
+      "position": "Director of Community Management",
+      "linkedin": "https://www.linkedin.com/in/shoaib-shah-07701685",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Magdi Talaat",
+      "email": "magdi.t@strata-global.com",
+      "position": "Director of Community Engagement",
+      "linkedin": "https://www.linkedin.com/in/magdi-talaat-3329a799",
+      "source": "Hunter.io"
+    },
+    {
+      "name": "Arshad Shek",
+      "email": "arshad@strata-global.com",
+      "position": "Managing Director",
+      "linkedin": "https://www.linkedin.com/in/arshad-shek-a210b128",
+      "source": "Hunter.io"
+    }
+  ]
+}
